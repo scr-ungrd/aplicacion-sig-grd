@@ -1,0 +1,87 @@
+# Anexos {.unnumbered}
+
+::: {.grid .indice-grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .anexo-card}
+
+::: {.card-header .pt-2 .pb-2 .bg-amarillo}
+[Anexo 1: Descarga Imágenes Satelitales (QGIS)](Anexo_1_Descarga_Imagenes_Satelitales.html){.fs-6 .fw-bold .text-decoration-none}
+:::
+
+::: {.card-body .pt-2 .pb-2}
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_704d7ff6.png)
+
+Guía práctica para la descarga de imágenes satelitales y la implementación de Sistemas de Información Geográfica (SIG) utilizando el software libre QGIS para la gestión del riesgo de desastres.
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .anexo-card}
+
+::: {.card-header .pt-2 .pb-2 .bg-amarillo}
+[Anexo 2: Google Earth](Anexo_2_Google_Earth.html){.fs-6 .fw-bold .text-decoration-none}
+:::
+
+::: {.card-body .pt-2 .pb-2}
+![](media/anexo_14-configuracion-basica-de-google-earth/img_d8a773d0.png)
+
+Manual de configuración y uso de Google Earth, incluyendo la creación de marcas de posición, rutas, superposición de imágenes y perfiles de elevación aplicados a la gestión del riesgo.
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .anexo-card}
+
+::: {.card-header .pt-2 .pb-2 .bg-amarillo}
+[Anexo 3: Magna Pro](Anexo_3_Magna_Pro.html){.fs-6 .fw-bold .text-decoration-none}
+:::
+
+::: {.card-body .pt-2 .pb-2}
+![](media/anexo_23-guia-para-la-instalacion-en-ordenadores/img_3b139621.png)
+
+Guía para la instalación, configuración e interfaz del aplicativo MAGNA-SIRGAS Pro 5.1., enfocado en los procesos de conversión y transformación de coordenadas geográficas.
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .anexo-card}
+
+::: {.card-header .pt-2 .pb-2 .bg-amarillo}
+[Anexo 4: KoboToolbox](Anexo_4_KoboToolbox.html){.fs-6 .fw-bold .text-decoration-none}
+:::
+
+::: {.card-body .pt-2 .pb-2}
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_5012900f.png)
+
+Guía práctica sobre el uso de la plataforma KoboToolbox para el diseño de formularios, recolección de datos en campo y descarga de registros aplicados a municipios.
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .anexo-card}
+
+::: {.card-header .pt-2 .pb-2 .bg-amarillo}
+[Anexo 5: Avenza](Anexo_5_Avenza.html){.fs-6 .fw-bold .text-decoration-none}
+:::
+
+::: {.card-body .pt-2 .pb-2}
+![](media/anexo_45-que-es-avenza-maps/img_a4be5e1b.png)
+
+Manual introductorio y de uso de la aplicación móvil Avenza Maps para la navegación, orientación y toma de datos cartográficos directamente en terreno.
+:::
+
+:::
+:::
+
+:::
+
+:::

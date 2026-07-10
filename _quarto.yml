@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Aplicación SIG en la Gestión del Riesgo"
+  chapters:
+    - index.qmd
+    - 01-introduccion.qmd
+    - 02-marco-teorico-de-los-sig.qmd
+    - 03-usos-y-aplicaciones-de-los-sig.qmd
+    - 04-fuentes-de-informacion.qmd
+    - 05-sig-aplicado-a-la-gestion-del-riesgo.qmd
+    - 06-como-realizar-un-sig-en-grd-a-nivel-municipal.qmd
+    - 07-recomendaciones-generales-para-un-sig-en-grd-.qmd
+    - 08-checklist-de-seguimiento-del-sig-municipal-pa.qmd
+    - 09-insumos-de-interes.qmd
+    - 10-referencias.qmd
+    - part: anexos.qmd
+      chapters:
+        - Anexo_1_Descarga_Imagenes_Satelitales.qmd
+        - Anexo_2_Google_Earth.qmd
+        - Anexo_3_Magna_Pro.qmd
+        - Anexo_4_KoboToolbox.qmd
+        - Anexo_5_Avenza.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: custom.css
+    toc: true
+    number-sections: false
+    html-math-method: mathjax

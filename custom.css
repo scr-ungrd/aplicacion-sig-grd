@@ -1,0 +1,53 @@
+/* --- ESTILOS DE LAS CARDS --- */
+.bg-amarillo {
+  background-color: #FAC718 !important;
+  color: #223764 !important; /* Azul oscuro para contraste del texto */
+  border-bottom: 2px solid #e0b215;
+}
+
+.bg-amarillo a {
+  color: #223764 !important; 
+}
+
+.bg-amarillo a:hover {
+  color: #ffffff !important;
+}
+
+.anexo-card {
+  border: 1px solid #FAC718;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.anexo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(250, 199, 24, 0.3) !important;
+}
+
+/* --- ESTILOS DE LA TABLA DE CONTENIDO (TOC DERECHO) --- */
+#TOC {
+  background-color: #223764;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del TOC */
+#TOC > ul::before, 
+#TOC h2 {
+  color: #FAC718 !important; /* Toque amarillo para el título del índice */
+  font-weight: bold;
+}
+
+/* Enlaces del TOC */
+#TOC ul li a {
+  color: #ffffff !important;
+  transition: color 0.2s ease;
+}
+
+#TOC ul li a:hover,
+#TOC ul li a.active {
+  color: #FAC718 !important; /* El enlace activo o en hover se pone amarillo */
+  text-decoration: none;
+}
