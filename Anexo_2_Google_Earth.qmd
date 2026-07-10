@@ -1,0 +1,656 @@
+# Anexo 2: Google Earth {.unnumbered}
+
+**Implementación de los SIG en la gestión del riesgo de desastres con el Software de uso libre Google Earth**
+
+**Contenido**
+
+**MANUAL DE GOOGLE EARTH PARA DOCUMENTO SIG**
+
+
+
+## Configuración básica de GOOGLE EARTH {.unnumbered}
+
+### Descarga del software Google Earth para escritorio {.unnumbered}
+
+Dirigirse al enlace web:  
+
+Posteriormente, escribir en la barra de búsqueda: Google Earth pro
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_d8a773d0.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Escribir sobre la barra de búsqueda (2) Google Earth
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_818e53ae.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_36b1dd2f.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_2efca649.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_d17df0f3.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_193ee9d4.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Posterior al paso anterior, guardar la descarga del software en su carpeta de preferencia
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_eb7442f7.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_298dfcef.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Se procede a darle click en aceptar para iniciar la instalación
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_51d7b016.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_43f86388.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_420741c8.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Dar click en la parte superior derecha del navegador y cerrarlo (si así lo desea)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_468d1d40.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Dirigirse al acceso directo del escritorio 
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_06608f98.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Así luce la interfaz al iniciar
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_38732585.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+En el panel de la parte izquierda, se despliega el **uso de capas, **muestra la información disponible y se puede configurar a gusto del usuario, preferiblemente escoger las capas para generar mayor detalle.
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_b0ebb5e2.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+En la parte superior izquierda de la interfaz, se observa la **barra de búsqueda**, se trata de un buscador que nos permite acceder a cualquier ligar del mundo, introduciendo una referencia al mismo (como el código postal, nombre del municipio…).
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_892033da.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+En el panel de **lugar,** nos muestra las ubicaciones que hemos buscado o visitado y que previamente hemos guardado en el buscador.
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_c733e9f3.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+A modo de ejemplo, colocaremos en el buscador la Plaza de Bolívar de Bogotá para extraer un polígono que represente la misma (recordar que en el buscador se puede escoger cualquier ubicación).
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_9b338595.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Podemos observar que al dar click en buscar, aparecerá el paso 20 que nos lleva directamente a la ubicación deseada (21).
+
+### **Creación de polígonos en GOOGLE EARTH** {.unnumbered}
+
+Siguiendo el ejemplo y luego de haber elegido ubicación para la búsqueda, en la parte superior de la interfaz, seleccionamos la herramienta **‘’añadir polígono’’** (paso 22) y aparecerá una nueva ventana denominada **‘’Nuevo polígono’’ **(23)**,** podemos cambiar el nombre para el mismo, según el ejemplo, colocaremos **Plaza_Bolivar_Bogotá **(paso 24)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_55731f7e.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_21d9c446.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+A continuación, se digitaliza el polígono deseado, del mismo modo que se realiza en cualquier software de dibujo, insertando un vértice por cada click del mouse, podrás apreciar que este va apareciendo en pantalla.
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_45239b0a.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Una vez, se finalice el polígono (paso 25), en la barra señalada de la figura anterior (26), se podrá utilizar las pestañas descripción, estilo, color, ver y altitud para personalizar el marcador, agregar textos, enlaces, cambiar icono y color del marcador, configurar la perspectiva inicial (latitud, longitud, alcance, etc), definir altura respecto al terreno y obtener la medida del polígono, se da click en **‘’aceptar’’ **(paso 27) de la ventana **‘’nuevo polígono’’.**
+
+#### **Guardar polígono como KML en GOOGLE EARTH** {.unnumbered}
+
+Luego de crear el polígono, en la tabla de contenidos, parte izquierda de la pantalla, en el ítem de **Lugares, **se evidencia que se ha añadido el polígono digitalizado (paso 28). Se realiza click derecho con el mouse, se observa un desplegable con opciones, por ejemplo:
+
+**Añadir:** que permite agregar nuevos elementos asociados al polígono, ruta, polígono, superposición de imagen, resulta muy útil si se desea crear más objetos dentro de una carpeta o agrupación.
+
+**Cortar:** que elimina el elemento de la lista y lo guarda en el portapapeles para poder pegarlo en otra carpeta o lugar.
+
+**Copiar:** que crea una copia del elemento y se puede pegar en otro sitio.
+
+**Eliminar:** que borra el elemento de la lista de lugares (esta acción no se puede deshacer).
+
+**Cambiar nombre:** que permite editar el nombre del polígono directamente.
+
+**Guardar lugar como:** que guarda el polígono en un archivo KML o KMZ en tu computador. Muy útil e ideal para compartir o respaldar tus polígonos.
+
+**Enviar por correo electrónico:** que permite adjuntar automáticamente el polígono como archivo KML.
+
+**Vista instantánea:** que guarda la perspectiva de cámara actual como la vista predeterminada de este polígono, útil para cuando otra persona abra el polígono, verá el mismo ángulo de vista.
+
+**Propiedades:** abre la ventana para editar todas las características del polígono.
+
+Se realiza click derecho con el mouse y en el desplegable se selecciona **Guardar lugar como… **(paso 29).
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_877e6a85.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+Se guarda el archivo en tu disco local, en una carpeta nueva creada o de preferencia en formato **.kml **(30)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_5d917826.png)
+
+
+
+![](media/anexo_14-configuracion-basica-de-google-earth/img_e25c45af.png)
+
+
+
+## Creación de marca de posición en GOOGLE EARTH {.unnumbered}
+
+Acorde al ejemplo y luego de haber elegido ubicación para la búsqueda, en la parte superior de la interfaz, seleccionamos la herramienta **‘’agregar marca de posición’’** (paso 31) y aparecerá una nueva ventana denominada **‘’Nueva/o Marca de posición’’ **(32), podemos cambiar el nombre para el mismo, según el ejemplo, colocaremos **Coordenadas_PlazaB **(paso 33). Se visualizan las coordenadas del punto creado.
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_075fe611.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_903cfabb.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_e25c45af.png)
+
+En el botón que aparece en la figura anterior (34) se podrá configurar y/o personalizar el ícono de identificación de la marca de posición, se apreciará de la siguiente manera:
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_73350099.png)
+
+En la barra señalada de la figura (35), se podrá utilizar las pestañas descripción, estilo, color, visualizar coordenadas, altitud, personalizar el marcador, agregar textos, enlaces, cambiar icono y color del marcador, configurar la perspectiva inicial (latitud, longitud, alcance, etc) y definir altura respecto al terreno.
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_903cfabb.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_e25c45af.png)
+
+Se da click en **‘’aceptar’’** de la ventana **‘’Nueva/o marca de posición’’.**
+
+Luego de crear la marca de posición, en la tabla de contenidos, parte izquierda de la pantalla, en el ítem de **Lugares, **se evidencia que se ha añadido la marca creada (paso 36). Se realiza click derecho con el mouse, se observa un desplegable con opciones (37)
+
+**Añadir:** que permite agregar nuevos elementos asociados al lugar como marca de posición secundaria, ruta, polígono, superposición de imagen, resulta muy útil si se desea crear más objetos dentro de una carpeta o agrupación.
+
+**Cortar:** que elimina el elemento de la lista y lo guarda en el portapapeles para poder pegarlo en otra carpeta o lugar.
+
+**Copiar:** que crea una copia del elemento y se puede pegar en otro sitio.
+
+**Eliminar:** que borra el elemento de la lista de lugares (esta acción no se puede deshacer).
+
+**Cambiar nombre:** que permite editar el nombre de la marca de posición directamente.
+
+**Guardar lugar como:** que guarda el marcador en un archivo KML o KMZ en tu computador. Muy útil e ideal para compartir o respaldar tus marcadores.
+
+**Enviar por correo electrónico:** que permite adjuntar automáticamente el marcador como archivo KML.
+
+**Indicaciones desde/hasta aquí:** que establece este punto como origen/destino de una ruta de navegación.
+
+**Vista instantánea:** que guarda la perspectiva de cámara actual como la vista predeterminada de este marcador, útil para cuando otra persona abra el marcador, verá el mismo ángulo de vista.
+
+**Mostrar cuenca visual:** que activa una visualización que indica que partes del terreno pueden verse desde este punto, útil para análisis de visibilidad.
+
+**Propiedades:** abre la ventana para editar todas las características del marcador.
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_2b4c4be3.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_15-creacion-de-marca-de-posicion-en-google-earth/img_5f2ba680.png)
+
+
+
+## Creación de ruta en GOOGLE EARTH {.unnumbered}
+
+Seleccionamos la herramienta **‘’agregar ruta’’** (paso 38) y aparecerá una nueva ventana denominada **‘’Nueva/o Ruta’’ **(39), podemos cambiar el nombre para el mismo, según el ejemplo, colocaremos **Ruta_PlazaB **(paso 40). Se puede visualizar una línea azul, la cual es el resultado de esta acción (41). Al igual que en las anteriores creaciones, se podrá utilizar las pestañas descripción, estilo, color, visualizar coordenadas, altitud, personalizar la ruta, agregar textos, enlaces, cambiar icono y color de la ruta, configurar la perspectiva inicial (latitud, longitud, alcance, etc) y definir altura respecto al terreno (42).
+
+
+
+![](media/anexo_16-creacion-de-ruta-en-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_16-creacion-de-ruta-en-google-earth/img_6cbe6055.png)
+
+
+
+![](media/anexo_16-creacion-de-ruta-en-google-earth/img_e25c45af.png)
+
+Se da click en **‘’aceptar’’** de la ventana **‘’Nueva/o ruta’’ **(43).
+
+Luego de crear la ruta, en la tabla de contenidos, parte izquierda de la pantalla, en el ítem de **Lugares, **se evidencia que se ha añadido la ruta creada (paso 44). Se realiza click derecho con el mouse, se observa un desplegable con opciones (45) correspondientes a las mismas alternativas y funciones explicadas anteriormente.
+
+
+
+![](media/anexo_16-creacion-de-ruta-en-google-earth/img_af1e81ec.png)
+
+
+
+![](media/anexo_16-creacion-de-ruta-en-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_16-creacion-de-ruta-en-google-earth/img_d6931007.png)
+
+
+
+## Superposición de imágenes en GOOGLE EARTH {.unnumbered}
+
+Seleccionamos la herramienta **‘’agregar superposición de imágenes’’** (paso 46) y aparecerá una nueva ventana denominada **‘’Nueva/o Superposición de imágenes’’ **(47), podemos cambiar el nombre para el mismo, en este caso, colocaremos **Corregimientos Valledupar **(paso 48). 
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_e25c45af.png)
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_6790b7e8.png)
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_e25c45af.png)
+
+En el botón de examinar (49), le damos click y aparecerá una ventana en donde podemos buscar la imagen desde el disco duro de nuestro computador que deseamos superponer, generalmente se trata de imágenes correspondientes a croquis de mapas. Elegimos la imagen (50) y le damos abrir (51) 
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_8163f82b.png)
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_e25c45af.png)
+
+Se puede visualizar una imagen superpuesta (52), la cual es el resultado de la acción anteriormente explicada. Al igual que en las anteriores creaciones, se podrá utilizar las pestañas descripción, ver, coordenadas, altitud, actualizar, ubicación, agregar textos, enlaces,  etc (53) y aceptar (54).
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_9903e311.png)
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_e25c45af.png)
+
+Luego de superponer la imagen, en la tabla de contenidos, parte izquierda de la pantalla, en el ítem de **Lugares, **se evidencia que se ha añadido la superposición (paso 55). Se realiza click derecho con el mouse, se observa un desplegable con opciones (56) correspondientes a las mismas alternativas y funciones explicadas anteriormente.
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_3434d1aa.png)
+
+
+
+![](media/anexo_17-superposicion-de-imagenes-en-google-earth/img_e25c45af.png)
+
+**El archivo .kml o .kmz generado en Google Earth Pro, puede ser importado a otros softwares SIG (QGIS, ArcGIS, etc).**
+
+
+
+## Cómo generar perfiles de elevación en GOOGLE EARTH {.unnumbered}
+
+Seleccionamos ‘’**Herramientas’’** (paso 57), click en **‘’regla’’ **(58)
+
+
+
+![](media/anexo_18-como-generar-perfiles-de-elevacion-en-google-/img_e6ef9df4.png)
+
+
+
+![](media/anexo_18-como-generar-perfiles-de-elevacion-en-google-/img_e25c45af.png)
+
+Aparecerá una nueva ventana denominada **‘’regla’’ **(paso 59), click en ruta (60), marcamos la opción de **‘’mostrar perfil de elevación’’ **(61)
+
+
+
+![](media/anexo_18-como-generar-perfiles-de-elevacion-en-google-/img_d0c24b50.png)
+
+
+
+![](media/anexo_18-como-generar-perfiles-de-elevacion-en-google-/img_e25c45af.png)
+
+Iniciamos navegación con el mouse hacia el punto a realizar el modelamiento, damos click para punto de inicio (62), extendemos navegación hacia el punto final (63) y terminamos con otro click, podremos visualizar una línea amarilla que nos indica el trayecto o ruta, con su respectivas mediciones e información que se requiera, en la parte inferior, nos mostrará el perfil de elevación que se creó (64).
+
+
+
+![](media/anexo_18-como-generar-perfiles-de-elevacion-en-google-/img_5ca764b5.png)
+
+
+
+![](media/anexo_18-como-generar-perfiles-de-elevacion-en-google-/img_e25c45af.png)
+
+Se podrá iniciar el respectivo análisis de la ruta a la cual se le generó el perfil de elevación.
+
+
+
+## Otras herramientas de GOOGLE EARTH {.unnumbered}
+
+Continuando con el panel de herramientas, encontramos la opción ‘**’mostrar el historial de imágenes’’ **que nos permite visualizar imágenes históricas satelitales de un lugar específico, sirve para explorar como ha cambiado la zona a lo largo del tiempo.                           
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+**Muestra la luz del sol sobre el paisaje **activa o desactiva el efecto de iluminación solar sobre la superficie terrestre, se puede observar las sombras y variaciones de luz según la hora del día.
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+**Cambiar entre Google Earth, Sky y otros planetas **permite cambiar la vista de la Tierra a cielo estrellado, la luna, marte, explora contenido astronómico o planetario.
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+**Mostrar regla **nos permite medir distancias entre dos o más puntos (líneas, rutas) y calcular perimetros y areas dibujando polígonos, cambiar unidades de medida (metros, kilometros, etc).
+
+**Correo electrónico **permite enviar vistas actuales, archivos .kml/.kmz e imágenes, compartir información directamente por correo electrónico.
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+**Imprimir **imprime la vista actual del mapa, genera documentos o reportes con mapas.
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+**Guardar imagen **guarda una captura de pantalla de la vista actual como imagen (JPG, PNG), crea material grafico o evidencias de ubicaciones.
+
+**Ver en Google maps **abre la ubicación actual directamente en Google Maps en el navegador web, consulta de rutas, tráfico o información adicional.
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+**Ver en Google Earth para web **abre la vista actual de Google Earth Pro en Google Earth Web.
+
+
+
+![](media/anexo_19-otras-herramientas-de-google-earth/img_8097e273.png)
+
+
+
+## Uso de panel principal de GOOGLE EARTH {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_131c66a8.png)
+
+En el panel principal de Google Earth Pro encontramos herramientas como:
+
+#### **Archivo** {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_f7e2c449.png)
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_e25c45af.png)
+
+*Si no hay cambios recientes, aparece desactivado
+
+
+| Opción | Descripción |
+| --- | --- |
+| Abrir | Cargar archivos KML/KMZ u otros formatos compatibles. |
+| Guardar | Guardar lugares, proyectos o imágenes. |
+| Correo Electrónico | Enviar vista o archivo por correo. |
+| Ver en Google Mapas | Abrir la ubicación actual en Google Maps. |
+| Ver en Google Earth para web | Acceder a la vista en la versión web. |
+| Imprimir |  |
+| Importar |  |
+| Salir del servidor | Desconectarse del servidor sin cerrar el programa. |
+| Salir | Cerrar Google Earth Pro. |
+
+#### **Editar** {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_71897c4d.png)
+
+*Si sale desactivado, no aplica
+
+
+| Opción | Descripción |
+| --- | --- |
+| Cortar | Mover elemento al portapapeles. |
+| Copiar | Copiar elemento al portapapeles. |
+| Copiar imagen | Copiar la vista actual como imagen. |
+| Copiar Ver Ubicación | Copiar enlace de la ubicación actual. |
+| Eliminar | Borrar elemento seleccionado. |
+| Buscar | Buscar lugares o direcciones. |
+| Actualización | Refrescar contenido. |
+| Cambiar nombre | Editar nombre del elemento. |
+| Vista instantánea | Guardar perspectiva actual. |
+| Propiedades | Editar propiedades del elemento seleccionado. |
+
+#### **Ver** {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_598fcf6e.png)
+
+
+| Opción | Descripción |
+| --- | --- |
+| Barra de herramientas | Mostrar/ocultar barra de íconos principales. |
+| Barra lateral | Activar/desactivar panel izquierdo con Lugares y Capas. |
+| Pantalla completa | Cambiar a modo de pantalla completa. |
+| Tamaño de vista | Ajustar resolución y proporciones de la vista. |
+| Mostrar navegación | Configurar visibilidad de controles de navegación. |
+| Barra de estado | Mostrar información de coordenadas y altitud. |
+| Cuadrícula | Mostrar líneas de latitud y longitud. |
+| Vista general del mapa | Mostrar miniatura del globo terráqueo. |
+| Leyenda de escala | Mostrar barra de escala en la vista. |
+| Atmosfera | Activar efecto visual de la atmósfera. |
+| Sol | Mostrar posición y sombras del sol. |
+| Imágenes históricas | Ver fotografías satelitales antiguas. |
+| Superficie del agua | Activar simulación visual del agua. |
+| Explora | Acceder a contenido destacado y recorridos. |
+| Restablecer | Devolver vista y orientación a valores predeterminados. |
+| Establecer esta ubicación como mi ubicación de inicio | Guardar la ubicación actual como punto de partida al iniciar. |
+
+#### **Herramientas** {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_5fa914d7.png)
+
+
+| Opción | Descripción |
+| --- | --- |
+| Regla | Medir distancias, áreas y perímetros sobre el mapa. |
+| Tablas | Ver datos y atributos asociados a elementos geoespaciales. |
+| GPS | Importar datos desde dispositivos GPS externos. |
+| Creador de películas | Grabar recorridos y generar videos animados. |
+| Localizar | Buscar lugares o coordenadas específicas. |
+| Entrar al simulador de vuelo | Pilotar un avión virtual sobre el globo terrestre. |
+| Opciones | Configurar preferencias generales de Google Earth Pro. |
+
+#### **Añadir** {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_07a81563.png)
+
+
+| Opción | Descripción |
+| --- | --- |
+| Carpeta | Crea una carpeta para organizar elementos como marcas, rutas o polígonos. |
+| Marca de posición | Agrega un punto en el mapa con nombre, ícono y descripción. Útil para señalar lugares específicos. |
+| Ruta | Dibuja una línea entre puntos. Se utiliza para mostrar trayectos, caminos o direcciones. |
+| Polígono | Permite dibujar áreas cerradas sobre el mapa, útil para delimitar zonas como terrenos o regiones de análisis. |
+| Modelo | Inserta modelos en 3D (.dae) sobre el terreno. Ideal para visualizar construcciones o estructuras tridimensionales. |
+| Visita Guiada | Crea una animación o recorrido virtual entre elementos del proyecto. |
+| Foto | Inserta una imagen georreferenciada sobre el mapa. |
+| Superposición de imágenes | Coloca una imagen sobre el terreno, ajustando su posición, tamaño y transparencia. |
+| Vínculo de red | Conecta datos en línea a través de archivos KML/KMZ. Útil para cargar información dinámica o actualizada automáticamente. |
+
+#### **Ayuda** {.unnumbered}
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_c335410b.png)
+
+
+| Opción | Descripción |
+| --- | --- |
+| Recursos de ayuda | Abre la página oficial de ayuda de Google Earth para consultar guías, tutoriales y solución de problemas. |
+| Teclas de acceso rápido | Muestra un listado de atajos de teclado que facilitan la navegación y uso de herramientas. |
+| Sugerencias iniciales | Ofrece una introducción básica con consejos para nuevos usuarios. |
+| Ejecutar herramienta de reparación | Inicia una utilidad para corregir errores o problemas técnicos en el funcionamiento de Google Earth Pro. |
+| Notas de la versión | Muestra los cambios, mejoras y correcciones incluidos en la versión actual del software. |
+| Condiciones del servicio | Accede a los términos legales que rigen el uso del programa. |
+| Privacidad |  |
+| Enviar comentarios | Permite enviar sugerencias o reportes de errores directamente al equipo de desarrollo de Google Earth. |
+| Acerca de Google Earth | Muestra información sobre la versión instalada, licencias y créditos del software. |
+
+La mayoría de estas herramientas cuentan con íconos y teclas de acceso rápido dentro de la interfaz de Google Earth.
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_0ae0e948.png)
+
+
+
+![](media/anexo_20-uso-de-panel-principal-de-google-earth/img_e25c45af.png)
+

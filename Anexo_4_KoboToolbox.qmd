@@ -1,0 +1,382 @@
+# Anexo 4: KoboToolbox {.unnumbered}
+
+**Implementación de los SIG en la gestión del riesgo de desastres con la plataforma de uso libre KoboToolbox**
+
+**Contenido**
+
+
+
+## Introducción {.unnumbered}
+
+KoboToolbox es una suite de software gratuita y de código abierto para recopilar, gestionar y analizar datos, especialmente en entornos complejos. Desarrollada por la Iniciativa Humanitaria de Harvard, se utiliza ampliamente en emergencias humanitarias, investigación, monitoreo y evaluación. La plataforma está diseñada para encuestas individuales donde la identidad de los encuestados no es una preocupación principal. Por otro lado, KoboCollect es una aplicación para Android basada en ODK Collect, y se utiliza para la entrada de datos con el software.
+
+Asimismo, facilita la captura de información georreferenciada de campo para su posterior análisis en software GIS. 
+
+A continuación, las principales características:
+
+**Las funcionalidades de los formularios en KoboToolbox:** las capacidades de los formularios en KoboToolbox, permiten la captura de diversos tipos de información como nombres, apellidos, fotografías, preguntas de selección múltiple y datos numéricos o de texto. 
+
+**La georreferenciación:** es una característica valiosa, ya que la aplicación puede capturar la posición de un sitio usando el GPS del celular. Se exporta la información recopilada en varios formatos, como XLS, PCB, KML, entre otros, y permite visualizar los datos en un mapa de calor.
+
+**Creación y configuración de formularios en KoboToolbox****:** para crear nuevos formularios en KoboToolbox, puede ser desde una plantilla, cargando un XLSForm o creando uno desde cero de manera manual, es pertinente especificar el nombre del proyecto, la descripción, el sector y el país. El aplicativo permite editar el formulario para configurar cada pregunta, ofreciendo una variedad de tipos de preguntas, incluyendo preguntas de punto, línea y polígono, y la capacidad de grabar audio y video. Para que el procesamiento sea efectivo, es necesario habilitar permisos para que los formularios puedan ser llenados por cualquier persona a través de un enlace web o por usuarios específicos en el móvil.
+
+**Compartir y usar formularios en KoboToolbox:** se muestra cómo compartir formularios con usuarios específicos, asignándoles permisos de visualización y envío de datos, lo que es útil para encuestadores designados. Asimismo, los usuarios pueden descargar la aplicación **Kobo Collect** en sus celulares desde Play Store, configurarla con su usuario y contraseña, y descargar los formularios para usarlos sin conexión. El proceso para enviar los datos recopilados desde el celular a la base de datos una vez que se tiene conexión a internet.
+
+**Verificación de datos y anexos****:** el administrador puede consultar y descargar los datos enviados a la base de datos de KoboToolbox, y cómo revisar la información en un mapa y en la galería de imágenes.
+
+Finalmente es importante tener en cuenta los siguientes aspectos:
+
+Es esencial la creación de una cuenta, donde el nombre de usuario es indispensable para compartir proyectos y formularios. 
+
+La aplicación móvil funciona con el GPS del celular, lo que permite capturar información sin conexión a internet y sincronizarla cuando hay señal.
+
+
+
+## Guía práctica KoboToolbox para Municipios {.unnumbered}
+
+Captura y Gestión de Información Georreferenciada (SIG Municipal)
+
+### Introducción {.unnumbered}
+
+KoboToolbox es una herramienta gratuita que permite a los municipios realizar levantamiento de información georreferenciada (puntos, líneas, polígonos) desde dispositivos móviles, facilitando la recolección de datos de campo para su posterior análisis en sistemas GIS (ArcGIS, QGIS). Esta guía enseña el paso a paso desde la creación del formulario hasta la descarga de los datos.
+
+### PASO 1: Crear una cuenta en KoboToolbox {.unnumbered}
+
+- Accede a:  
+
+- Haz clic en “Crear una Cuenta”.
+
+- Registra un nombre de usuario (será clave para compartir proyectos entre usuarios municipales).
+
+- Completa los campos de correo electrónico, nombre y contraseña.
+
+- Verifica tu cuenta desde el correo recibido.
+
+### PASO 2: Crear un nuevo proyecto y cargar el formulario {.unnumbered}
+
+- En el panel de inicio, haz clic en “Nuevo Proyecto” (New Project).
+
+- Elige la opción “Upload an XLSForm”.
+
+- Selecciona el archivo de formulario pre-diseñado (Ej: Formulario_Erosion_Costera_Kobo.xlsx).
+
+- Asigna un nombre representativo al proyecto (Ej: “Rasgos de Erosión Costera - Municipio X”).
+
+- Haz clic en “Create Project”.
+
+### PASO 3: Configurar permisos de acceso y edición {.unnumbered}
+
+- Ve a la pestaña “Sharing”.
+
+- Agrega los usuarios municipales que podrán visualizar y enviar datos.
+
+- Habilita el formulario para que pueda ser llenado mediante enlace web o a través de la App KoboCollect.
+
+### PASO 4: Revisar y editar la estructura del formulario {.unnumbered}
+
+- En la pestaña “Form”, verifica que las preguntas (puntos, líneas, polígonos, fotos) se hayan cargado correctamente.
+
+- Si es necesario, ajusta etiquetas o agrega nuevas preguntas.
+
+- Guarda los cambios.
+
+### PASO 5: Desplegar el formulario para uso en campo {.unnumbered}
+
+- Dirígete a “Deployments”.
+
+- Haz clic en “Deploy”.
+
+- Obtendrás un enlace web y un código QR para distribución a encuestadores.
+
+### PASO 6: Captura de datos en campo (App KoboCollect o Web) {.unnumbered}
+
+- Descarga KoboCollect desde PlayStore.
+
+- Configura el servidor en la App:  
+
+- Ingresa con tu usuario y sincroniza los formularios disponibles.
+
+- Desde la App, selecciona el formulario, activa el GPS y empieza a registrar puntos, líneas, polígonos y fotografías.
+
+- Si estás sin internet, los datos se almacenarán offline y se sincronizarán cuando recuperes conexión.
+
+### PASO 7: Revisión de datos capturados {.unnumbered}
+
+- En la pestaña “Data” de KoboToolbox, visualiza los registros enviados.
+
+- Utiliza la opción “Map View” para ver los puntos georreferenciados en un mapa básico.
+
+- Revisa la galería de imágenes para verificar las fotografías de campo.
+
+### PASO 8: Exportar datos para análisis SIG {.unnumbered}
+
+- Descarga los datos en formatos XLS, CSV o KML.
+
+- Abre los archivos en tu software SIG (ArcGIS, QGIS).
+
+- Utiliza las coordenadas capturadas para crear capas temáticas y realizar análisis espaciales.
+
+**Aspectos clave a tener en cuenta**
+
+- Asegúrate que todos los celulares de campo tengan el GPS activado y calibrado.
+
+- La recopilación puede hacerse sin internet; sincroniza los datos al regresar a zona con señal.
+
+- Mantén actualizado el XLSForm para reflejar nuevas necesidades de levantamiento en el municipio.
+
+- El identificador de usuario es indispensable para controlar permisos y trazabilidad de datos.
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_5012900f.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_b8d52042.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_868d6217.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_f4d6f898.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_31a8e97d.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_14c51e5a.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_6d304a5e.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_26fde9bc.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_384607ae.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_7ec3ca8f.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_928b593b.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_bccf78d7.png)
+
+
+
+![](media/anexo_29-guia-practica-kobotoolbox-para-municipios/img_7f554dcf.png)
+
+
+
+## Manual Rápido: Carga de Formulario en KoboToolbox {.unnumbered}
+
+### Paso 1: Ingresar a KoboToolbox {.unnumbered}
+
+
+
+## 1. Accede a https://kf.kobotoolbox.org (cuentas de ONGs) o https://kc.kobotoolbox.org (cuentas públicas). {.unnumbered}
+
+
+
+## 2. Inicia sesión con tu usuario y contraseña. {.unnumbered}
+
+### Paso 2: Crear un nuevo Proyecto {.unnumbered}
+
+
+
+## 1. Haz clic en "New Project" o "Nuevo Proyecto". {.unnumbered}
+
+
+
+## 2. Selecciona la opción "Upload an XLSForm". {.unnumbered}
+
+
+
+## 3. Carga el archivo Formulario_Erosion_Costera_Kobo.xlsx. {.unnumbered}
+
+
+
+## 4. Asigna un nombre al proyecto y haz clic en "Create Project". {.unnumbered}
+
+### Paso 3: Verificar la estructura del formulario {.unnumbered}
+
+
+
+## 1. Revisa la pestaña "Form" para verificar que las preguntas y grupos se cargaron correctamente. {.unnumbered}
+
+
+
+## 2. Si es necesario, puedes realizar ajustes menores en el diseño desde la interfaz gráfica. {.unnumbered}
+
+### Paso 4: Habilitar el proyecto para recolección {.unnumbered}
+
+
+
+## 1. En la pestaña "Deployments", haz clic en "Deploy". {.unnumbered}
+
+
+
+## 2. El proyecto quedará listo para la recolección de datos en campo. {.unnumbered}
+
+### Paso 5: Recolectar datos {.unnumbered}
+
+
+
+## 1. Comparte el enlace de recolección o utiliza la app KoboCollect para registrar datos en campo. {.unnumbered}
+
+
+
+## 2. Los datos ingresados quedarán almacenados en tiempo real en el servidor de KoboToolbox. {.unnumbered}
+
+### Paso 6: Descarga y análisis de datos {.unnumbered}
+
+
+
+## 1. En la pestaña "Data", descarga los registros en formato Excel, CSV o KML para su análisis geoespacial. {.unnumbered}
+
+Un esquema visual de cómo se verá en Kobo (tipo diagrama).
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_5c768b89.png)
+
+**Ahora a explorar las diferentes herramientas de edición de la encuesta, desarrollo, datos …**
+
+**¡Sigamos!**
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_45eab7c4.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_8a879387.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_0b96942c.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_e8b7dd7b.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_a35eebad.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_4d9ba0a2.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_9947b5a0.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_7745f10f.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_41dd325d.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_fdadcc49.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_cadd068c.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_2ae3fe7b.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_47265636.png)
+
+**¡Vamos a KoboCollect!**
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_33e28d06.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_f41cee31.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_b287996b.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_9edc882b.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_b66a9b74.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_522ee68e.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_c619347f.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_d2e1b3b1.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_db2c9520.png)
+
+**Regresamos a KoboToolBox… verificamos los resultados**
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_025dc7cd.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_c425733c.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_83d88dc1.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_c70c3388.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_e508e708.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_94f4469c.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_0ae0e948.png)
+
+
+
+![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_e25c45af.png)
+
