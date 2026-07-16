@@ -4,6 +4,15 @@ project:
 
 book:
   title: "Aplicación SIG en la Gestión del Riesgo"
+  date: "2025-12-03"
+  
+  repo-url: https://github.com/scr-ungrd/aplicacion-sig-grd
+  repo-actions: [source, issue]
+  downloads: [pdf]
+  site-url: https://scr-ungrd.github.io/aplicacion-sig-grd
+  sidebar:
+    style: floating
+    collapse-level: 1
   chapters:
     - index.qmd
     - 01-introduccion.qmd
@@ -24,10 +33,34 @@ book:
         - Anexo_4_KoboToolbox.qmd
         - Anexo_5_Avenza.qmd
 
+lang: es
+
+csl: vancouver-apa-hybrid.csl
+link-citations: true
+
+crossref:
+  fig-prefix: "Figura"
+  tbl-prefix: "Tabla"
+  chapters: true
+
 format:
   html:
     theme: cosmo
-    css: custom.css
     toc: true
     number-sections: false
-    html-math-method: mathjax
+    reference-location: block
+    logo: media/CUB_MARCO TEORICO SIG-1.png
+    css:
+      - custom.css
+      - custom.css
+    include-in-header:
+      - caption-bold.html
+      - text: |
+          <meta name="citation_book_title" content="Aplicación SIG en la Gestión del Riesgo de Desastres para Colombia.">
+          <meta name="citation_publisher" content="Unidad Nacional para la Gestión del Riesgo de Desastres - UNGRD">
+          <meta name="citation_publication_date" content="2026/02/03">
+          <meta name="citation_online_date" content="2026/02/03">
+          <meta name="citation_language" content="es">
+          <meta name="citation_pdf_url" content="https://scr-ungrd.github.io/aplicacion-sig-grd/Aplicacion_SIG_en_la_Gestion_del_Riesgo_de_Desastres_para_Colombia.pdf">
+          <meta name="robots" content="index, follow">
+    html-math-method: katex
