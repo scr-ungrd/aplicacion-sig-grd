@@ -4,3 +4,5 @@ separador.py
 requirements.txt
 .quarto/
 _book/
+
+/.quarto/
