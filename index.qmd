@@ -1,24 +1,17 @@
 # Inicio {.unnumbered}
 
-:::: {.columns}
-
-::: {.column width="55%"}
-### Bienvenidos
+![](media/CUB_MARCO TEORICO SIG-1.png){.ungrd-cover-float}
 
 Bienvenidos al libro digital **Aplicación SIG en la Gestión del Riesgo**. Este recurso ha sido diseñado por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) como una guía práctica y conceptual orientada a fortalecer las capacidades técnicas de las administraciones municipales y departamentales en Colombia en el uso de los Sistemas de Información Geográfica (SIG) aplicados a la Gestión del Riesgo de Desastres (GRD).
 
 A través de esta plataforma interactiva, podrá explorar los fundamentos teóricos y metodológicos de los SIG, identificar las principales fuentes y geoportales de datos geoespaciales gratuitos, y comprender cómo se integran estas tecnologías en los procesos de Conocimiento del Riesgo, Reducción del Riesgo y Manejo de Desastres. Asimismo, el libro incluye una serie de anexos y guías prácticas paso a paso para el uso de herramientas como QGIS, Google Earth, MAGNA PRO, KoboToolbox y Avenza Maps, facilitando la autonomía técnica en los territorios.
+
+::: {.clearfix}
 :::
 
-::: {.column width="5%"}
-<!-- Espacio entre columnas -->
+::: {.d-flex .justify-content-start .mb-3}
+[← Ver colección completa de la serie](https://scr-ungrd.github.io/investigaciones-grd-colombia/){.ungrd-btn}
 :::
-
-::: {.column width="40%"}
-![](media/CUB_MARCO TEORICO SIG-1.png){width="100%" fig-align="center"}
-:::
-
-::::
 
 ------------------------------------------------------------------------
 
