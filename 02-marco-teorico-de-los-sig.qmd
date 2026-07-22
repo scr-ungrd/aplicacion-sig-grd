@@ -12,15 +12,9 @@ A nivel mundial, los SIG desempeñan un papel importante en diversas áreas, des
 
 ### Marco histórico {.unnumbered}
 
-Las bases de los SIG se sentaron a mediados del siglo XX con pioneros como John K. Wright y Waldo Tobler, quien en 1959 definió los principios de los sistemas de cartografía computarizada un sistema denominado MIMO (Map In, Map Out). El hito fundacional fue el desarrollo del Canadian Geographical Information Systems (CGIS) por Roger Tomlinson en la década de 1960, marcando el inicio formal de los SIG. Desde entonces, estas herramientas han experimentado una rápida evolución, pasando de sistemas aislados a plataformas colaborativas e interoperables, impulsadas por el avance tecnológico y el auge de la geografía voluntaria y la participación ciudadana. (Williamson et al., 2003; Dangermond, 2019). Esta evolución ha posicionado a los SIG como aliados estratégicos en la gestión del riesgo de desastres a nivel mundial, permitiendo la representación precisa de áreas de riesgo, el monitoreo en tiempo real, le ordenamiento territorial y la toma de decisiones basada en datos (National Research Council, 2007; Esri, 2020) como se evidenció en eventos críticos como el terremoto de Tohoku y el huracán Irene. En la Figura 1 se evidencia la cronología mundial de los Sistemas de Información geográfica.
+Las bases de los SIG se sentaron a mediados del siglo XX con pioneros como John K. Wright y Waldo Tobler, quien en 1959 definió los principios de los sistemas de cartografía computarizada un sistema denominado MIMO (Map In, Map Out). El hito fundacional fue el desarrollo del Canadian Geographical Information Systems (CGIS) por Roger Tomlinson en la década de 1960, marcando el inicio formal de los SIG. Desde entonces, estas herramientas han experimentado una rápida evolución, pasando de sistemas aislados a plataformas colaborativas e interoperables, impulsadas por el avance tecnológico y el auge de la geografía voluntaria y la participación ciudadana. (Williamson et al., 2003; Dangermond, 2019). Esta evolución ha posicionado a los SIG como aliados estratégicos en la gestión del riesgo de desastres a nivel mundial, permitiendo la representación precisa de áreas de riesgo, el monitoreo en tiempo real, le ordenamiento territorial y la toma de decisiones basada en datos (National Research Council, 2007; Esri, 2020) como se evidenció en eventos críticos como el terremoto de Tohoku y el huracán Irene. En la @fig-cronologia-mundial-sig se evidencia la cronología mundial de los Sistemas de Información geográfica.
 
-
-
-![](media/02-marco-teorico-de-los-sig/img_50cb8ac1.png)
-
-**Figura ****1****. **Cronología mundial de los SIG. 
-
-Fuente**.** Modificado UNGRD, 2024 
+![Cronología mundial de los SIG. Fuente: Modificado UNGRD, 2024](media/02-marco-teorico-de-los-sig/img_50cb8ac1.png){#fig-cronologia-mundial-sig}
 
 ### Marco normativo {.unnumbered}
 
@@ -50,15 +44,9 @@ En Colombia, los SIG son fundamentales para la política de sistematización y a
 
 ### Marco histórico {.unnumbered}
 
-El desarrollo de los SIG en Colombia, impulsado por la evolución tecnológica y la necesidad de una planificación territorial adecuada, se remonta a 1902 con la creación del IGAC, entidad que desde entonces ha liderado la producción geográfica y cartográfica del país. A lo largo del siglo XX y principios del XXI, el IGAC ha marcado hitos como la instalación del Observatorio Geomagnético (1950), el intercambio de información con otras entidades (1984), la publicación de guías metodológicas para el POT (1997) y atlas digitales (2002), y la firma de acuerdos internacionales (2011). Recientemente, desde 2014, el IGAC ha modernizado su plataforma tecnológica con el lanzamiento del Portal Geográfico Nacional y otras herramientas como Colombia OT y Colombia en Mapas, consolidando los SIG como instrumentos esenciales para la formulación de políticas públicas, el desarrollo territorial y la gestión del riesgo de desastres a nivel nacional, en concordancia con la normatividad vigente.. En la Figura 2 se resume la historia de los SIG en Colombia.
+El desarrollo de los SIG en Colombia, impulsado por la evolución tecnológica y la necesidad de una planificación territorial adecuada, se remonta a 1902 con la creación del IGAC, entidad que desde entonces ha liderado la producción geográfica y cartográfica del país. A lo largo del siglo XX y principios del XXI, el IGAC ha marcado hitos como la instalación del Observatorio Geomagnético (1950), el intercambio de información con otras entidades (1984), la publicación de guías metodológicas para el POT (1997) y atlas digitales (2002), y la firma de acuerdos internacionales (2011). Recientemente, desde 2014, el IGAC ha modernizado su plataforma tecnológica con el lanzamiento del Portal Geográfico Nacional y otras herramientas como Colombia OT y Colombia en Mapas, consolidando los SIG como instrumentos esenciales para la formulación de políticas públicas, el desarrollo territorial y la gestión del riesgo de desastres a nivel nacional, en concordancia con la normatividad vigente.. En la @fig-cronologia-sig-colombia se resume la historia de los SIG en Colombia.
 
-
-
-![](media/02-marco-teorico-de-los-sig/img_3c2c51dd.png)
-
-**Figura ****2****. **Cronología SIG en Colombia.
-
-Fuente. IGAC editado UNGRD.
+![Cronología SIG en Colombia. Fuente: IGAC editado UNGRD.](media/02-marco-teorico-de-los-sig/img_3c2c51dd.png){#fig-cronologia-sig-colombia}
 
 Actualmente**,** diversas entidades públicas en Colombia utilizan portales SIG y mecanismos de gestión de datos geoespaciales, lo que ha fortalecido la planificación, el control territorial, la gestión del riesgo y la toma de decisiones estratégicas, en concordancia con la normatividad vigente. Estos instrumentos se han consolidado como herramientas clave para la formulación de políticas públicas y el desarrollo territorial en distintas escalas. (IGAC, 2018; Esri, 2020).
 

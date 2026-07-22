@@ -50,9 +50,7 @@ Para garantizar la obtención de la versión más reciente y segura, el aplicati
 
 
 
-![](media/anexo_23-guia-para-la-instalacion-en-ordenadores/img_3b139621.png)
-
-***Figura 1:**** Localización del enlace de descarga del aplicativo. ****Fuente****: *
+![Localización del enlace de descarga del aplicativo.](media/anexo_23-guia-para-la-instalacion-en-ordenadores/img_3b139621.png){#fig-mp-enlace-descarga}
 
 El enlace permitirá descargar un archivo comprimido con extensión (.ZIP) con el nombre ***Magna Sirgas Pro-5.1  ***este archivo contiene todos los elementos necesarios para ejecutar la aplicación, incluyendo el ejecutable principal y la documentación técnica.
 
@@ -66,15 +64,11 @@ A continuación, se precisan las condiciones mínimas y recomendadas de hardware
 
 
 
-![](media/anexo_24-requerimientos-de-hardware/img_ed349974.png)
-
-***Figura 2: ****Requerimientos mínimos de Hardware para el uso del aplicativo. ****Fuente****: *
+![Requerimientos mínimos de Hardware para el uso del aplicativo.](media/anexo_24-requerimientos-de-hardware/img_ed349974.png){#fig-mp-hardware-minimo}
 
 
 
-![](media/anexo_24-requerimientos-de-hardware/img_08924600.png)
-
-***Figura 3: ****Requerimientos recomendados de Hardware para el uso del aplicativo. ****Fuente****: *
+![Requerimientos recomendados de Hardware para el uso del aplicativo.](media/anexo_24-requerimientos-de-hardware/img_08924600.png){#fig-mp-hardware-recomendado}
 
 ### Requerimientos de Software {.unnumbered}
 
@@ -82,9 +76,7 @@ Para poder ejecutar correctamente la herramienta, es indispensable realizar prev
 
 
 
-![](media/anexo_24-requerimientos-de-hardware/img_9f9b9891.png)
-
-***Figura 3: ****Requerimientos de software para el uso del aplicativo. ****Fuente****: *
+![Requerimientos de software para el uso del aplicativo.](media/anexo_24-requerimientos-de-hardware/img_9f9b9891.png){#fig-mp-requerimientos-software}
 
 ### Instalación y ejecución {.unnumbered}
 
@@ -99,9 +91,7 @@ Es importante realizar este paso en una ubicación con permisos completos, ya qu
 
 
 
-![](media/anexo_24-requerimientos-de-hardware/img_34fb98ac.png)
-
-***Figura 4:**** Archivo descomprimido en cualquier directorio. ****Fuente: ****Autor.*
+![Archivo descomprimido en cualquier directorio. Fuente: Autor.](media/anexo_24-requerimientos-de-hardware/img_34fb98ac.png){#fig-mp-archivo-descomprimido}
 
 Al descomprimir el archivo encontrara una carpeta denominada ***MagnaSirgas5.1, ***al acceder al directorio encontrara las siguientes subcarpetas:
 
@@ -112,7 +102,7 @@ Al descomprimir el archivo encontrara una carpeta denominada ***MagnaSirgas5.1, 
 |  | Carpeta que comprende la biblioteca de implementaciones funcionales que el programa usa para visualizar y efectuar los procesos de cálculo. |
 |  | Fichero (.jar) que permite ejecutar la aplicación para ser usada por el usuario. |
 
-***Tabla 1: ****Subcarpetas contenidas dentro del aplicativo ****MagnaSirgasPro5.1****. ****Fuente: ****Autor*
+: Subcarpetas contenidas dentro del aplicativo MagnaSirgasPro5.1. Fuente: Autor {#tbl-mp-subcarpetas}
 
 Ejecute el aplicativo haciendo doble clic sobre el archivo ***MagnaSirgas5.jar***.
 Es importante asegurarse de que este archivo esté correctamente asociado a Java para que pueda ejecutarse sin inconvenientes. En caso de que no se abra automáticamente, verifique que tenga instalada la versión más reciente de Java Runtime Environment (JRE) y que la extensión (.jar) esté configurada para abrirse con dicho programa, en tal caso el siguiente enlace le permitirá descargar desde la página oficial el complemento de Java para ordenadores .
@@ -129,9 +119,7 @@ El área central corresponde al visor cartográfico, donde se visualizan datos g
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_3d5e4260.png)
-
-***Figura 5: ****Interfaz del aplicativo MagnaSirgasPro-5.1. ****Fuente: ****IGAC.*
+![Interfaz del aplicativo MagnaSirgasPro-5.1. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_3d5e4260.png){#fig-mp-interfaz-general}
 
 A continuación, se describen las principales funciones de la interfaz del aplicativo:
 
@@ -141,9 +129,7 @@ Este apartado permite realizar la conversión de coordenadas desde diversos sist
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_8df92762.png)
-
-***Figura 6: ****Interfaz de las herramientas del menú Conversión y Transformación. ****Fuente: ****IGAC.*
+![Interfaz de las herramientas del menú Conversión y Transformación. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_8df92762.png){#fig-mp-menu-conversion-transformacion}
 
 **Punto Individual: **Permite realizar la conversión o transformación de coordenadas para un solo punto, ingresando sus valores manualmente. Es útil para procesar datos puntuales sin necesidad de manejar archivos completos.
 
@@ -159,9 +145,7 @@ Sirve para calcular la diferencia entre dos tipos de alturas: la altura medida p
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_c641d393.png)
-
-***Figura 7: ****Interfaz de las herramientas del menú Ondulación Geoidal. ****Fuente: ****IGAC.*
+![Interfaz de las herramientas del menú Ondulación Geoidal. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_c641d393.png){#fig-mp-menu-ondulacion-geoidal}
 
 **Punto individual: **Permite calcular la ondulación geoidal para un solo punto ingresando manualmente sus coordenadas geográficas, planas, geocéntricas, Gauss Kruger o UTM. Este cálculo devuelve la diferencia entre la altura elipsoidal y la altura ortométrica para esa ubicación específica.
 
@@ -173,9 +157,7 @@ Ayuda a transformar las alturas obtenidas con GPS en alturas reales sobre el niv
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_cb55d8ff.png)
-
-***Figura 8: ****Interfaz de las herramientas del menú Nivelación GPS. ****Fuente: ****IGAC.*
+![Interfaz de las herramientas del menú Nivelación GPS. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_cb55d8ff.png){#fig-mp-menu-nivelacion-gps}
 
 **Punto Individual: **Permite para calcular la altura real de un solo punto medido con GPS, ajustándola para que esté referida al nivel del mar. Es muy útil cuando se necesita conocer la altitud de un lugar específico de manera rápida.
 
@@ -187,9 +169,7 @@ Sirve para medir distancias y direcciones entre dos lugares, o para encontrar un
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_6dc3a9ba.png)
-
-***Figura 9: ****Interfaz de las herramientas del menú Cálculos elipsoidales. ****Fuente: ****IGAC.*
+![Interfaz de las herramientas del menú Cálculos elipsoidales. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_6dc3a9ba.png){#fig-mp-menu-calculos-elipsoidales}
 
 **Cálculo del problema Geodésico inverso: **Esta herramienta sirve para saber la distancia y la dirección entre dos puntos, partiendo de sus coordenadas. Es muy útil para medir recorridos o conocer cómo se relacionan dos lugares en un mapa.
 
@@ -201,9 +181,7 @@ Permite determinar cómo y cuánto se ha movido un punto en la superficie terres
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_4033fa6c.png)
-
-***Figura 10: ****Interfaz de las herramientas del menú Cálculo Velocidades. ****Fuente: ****IGAC. *
+![Interfaz de las herramientas del menú Cálculo Velocidades. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_4033fa6c.png){#fig-mp-menu-calculo-velocidades}
 
 **Punto individual: **Permite calcular la velocidad de movimiento de un sitio específico a partir de sus coordenadas y datos asociados.
 
@@ -215,9 +193,7 @@ Esta herramienta permite transformar coordenadas geográficas o cartesianas de u
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_946d8ef7.png)
-
-***Figura 11: ****Interfaz de las herramientas del menú Cambio de Época. ****Fuente: ****IGAC.*
+![Interfaz de las herramientas del menú Cambio de Época. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_946d8ef7.png){#fig-mp-menu-cambio-epoca}
 
 **Punto individual: **Esta función permite realizar la transformación temporal de coordenadas para un solo punto geográfico. Es decir, ajusta las coordenadas de un punto específico según la variación de la referencia geodésica en diferentes épocas o años, considerando los movimientos tectónicos y otros factores geodinámicos. Esto es útil cuando se necesita actualizar o comparar la posición exacta de un punto en distintos tiempos de referencia.
 
@@ -229,9 +205,7 @@ Esta ventana permite editar los parámetros de visualización de paneles en los 
 
 
 
-![](media/anexo_25-interfaz-del-aplicativo/img_5741d219.png)
-
-***Figura 12: ****Interfaz de la herramienta Configuración. ****Fuente: ****IGAC.*
+![Interfaz de la herramienta Configuración. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_5741d219.png){#fig-mp-menu-configuracion}
 
 Es importante destacar que el software **Magna Sirgas Pro 5.1** ofrece una amplia variedad de herramientas geodésicas y cartográficas, incluyendo funciones para la conversión y transformación de coordenadas, cálculo de ondulaciones geoidales, determinación de parámetros elipsoidales, cálculo de velocidades y otras utilidades relacionadas. Esto convierte a **Magna Sirgas Pro 5.1** en una herramienta robusta y versátil para procesar, analizar y gestionar información geoespacial de manera eficiente.
 
@@ -251,37 +225,27 @@ De esta manera, se busca que el usuario comprenda no solo el funcionamiento téc
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_8e5891b8.png)
-
-***Figura 13: ****Configuración del sistema de referencia de partida. ****Fuente: ****IGAC.*
+![Configuración del sistema de referencia de partida. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_8e5891b8.png){#fig-mp-config-sistema-referencia-partida}
 
 En este apartado se puede configurar el sistema de coordenadas de partida, para este caso se puede seleccionar entre MAGNA SIRGAS y Datum Bogotá, de forma generalizada cada vez que se ajuste el sistema de referencia de partida el visor cambiara de la siguiente manera.
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_f127e9af.png)
-
-***     Figura 14:**** Magna Sirgas. ****Fuente: ****IGAC.****Figura 15: ****Datum Bogotá. ****Fuente: ****IGAC..*
+![Cambio del sistema de referencia de partida: Magna Sirgas y Datum Bogotá. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_f127e9af.png){#fig-mp-magna-sirgas-datum-bogota}
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_431930d0.png)
-
-***Figura 16: ****Asignación de nombre y secuencia al punto calculado. ****Fuente: ****IGAC..*
+![Asignación de nombre y secuencia al punto calculado. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_431930d0.png){#fig-mp-asignacion-nombre-punto}
 
 Esta casilla permite definir si el software genera automáticamente la codificación de los puntos calculados según la conversión previamente seleccionada, o si, por el contrario, se desea ajustar manualmente la codificación de dichos puntos. Al seleccionar la opción manual, se habilita una casilla adicional llamada ***“Nombre punto”, ***que permite asignar un nombre específico a cada punto. Para el presente caso, utilizaremos la opción manual y nombraremos nuestro archivo como ***"Prueba".***
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_7259686b.png)
-
-***Figura 17: ****Configuración del nombre de punto calculado según el ejemplo. ****Fuente: ****IGAC.*
+![Configuración del nombre de punto calculado según el ejemplo. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_7259686b.png){#fig-mp-config-nombre-punto-ejemplo}
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_9b18af57.png)
-
-***Figura 17: ****Ingreso de coordenadas iniciales o de partida, sobre las cuales se desea hacer una conversión o transformación. ****Fuente: ****IGAC.*
+![Ingreso de coordenadas iniciales o de partida, sobre las cuales se desea hacer una conversión o transformación. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_9b18af57.png){#fig-mp-ingreso-coordenadas-partida}
 
 En este apartado se ingresarán las coordenadas de origen o partida sobre las cuales se desea realizar una conversión o transformación hacia otro sistema de coordenadas, es importante destacar que permite ingresar coordenadas elipsoidales (geográficas), planas cartesianas, Universal Transverse Mercator (UTM), Origen Único Nacional (CTM 12) Y Gauss Kruger. Para el presente ejemplo realizaremos una conversión de coordenadas elipsoidales (geográficas, grados, minutos, segundos).
 
@@ -297,39 +261,29 @@ Así mismo se deberán ingresar las coordenadas en el aplicativo y ejecutar el c
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_6a349aad.png)
-
-***Figura 17: ****Ingreso de coordenadas iniciales. ****Fuente: ****IGAC.*
+![Ingreso de coordenadas iniciales. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_6a349aad.png){#fig-mp-ingreso-coordenadas-iniciales}
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_e7db93ad.png)
-
-***Figura 18****: Especificaciones de coordenadas de salida (Origen de coordenadas). ****Fuente: ****IGAC.*
+![Especificaciones de coordenadas de salida (Origen de coordenadas). Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_e7db93ad.png){#fig-mp-especificaciones-coordenadas-salida}
 
 En este apartado se configurará el sistema de coordenadas de salida, en el cual se disponen diversos orígenes coordenados elipsoidales (geográficas), planas cartesianas, Universal Transverse Mercator (UTM), Origen Único Nacional (CTM 12) Y Gauss Kruger. Para el presente ejemplo definiremos un sistema de proyección Origen Único Nacional (CTM 12).
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_21f175b4.png)
-
-***Figura 19****: Ejecución del comando calcular y procesamiento. ****Fuente: ****IGAC.*
+![Ejecución del comando calcular y procesamiento. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_21f175b4.png){#fig-mp-ejecucion-comando-calcular}
 
 Posterior a la definición del sistema coordenadas de salida se deberá ejecutar el comando calcular con el fin de visualizar las coordenadas de salida y su localización geográfica.
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_df973826.png)
-
-***Figura 20****: Coordenadas resultantes y localización geográfica. ****Fuente: ****IGAC.*
+![Coordenadas resultantes y localización geográfica. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_df973826.png){#fig-mp-coordenadas-resultantes}
 
 Si se quisiera realizar la conversión a un sistema de coordenadas plano-cartesianas el proceso es igual al anterior, solo con una ligera variación en el origen cartesiano de destino, como se observa en la siguiente figura:
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_b3f82884.png)
-
-***Figura 21****: Conversión a coordenadas plano-cartesianas. ****Fuente: ****IGAC.*
+![Conversión a coordenadas plano-cartesianas. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_b3f82884.png){#fig-mp-conversion-plano-cartesianas}
 
 La sección “Origen Cartesiano Destino” del software Magna Sirgas Pro 5.1 permite seleccionar el punto de referencia geodésico oficial que se utilizará como destino en las transformaciones de coordenadas. A través de esta herramienta, el usuario elige el departamento y municipio correspondientes, para luego seleccionar de la lista de orígenes cartesianos disponibles aquel que coincide con la ubicación y época de referencia establecida por el Instituto Geográfico Agustín Codazzi (IGAC). Esta selección garantiza que los cálculos de conversión o ajuste de coordenadas se realicen con base en parámetros geodésicos precisos y actualizados. Además, mediante el botón “Más información”, es posible acceder a los datos técnicos detallados del origen seleccionado, incluyendo coordenadas exactas, datum de referencia y año de establecimiento.
 
@@ -337,17 +291,13 @@ La sección “Origen Cartesiano Destino” del software Magna Sirgas Pro 5.1 pe
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_a8dfd727.png)
-
-***Figura 22: ****Configuración del sistema de referencia de partida para el cálculo de coordenadas mediante archivo. ****Fuente: ****IGAC.*
+![Configuración del sistema de referencia de partida para el cálculo de coordenadas mediante archivo. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_a8dfd727.png){#fig-mp-config-referencia-partida-archivo}
 
 La opción “Sistema de Referencia Partida” del módulo Cálculo Coordenadas Archivo de Puntos en Magna Sirgas Pro 5.1 permite definir el sistema geodésico en el que se encuentran las coordenadas de origen que se van a transformar. El usuario puede elegir entre MAGNA-SIRGAS, que es el sistema de referencia geodésico oficial de Colombia basado en el marco internacional SIRGAS, o Datum Bogotá, un sistema más antiguo usado históricamente en el país. Seleccionar correctamente esta opción es fundamental, ya que determina cómo el software interpretará las coordenadas iniciales y, por lo tanto, influye directamente en la precisión del cálculo y la conversión al sistema de destino. Para el presente ejemplo utilizaremos el sistema Magna Sirgas.
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_6d374060.png)
-
-***Figura 23: ****Configuración de la extensión del tipo de archivo de entrada y cargue en el aplicativo. ****Fuente: ****IGAC.*
+![Configuración de la extensión del tipo de archivo de entrada y cargue en el aplicativo. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_6d374060.png){#fig-mp-config-extension-archivo-entrada}
 
 La opción “Archivo Entrada” permite al usuario seleccionar el archivo que contiene las coordenadas iniciales que serán procesadas o transformadas. En este panel se pueden realizar dos acciones principales: **Seleccionar el formato de archivo** mediante un menú desplegable, que admite formatos como CSV, XLS y XLSX. **Abrir el archivo** usando el botón *Abrir*, lo que carga la información en el software para su posterior análisis o conversión. Esta herramienta es esencial para iniciar el proceso de transformación de coordenadas, ya que define la fuente de datos que se usará como base para los cálculos posteriores.
 
@@ -355,17 +305,13 @@ La opción “Archivo Entrada” permite al usuario seleccionar el archivo que c
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_877adc02.png)
-
-***Figura 24: ****Diligenciamiento del archivo de entrada en formato excel. ****Fuente:Autor***
+![Diligenciamiento del archivo de entrada en formato excel. Fuente: Autor](media/anexo_26-conversion-y-transformacion/img_877adc02.png){#fig-mp-diligenciamiento-archivo-excel}
 
 Para el siguiente ejemplo realizaremos una conversión de coordenadas Elipsoidales, debido a esto la nomenclatura de las coordenadas se encuentra (Latitud, Longitud) y la extensión del archivo utilizada será (.XLXS).
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_48cbbb5b.png)
-
-***Figura 25: ****Configuración del archivo de entrada. ****Fuente: ****IGAC..*
+![Configuración del archivo de entrada. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_48cbbb5b.png){#fig-mp-config-archivo-entrada}
 
 La opción “Configuración Archivo” del módulo Cálculo Coordenadas Archivo de Puntos en Magna Sirgas Pro 5.1 permite establecer los parámetros de lectura del archivo de entrada que contiene las coordenadas a procesar. En este panel se definen dos configuraciones clave: **Separador de columna**: especifica el carácter que se utiliza en el archivo para separar los diferentes campos o datos (por ejemplo, coma “,”, punto y coma “;” o tabulación). **Separador decimal**: indica el símbolo que se emplea para separar la parte entera de la decimal en los valores numéricos (comúnmente punto “.” o coma “,”).
 
@@ -373,17 +319,13 @@ La opción “Configuración Archivo” del módulo Cálculo Coordenadas Archivo
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_c9206dd1.png)
-
-***Figura 26: ****Configuración del encabezado del archivo cargado y su nomenclatura. ****Fuente: ****IGAC.*
+![Configuración del encabezado del archivo cargado y su nomenclatura. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_c9206dd1.png){#fig-mp-config-encabezado-archivo}
 
 Permite indicar si el archivo de entrada contiene una fila inicial destinada a los títulos o nombres de las columnas (por ejemplo: *ID*, *Latitud*, *Longitud*). Cuando esta casilla está activada, el software reconoce que la primera fila no forma parte de los datos a procesar, sino que es información descriptiva de cada campo. Junto a esta casilla se encuentra el botón **“Analizar”**, que examina la estructura del archivo y verifica que el formato de las columnas coincida con la configuración establecida, permitiendo detectar posibles inconsistencias antes de realizar la conversión de coordenadas.
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_6d3dda8f.png)
-
-***Figura 26: ****Configuración del sistema de coordenadas de partida y vinculación de casillas  . ****Fuente: ****IGAC.*
+![Configuración del sistema de coordenadas de partida y vinculación de casillas. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_6d3dda8f.png){#fig-mp-config-coordenadas-partida-vinculacion}
 
 La sección **“Configuración Coordenada de Partida”** dentro del bloque *Archivo Entrada* en el módulo *Cálculo Coordenadas Archivo de Puntos* de *Magna Sirgas Pro 5.1* permite definir el tipo de coordenadas y la asignación de columnas que contienen los datos de origen a procesar. En **Opciones Archivo**: mediante listas desplegables, se asignan las columnas del archivo que contienen la información de:
 
@@ -391,15 +333,11 @@ La sección **“Configuración Coordenada de Partida”** dentro del bloque *Ar
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_8aebacaf.png)
-
-***Figura 27: ****Lista desplegable de encabezados a relacionar. ****Fuente: ****IGAC.*
+![Lista desplegable de encabezados a relacionar. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_8aebacaf.png){#fig-mp-lista-encabezados}
 
 
 
-![](media/anexo_26-conversion-y-transformacion/img_ef0da363.png)
-
-***Figura 28: ****Diligenciamiento de pasos para la obtención de coordenadas de salida. ****Fuente: ****IGAC.*
+![Diligenciamiento de pasos para la obtención de coordenadas de salida. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_ef0da363.png){#fig-mp-pasos-coordenadas-salida}
 
 En este apartado se seleccionará el sistema de referencia de las coordenadas de salida producto de la conversión entre las cuales se puede seleccionar: **MAGNA-SIRGAS Y Datum Bogotá, **para el presente a manera de ejemplo se seleccionará el sistema Magna Sirgas.
 

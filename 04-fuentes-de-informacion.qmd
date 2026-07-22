@@ -2,15 +2,9 @@
 
 En el contexto de los SIG, las fuentes de información juegan un papel clave al proporcionar la base de datos espaciales sobre la cual se elaboran mapas y análisis. Existen múltiples fuentes gratuitas disponibles para los municipios, que incluyen imágenes satelitales ópticas y de radar, modelos digitales de elevación (DEM), modelos de superficie (DSM) y modelos del terreno (DTM) (Lillesand et al., 2015; Campbell & Wynne, 2011).
 
-La teledetección permite monitorear la superficie terrestre mediante sensores a bordo de satélites, que capturan imágenes en distintas longitudes de onda del espectro electromagnético. Las imágenes ópticas registran energía reflejada, siendo útiles para detectar vegetación y humedad, mientras que los radares activos (como Sentinel-1) capturan información en condiciones de nubosidad o sin luz (ESA, 2022; Copernicus, 2021). Ver Figura 14
+La teledetección permite monitorear la superficie terrestre mediante sensores a bordo de satélites, que capturan imágenes en distintas longitudes de onda del espectro electromagnético. Las imágenes ópticas registran energía reflejada, siendo útiles para detectar vegetación y humedad, mientras que los radares activos (como Sentinel-1) capturan información en condiciones de nubosidad o sin luz (ESA, 2022; Copernicus, 2021). Ver @fig-imagenes-opticas-radar.
 
-
-
-![](media/04-fuentes-de-informacion/img_fd61a985.png)
-
-**Figura ****14****. **Tipos de imágenes: ópticas y radar. La Mojana. 
-
-Fuente. UNGRD, 2024.
+![Tipos de imágenes: ópticas y radar. La Mojana. Fuente: UNGRD, 2024.](media/04-fuentes-de-informacion/img_fd61a985.png){#fig-imagenes-opticas-radar}
 
 Además, plataformas SIG modernas permiten acceder a datos mediante servicios web interoperables como WMS (Web Map Service), WFS (Web Feature Service) y WCS (Web Coverage Service), que facilitan la visualización y análisis de datos geoespaciales desde servidores remotos (Esri, 2020). 
 
@@ -50,15 +44,11 @@ Marina
 
 **PLANET****SCOPE****: **Es una constelación de aproximadamente 130 satélites, capaz de obtener imágenes de toda la superficie terrestre de la Tierra todos los días (una capacidad de recolección diaria de 200 millones de km²/día). Las imágenes de PlanetScope tienen una resolución de aproximadamente 3 metros por píxel**.**
 
-PlanetScope permite mediante el índice diferencial de vegetación normalizado (NDVI), generar una imagen que muestra el color verde o biomasa relativa, que aporta valores en -1.0 y 1.0, lo que permite la categorización de la cobertura vegetal. Ver Figura 15
+PlanetScope permite mediante el índice diferencial de vegetación normalizado (NDVI), generar una imagen que muestra el color verde o biomasa relativa, que aporta valores en -1.0 y 1.0, lo que permite la categorización de la cobertura vegetal. Ver @fig-ndvi
 
 
 
-![](media/04-fuentes-de-informacion/img_a85bf52d.png)
-
-**Figura ****15****. **Índice diferencial de vegetación normalizado (NDVI). 
-
-Fuente. 
+![Índice diferencial de vegetación normalizado (NDVI).](media/04-fuentes-de-informacion/img_a85bf52d.png){#fig-ndvi}
 
 **Link acceso: **
 
@@ -108,11 +98,7 @@ En Colombia las imágenes satelitales de alta resolución se pueden descargar de
 
 
 
-![](media/04-fuentes-de-informacion/img_479eff90.png)
-
-**Figura ****16****. **Portal de descarga de imágenes satelitales de alta resolución. 
-
-Fuente. IGAC, 2024.
+![Portal de descarga de imágenes satelitales de alta resolución. Fuente: IGAC, 2024.](media/04-fuentes-de-informacion/img_479eff90.png){#fig-portal-descarga-alta-resolucion}
 
 ## 4.4. Geoportales disponibles {.unnumbered}
 
@@ -152,11 +138,7 @@ Además, esta plataforma ofrece herramientas de construcción de mapas a diferen
 
 
 
-![](media/04-fuentes-de-informacion/img_85cfbb5c.png)
-
-**Figura ****17****. **Geoportal Colombia en Mapas. 
-
-Fuente. IGAC, 2024.
+![Geoportal Colombia en Mapas. Fuente: IGAC, 2024.](media/04-fuentes-de-informacion/img_85cfbb5c.png){#fig-geoportal-colombia-en-mapas}
 
 ### Colombia OT {.unnumbered}
 
@@ -188,11 +170,7 @@ Para visualizar capas de interés, tenga en cuenta los siguientes pasos:
 
 
 
-![](media/04-fuentes-de-informacion/img_d49bee72.png)
-
-**Figura ****18****. **Portal Colombia OT. 
-
-Fuente. IGAC, 2024.
+![Portal Colombia OT. Fuente: IGAC, 2024.](media/04-fuentes-de-informacion/img_d49bee72.png){#fig-portal-colombia-ot}
 
 **Visor consolidado de atención a emergencias ****UNGRD**
 
@@ -204,11 +182,7 @@ Link de acceso:
 
 
 
-![](media/04-fuentes-de-informacion/img_919990ae.png)
-
-**Figura ****19****. **Consolidado de atención a emergencias
-
-Fuente. UNGRD, 2025.
+![Consolidado de atención a emergencias. Fuente: UNGRD, 2025.](media/04-fuentes-de-informacion/img_919990ae.png){#fig-consolidado-atencion-emergencias}
 
 ### Geoportal del Servicio Geológico Colombiano (SGC) {.unnumbered}
 
@@ -220,11 +194,7 @@ La información está almacenada en una geodatabase (GDB) corporativa y administ
 
 
 
-![](media/04-fuentes-de-informacion/img_3a8a5e7e.png)
-
-**Figura ****20****. **Geoportal Servicio Geológico Colombiano. 
-
-Fuente: SGC, 2024.
+![Geoportal Servicio Geológico Colombiano. Fuente: SGC, 2024.](media/04-fuentes-de-informacion/img_3a8a5e7e.png){#fig-geoportal-sgc}
 
 ### Motor de Integración de Información Geocientífica (MIIG) del Servicio Geológico Colombiano. {.unnumbered}
 
@@ -246,11 +216,7 @@ Este portal permite el acceso a las herramientas de gestión de series temporale
 
 
 
-![](media/04-fuentes-de-informacion/img_54395714.png)
-
-**Figura ****21****. **Geoportal IDEAM.
-
-Fuente. IDEAM.
+![Geoportal IDEAM. Fuente: IDEAM.](media/04-fuentes-de-informacion/img_54395714.png){#fig-geoportal-ideam}
 
 ### Geovisor OE-IECC: Índice de erosión costera de Colombia (INVEMAR) {.unnumbered}
 
@@ -264,11 +230,7 @@ La Operación estadística OE IECC o Índice de erosión costera de Colombia en 
 
 
 
-![](media/04-fuentes-de-informacion/img_f4bd2311.png)
-
-**Figura ****22****.** Geoportal INVEMAR.
-
-Fuente. INVEMAR.
+![Geoportal INVEMAR. Fuente: INVEMAR.](media/04-fuentes-de-informacion/img_f4bd2311.png){#fig-geoportal-invemar}
 
 ### Plataforma WildFire Solution del ORORATECH {.unnumbered}
 
@@ -278,9 +240,5 @@ Link manual de uso:
 
 
 
-![](media/04-fuentes-de-informacion/img_47c55e07.png)
-
-**Figura ****23****. **Geoportal WildFire Solution
-
-Fuente. ORORATECH
+![Geoportal WildFire Solution. Fuente: ORORATECH](media/04-fuentes-de-informacion/img_47c55e07.png){#fig-geoportal-wildfire}
 

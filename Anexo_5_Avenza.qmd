@@ -10,13 +10,11 @@ Implementación de los SIG en la gestión del riesgo de desastres con la aplicac
 
 ## ¿Qué es Avenza Maps? {.unnumbered}
 
-Avenza Maps (figura 1) es una app móvil (disponible en Android y iOS) que permite usar mapas georreferenciados en formato PDF o GeoTIFF, incluso sin conexión a internet. Es ideal para navegación en campo, toma de datos y elaboración de informes técnicos.
+Avenza Maps (@fig-av-avenza-maps) es una app móvil (disponible en Android y iOS) que permite usar mapas georreferenciados en formato PDF o GeoTIFF, incluso sin conexión a internet. Es ideal para navegación en campo, toma de datos y elaboración de informes técnicos.
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_a4be5e1b.png)
-
-*Figura 1. Avenza Maps*
+![Avenza Maps](media/anexo_45-que-es-avenza-maps/img_a4be5e1b.png){#fig-av-avenza-maps}
 
 Instalación y configuración inicial: 
 
@@ -42,55 +40,47 @@ Nombra el archivo con claridad: Mapa_ZonaX_Georreferenciado.pdf
 
 Importar a Avenza:
 
-En la app, pulsa el botón  “Agregar mapa” (figura 2). Después selecciona:
+En la app, pulsa el botón  “Agregar mapa” (@fig-av-agregar-mapa-paso1). Después selecciona:
 
 Desde el correo o Google Drive (si te lo enviaron).
 
 Desde “Archivos” si ya lo descargaste.
 
-El mapa aparecerá en tu lista (figura 3).
+El mapa aparecerá en tu lista (@fig-av-agregar-mapa-paso2).
 
 Tip: Si aparece una advertencia de que no está georreferenciado, asegúrate de que el PDF exportado tenga información espacial.
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_54208715.png)
-
-*Figura 2. Primer paso para insertar un mapa georeferenciado*
+![Primer paso para insertar un mapa georeferenciado](media/anexo_45-que-es-avenza-maps/img_54208715.png){#fig-av-agregar-mapa-paso1}
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_3cdeb73d.png)
-
-*Figura 3. Segundo paso para insertar un mapa georreferenciado*
+![Segundo paso para insertar un mapa georreferenciado](media/anexo_45-que-es-avenza-maps/img_3cdeb73d.png){#fig-av-agregar-mapa-paso2}
 
 **Uso en campo: Georreferenciación y recolección de Datos.**
 
 Navegación en tiempo real:
 
-El punto azul muestra tu posición GPS sobre el mapa cargado (figura 4).
+El punto azul muestra tu posición GPS sobre el mapa cargado (@fig-av-ubicacion-gps).
 
 Puedes activar “Rumbo” para ver hacia dónde estás orientado.
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_80b1fdde.png)
-
-*Figura 4. Ubicación del usuario en GPS sobre el mapa básico*
+![Ubicación del usuario en GPS sobre el mapa básico](media/anexo_45-que-es-avenza-maps/img_80b1fdde.png){#fig-av-ubicacion-gps}
 
 Añadir ubicaciones y notas (placemarks):
 
-Pulsa el ícono  y elige “Agregar ubicación” (figura 5).
+Pulsa el ícono  y elige “Agregar ubicación” (@fig-av-agregar-punto).
 
 Asigna un nombre: Ej. Punto_Deslizamiento_01.
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_c209b5e5.png)
+![Agregar un punto sobre el mapa](media/anexo_45-que-es-avenza-maps/img_c209b5e5.png){#fig-av-agregar-punto}
 
-*Figura 5. Agregar un punto sobre el mapa*
-
-Agrega atributos y datos adicionales (figura 6):
+Agrega atributos y datos adicionales (@fig-av-personalizacion-puntos):
 
 Fotografía (opcional).
 
@@ -104,11 +94,9 @@ Nuevos atributos a elección (Ejemplo: litología, datos estructurales, uso de s
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_825c7696.png)
+![Personalización de puntos y listado de atributos](media/anexo_45-que-es-avenza-maps/img_825c7696.png){#fig-av-personalizacion-puntos}
 
-*Figura 6. Personalización de puntos y listado de atributos*
-
-Genera datos en formato vectorial (figura 7):
+Genera datos en formato vectorial (@fig-av-trayectoria-vectores):
 
 Puedes grabar rutas en tiempo real con tu geolocalización en gps.
 
@@ -116,9 +104,7 @@ Dibujar líneas y polígonos personalizados
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_e1a0fba6.png)
-
-*Figura 7. Agregar trayectoria GPS y dibujar vectores sobre el mapa.*
+![Agregar trayectoria GPS y dibujar vectores sobre el mapa.](media/anexo_45-que-es-avenza-maps/img_e1a0fba6.png){#fig-av-trayectoria-vectores}
 
 Toma de fotos georreferenciadas
 
@@ -142,23 +128,19 @@ Autor y fecha.
 
 **Exportar los datos para informes.**
 
-Ve al mapa usado  ícono de capas  selecciona tus puntos (figura 8 y 9).
+Ve al mapa usado  ícono de capas  selecciona tus puntos (@fig-av-visualizacion-seleccion-datos y @fig-av-seleccion-capas).
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_15b42753.png)
-
-*Figura 8. Visualización y selección de datos tomados en el mapa cargado*
+![Visualización y selección de datos tomados en el mapa cargado](media/anexo_45-que-es-avenza-maps/img_15b42753.png){#fig-av-visualizacion-seleccion-datos}
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_23ba66c2.png)
+![Selección de capas para exportación.](media/anexo_45-que-es-avenza-maps/img_23ba66c2.png){#fig-av-seleccion-capas}
 
-*Figura 9. Selección de capas para exportación.*
+Elige “Exportar” y selecciona (@fig-av-exportacion-capas):
 
-Elige “Exportar” y selecciona (figura 10):
-
-KML/KMZ (Google Earth) (figura 11)
+KML/KMZ (Google Earth) (@fig-av-datos-exportados-google-earth)
 
 Shapefile (SHP) (QGIS, ArcGIS)
 
@@ -166,15 +148,11 @@ CSV (Excel)
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_a17c18bb.png)
-
-*Figura 10. Proceso de exportación de capas*
+![Proceso de exportación de capas](media/anexo_45-que-es-avenza-maps/img_a17c18bb.png){#fig-av-exportacion-capas}
 
 
 
-![](media/anexo_45-que-es-avenza-maps/img_486ef925.png)
-
-*Figura 11. Visualización de los datos exportados en Google earth*
+![Visualización de los datos exportados en Google earth](media/anexo_45-que-es-avenza-maps/img_486ef925.png){#fig-av-datos-exportados-google-earth}
 
 Envía por correo o guarda en Google Drive.
 

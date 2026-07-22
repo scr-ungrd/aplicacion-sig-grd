@@ -1,10 +1,10 @@
 # Referencias {.unnumbered}
 
-Ariza, F. J., & Rodríguez, A. F. (2008). *Introducción a la normalización en información geográfica. **Familia ISO 19100.*
+Ariza, F. J., & Rodríguez, A. F. (2008). *Introducción a la normalización en información geográfica. Familia ISO 19100*.
 
 Atlas de Expansión Urbana en Colombia. (s.f.). https://www.atlasexpansionurbanacolombia.org
 
-Barredo Cano, J. I. (1996). Sistemas de información geográfica y evaluación multicriterio en la ordenación del territorio. Ra-Ma.
+Barredo Cano, J. I. (1996). *Sistemas de información geográfica y evaluación multicriterio en la ordenación del territorio*. Ra-Ma.
 
 Burrough, P. A., & McDonnell, R. A. (1998). *Principles of Geographical Information Systems.* Oxford University Press.
 
@@ -14,7 +14,7 @@ Cámara de Comercio de Bogotá. (s.f.). https://www.recursos.ccb.org.co
 
 Chang, K.-T. (2015). *Introduction to Geographic Information Systems (7th ed.).* McGraw-Hill.
 
-Copernicus Open Access Hub. (2021). 
+Copernicus Open Access Hub. (2021).
 
 Cova, T. J. (1999). GIS in emergency management. In P. Longley, M. Goodchild, D. Maguire, & D. Rhind (Eds.), *Geographical Information Systems: Principles, Techniques, Applications and Management* (pp. 845–858). Wiley.
 
@@ -22,9 +22,9 @@ Cutter, S. L., Burton, C. G., & Emrich, C. T. (2010). Disaster resilience indica
 
 DANE, IGAC, DNP. (2009). *CONPES 3585. CONSOLIDACIÓN DE LA POLÍTICA NACIONAL DE INFORMACIÓN GEOGRÁFICA Y LA INFRAESTRUCTURA COLOMBIANA DE DATOS ESPACIALES - ICDE*.
 
-Dangermond, J. (2019). GIS: A framework for a better future. *ArcNews, Esri*. 
+Dangermond, J. (2019). GIS: A framework for a better future. *ArcNews, Esri*.
 
-DNP, DANE, IGAC, ANT. (2016). *CONPES 3859. **POLÍTICA PARA LA ADOPCIÓN E IMPLEMENTACIÓN DE UN CATASTRO MULTIPROPÓSITO RURAL-URBANO*.
+DNP, DANE, IGAC, ANT. (2016). *CONPES 3859. POLÍTICA PARA LA ADOPCIÓN E IMPLEMENTACIÓN DE UN CATASTRO MULTIPROPÓSITO RURAL-URBANO*.
 
 El Agrario. (s.f.). Agricultura NDVI: todo sobre la tecnología que está revolucionando el agro. https://www.elagrario.com/agricultura-ndvi-todo-sobre-la-tecnologia-que-esta-revolucionando-el-agro-10512.html
 
@@ -36,33 +36,33 @@ Esri. (2020). *GIS for Emergency Management.* Redlands, CA: Environmental System
 
 Esri. (2020). *GIS for Planning and Community Development.* Redlands, CA: Environmental Systems Research Institute.
 
-Esri. (2020). What is a digital surface model (DSM)? 
+Esri. (2020). What is a digital surface model (DSM)?
 
 Esri. (2020). *Web Services: WMS, WFS, and WCS Explained.* Redlands, CA: Environmental Systems Research Institute.
 
 Esri. (2020). *Understanding Map Projections.* Redlands, CA: Environmental Systems Research Institute.
 
-Esri. (2024). *Diccionario SIG*. Obtenido de Support Esri: 
+Esri. (2024). *Diccionario SIG*. Obtenido de Support Esri.
 
-European Space Agency. (2018). TSX (TerraSAR-X) Mission, 2018. Accessed March 26, 2019. Obtenido de 
+European Space Agency. (2018). TSX (TerraSAR-X) Mission, 2018. Accessed March 26, 2019.
 
-European Space Agency (ESA). (2022). *Sentinel Online.* 
+European Space Agency (ESA). (2022). *Sentinel Online.*
 
 Felicísimo, A. (1994). *Modelos digitales del terreno. Introducción y aplicaciones en las ciencias ambientales.* Pentalfa.
 
 Fernández y Del Río. (2011). *Sistemas de Información Geográfica para el ordenamiento territorial.* La Plata: Dirección Provincial de Ordenamiento Urbano y Territorial.
 
-Franco, R. (01 de Agosto de 2020). *MIXDYR*. Obtenido de Datum MAGNA-SIRGAS: 
+Franco, R. (01 de Agosto de 2020). *MIXDYR*. Obtenido de Datum MAGNA-SIRGAS.
 
 GIANNECCHINI, S, et al. (2006). Supporting Interoperable Geospatial Data Fusion by adopting OGC and ISO TC 211 standards. In: *9th International Conference on Information Fusion, (10-13/07/2006), Florence (Italy): The International Society of Information Fusion (ISIF) and IEEE.*
 
 Gonzales y Alvarado. (2016). *Propuesta de un sistema de información geográfico como herramienta para la gestión del riesgo en desastres naturales en la región de los lagos.*
 
-Goodchild, M. F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal, 69*(4), 211–221. 
+Goodchild, M. F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal, 69*(4), 211–221.
 
-Goodchild, M. F., & Glennon, J. A. (2010). Crowdsourcing geographic information for disaster response: A research frontier. *International Journal of Digital Earth, 3*(3), 231–241. 
+Goodchild, M. F., & Glennon, J. A. (2010). Crowdsourcing geographic information for disaster response: A research frontier. *International Journal of Digital Earth, 3*(3), 231–241.
 
-Gutiérrez Puebla, J., y Gould, M. (1994). SIG: Sistemas de información geográfica. Síntesis.
+Gutiérrez Puebla, J., y Gould, M. (1994). *SIG: Sistemas de información geográfica*. Síntesis.
 
 Heywood, I., Cornelius, S., & Carver, S. (2011). *An Introduction to Geographical Information Systems (4th ed.).* Pearson Education.
 
@@ -82,9 +82,9 @@ IGAC. (2020) Instituto Geográfico Agustín Codazzi. *Sistema de Referencia Geoc
 
 IGAC. (2020). *ABC. Nueva proyección cartográfica para Colombia. Origen Nacional*. Obtenido de ABC Nueva proyección cartográfica para Colombia. Origen Nacional.
 
-IGAC. (2024). *Instituto Geográfico Agustín Codazzi*. Obtenido de  (Consolida historia y hechos relevantes)
+IGAC. (2024). *Instituto Geográfico Agustín Codazzi*. Obtenido de Instituto Geográfico Agustín Codazzi (Consolida historia y hechos relevantes).
 
-IGAC. (2024). *Instituto Geográfico Agustín Codazzi*. Obtenido de 
+IGAC. (2024). *Instituto Geográfico Agustín Codazzi*.
 
 IGAC. (s.f.). Modelo geoidal de Colombia. Instituto Geográfico Agustín Codazzi. https://antiguo.igac.gov.co/es/contenido/areas-estrategicas/modelo-geoidal-de-colombia
 
@@ -110,23 +110,23 @@ MIN-LANG, H., & JUNG-HONG, H. (2010). A geospatial service approach for debris f
 
 Montilla, A., y Cantaya S.,(2010). *La gestión de riesgos de desastres y el uso de Sistemas de Información Geográfica: Algunas consideraciones.*
 
-National Research Council. (2007). *Successful Response Starts with a Map: Improving Geospatial Support for Disaster Management.* Washington, DC: The National Academies Press. 
+National Research Council. (2007). *Successful Response Starts with a Map: Improving Geospatial Support for Disaster Management.* Washington, DC: The National Academies Press.
 
 Olaya, V. (2014). Sistemas de información geográfica. https://volaya.github.io/libro-sig/
 
 OroraTech. (s.f.). WildFire Solution [nota: falta URL específica citada en el documento original; verificar con el autor de la figura].
 
-Reef Resilience Network. (2024). Obtenido de 
+Reef Resilience Network. (2024).
 
 Restrepo, J. D., & Syvitski, J. P. M. (2006). Assessing the effect of natural controls and land use change on sediment yield in a major Andean river: The Magdalena drainage basin, Colombia. AMBIO: A Journal of the Human Environment, 35(2), 65–74. https://doi.org/10.1579/0044-7447(2006)35[65:ATEONC]2.0.CO;2
 
 SERTIT, & Oficina de las Naciones Unidas para Asuntos del Espacio Ultraterrestre (UNOOSA). (s.f.). Introducción a la percepción remota para la gestión de desastres. UN-SPIDER.
 
-SGC. (2024). *Motor de Integración de Información Geocientífica. Servicio Geológico Colombiano*. Obtenido de 
+SGC. (2024). *Motor de Integración de Información Geocientífica. Servicio Geológico Colombiano*.
 
-Schwarz, K. P., Sideris, M. G., & Forsberg, R. (1990). The use of airborne gravimetry for geoid determination. *Journal of Geophysical Research: Solid Earth, 95*(B12), 21823–21834. 
+Schwarz, K. P., Sideris, M. G., & Forsberg, R. (1990). The use of airborne gravimetry for geoid determination. *Journal of Geophysical Research: Solid Earth, 95*(B12), 21823–21834.
 
-Sithole, G., & Vosselman, G. (2004). Experimental comparison of filter algorithms for bare-earth extraction from airborne laser scanning point clouds. *ISPRS Journal of Photogrammetry and Remote Sensing, 59*(1–2), 85–101. 
+Sithole, G., & Vosselman, G. (2004). Experimental comparison of filter algorithms for bare-earth extraction from airborne laser scanning point clouds. *ISPRS Journal of Photogrammetry and Remote Sensing, 59*(1–2), 85–101.
 
 Snyder, J. P. (1987). *Map Projections: A Working Manual.* U.S. Geological Survey Professional Paper 1395.
 
@@ -142,9 +142,9 @@ UNGRD. (2023). *La comunicación en la gestión del riesgo de desastres. El pape
 
 UNIGIS. (2019). Obtenido de *Blog del Máster en Tecnologías de la Información Geográfica y Ciencia de Datos Espaciales.*
 
-USGS (United States Geological Survey). (2020). *3D Elevation Program (3DEP) Fact Sheet.* 
+USGS (United States Geological Survey). (2020). *3D Elevation Program (3DEP) Fact Sheet.*
 
-USGS – United States Geological Survey). (2021). *EarthExplorer Platform.* 
+USGS (United States Geological Survey). (2021). *EarthExplorer Platform.*
 
 Vanicek, P. and Steeves, R. (1996). Transformation of coordinates between two horizontal geodetic datums. *Journal of Geodesy.*
 
@@ -156,9 +156,5 @@ Williamson, I., Rajabifard, A., & Enemark, S. (2010). *Land Administration for S
 
 Wilson, J. P., & Gallant, J. C. (2000). *Terrain Analysis: Principles and Applications.* Wiley.
 
-ZHONG, S. (2010). The Distributed Platform for Geographic Information Service Based on ArcGIS Server and OGC. In: *6th International Conference Wireless Communications Networking and Mobile Computing, WiCOM 2010, (23-25/09/2010**),.** Chengdu (China)*
-
-
-
-![](media/10-referencias/img_1f4a4c7e.x-emf)
+ZHONG, S. (2010). The Distributed Platform for Geographic Information Service Based on ArcGIS Server and OGC. In: *6th International Conference Wireless Communications Networking and Mobile Computing, WiCOM 2010, (23-25/09/2010), Chengdu (China)*.
 

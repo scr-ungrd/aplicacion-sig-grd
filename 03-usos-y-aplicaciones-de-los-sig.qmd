@@ -2,15 +2,9 @@
 
 Las áreas de uso práctico de los SIG abarcan varios sectores; desde un inventario de los recursos naturales y humanos hasta el control y la gestión de datos catastrales urbanos y rurales a través del catastro multipropósito y en la planificación y gestión urbana (IGAC, 2018; Williamson et al., 2010). Además, son esenciales para la cartografía y el monitoreo de grandes instalaciones, como redes telefónicas, sistemas de abastecimiento y evacuación de aguas y las redes de transporte (Longley et al., 2015; Esri, 2013; Heywood et al., 2011)
 
-Se requieren también en sectores como el bancario, sanitario, logístico de transporte, las telecomunicaciones, movilidad vial, el medio ambiente y el geológico minero (Pindo, 2007). En resumen, un sistema de información geográfica es útil en cualquier área donde sea necesario el manejo de información espacial (Bosque, 2000) brindando apoyo a diversas funciones y procesos. Ver Figura 3.
+Se requieren también en sectores como el bancario, sanitario, logístico de transporte, las telecomunicaciones, movilidad vial, el medio ambiente y el geológico minero (Pindo, 2007). En resumen, un sistema de información geográfica es útil en cualquier área donde sea necesario el manejo de información espacial (Bosque, 2000) brindando apoyo a diversas funciones y procesos. Ver @fig-funciones-sig.
 
-
-
-![](media/03-usos-y-aplicaciones-de-los-sig/img_d76deeae.png)
-
-**Figura ****3****.** Funciones de un SIG. 
-
-Fuente: Lozada, 2017.
+![Funciones de un SIG. Fuente: Lozada, 2017.](media/03-usos-y-aplicaciones-de-los-sig/img_d76deeae.png){#fig-funciones-sig}
 
 ## Conceptos básicos de los SIG {.unnumbered}
 
@@ -18,61 +12,35 @@ Para elaborar insumos con SIG, se requiere conocer una serie de conceptos previo
 
 ### Componentes básicos de los SIG {.unnumbered}
 
-Son cinco los elementos principales que conforman un SIG: datos, métodos, software, hardware y factor organizativo o personal (Esri, 2003). Ver Figura 4.
+Son cinco los elementos principales que conforman un SIG: datos, métodos, software, hardware y factor organizativo o personal (Esri, 2003). Ver @fig-componentes-sig.
 
-
-
-![](media/03-usos-y-aplicaciones-de-los-sig/img_6c9c53b4.png)
-
-**Figura ****4****.** Componentes de un SIG.
-
-Fuente. Esri, 2003.
+![Componentes de un SIG. Fuente: Esri, 2003.](media/03-usos-y-aplicaciones-de-los-sig/img_6c9c53b4.png){#fig-componentes-sig}
 
 3.1.1.1. Formato de Datos:  
 
-Son una representación simbólica (numérica, alfabética, espacial, etc.) de un atributo o variable cuantitativa o cualitativa (Ministerio de Educación, 2021). Existen dos tipos de datos vectorial (puntos, líneas y polígonos) o raster (basado en cuadrículas). Ver la Figura 5.
+Son una representación simbólica (numérica, alfabética, espacial, etc.) de un atributo o variable cuantitativa o cualitativa (Ministerio de Educación, 2021). Existen dos tipos de datos vectorial (puntos, líneas y polígonos) o raster (basado en cuadrículas). Ver la @fig-raster-vector.
 
-
-
-![](media/03-usos-y-aplicaciones-de-los-sig/img_46c3071e.png)
-
-**Figura ****5****.** Representaciones raster y vector de realidades físicas.
-
-Fuente: García, 2008.
+![Representaciones raster y vector de realidades físicas. Fuente: García, 2008.](media/03-usos-y-aplicaciones-de-los-sig/img_46c3071e.png){#fig-raster-vector}
 
 A continuación, se hará la descripción de los modelos teniendo como base las definiciones enunciadas en el trabajo de Santos y Cocero, (2008):
 
 **Modelo r****aster:** el espacio está dividido en celdas (píxeles), de manera que cualquier información del mundo real se codifica sobre este formato espacial, al sobreponer la retícula o malla sobre el territorio. A través de un sistema de referencia apropiado, se establecería una relación biyectiva entre las celdas de una cuadrícula y un conjunto de áreas elementales de la superficie terrestre. 
 
-El modelo raster estructura la información temática, individualmente, para cada uno de los atributos. De esta manera, la información se almacenaría en capas independientes, para cada una de las variables a representar. La Figura 6 muestra la forma de organizar la información de un territorio determinado, mediante capas que recogen la variación espacial de la altitud, usos del suelo, litología, pendiente del terreno, orientación, etc. 
+El modelo raster estructura la información temática, individualmente, para cada uno de los atributos. De esta manera, la información se almacenaría en capas independientes, para cada una de las variables a representar. La @fig-capas-tematicas-raster muestra la forma de organizar la información de un territorio determinado, mediante capas que recogen la variación espacial de la altitud, usos del suelo, litología, pendiente del terreno, orientación, etc. 
 
 
 
-![](media/03-usos-y-aplicaciones-de-los-sig/img_bc5d2d6f.png)
+![Capas temáticas de la información en el modelo raster. Fuente: Barredo, 1996.](media/03-usos-y-aplicaciones-de-los-sig/img_bc5d2d6f.png){#fig-capas-tematicas-raster}
 
-**Figura ****6****.** Capas temáticas de la información en el modelo raster. 
-
-Fuente: Barredo, 1996.
-
-Los datos geográficos del mundo real quedan representados, de acuerdo a la correspondencia de las figuras geométricas elementales planas y el formato raster. Así, los elementos puntuales serían reemplazados por celdas individuales, los lineales por una secuencia de celdas alineadas y los polígonos por celdas contiguas del mismo valor temático. Ver Figura 7 
+Los datos geográficos del mundo real quedan representados, de acuerdo a la correspondencia de las figuras geométricas elementales planas y el formato raster. Así, los elementos puntuales serían reemplazados por celdas individuales, los lineales por una secuencia de celdas alineadas y los polígonos por celdas contiguas del mismo valor temático. Ver @fig-objetos-geograficos-raster.
 
 
 
-![](media/03-usos-y-aplicaciones-de-los-sig/img_5402fa5b.png)
+![Representación de los objetos geográficos (puntos, líneas y polígonos) en el modelo raster. Fuente: Gutiérrez y Gould, 1994.](media/03-usos-y-aplicaciones-de-los-sig/img_5402fa5b.png){#fig-objetos-geograficos-raster}
 
-**Figura ****7****.** Representación de los objetos geográficos (puntos, líneas y polígonos) en el modelo raster. 
+**Modelo vectorial**: En el modelo vectorial, los elementos geográficos lo constituyen: puntos, líneas y polígonos, implica el posicionamiento relativo de los mismos en el espacio. La forma natural de reflejar esta situación es la geocodificación de las entidades espaciales, respecto a unos ejes de coordenadas. Los puntos, como objetos adimensionales, quedarían representados por un par de coordenadas (x, y). Las líneas y polígonos se construirían a partir de estas unidades elementales, ya que constituyen, bien una sucesión abierta de puntos, en el caso de las líneas, o una sucesión de puntos que cierra el espacio, donde las coordenadas del primero y del último de los puntos coinciden, en el caso del polígono. Ver @fig-elementos-vectoriales.
 
-Fuente: Gutiérrez. y Gould, 1994.
-
-**Modelo vectorial**: En el modelo vectorial, los elementos geográficos lo constituyen: puntos, líneas y polígonos, implica el posicionamiento relativo de los mismos en el espacio. La forma natural de reflejar esta situación es la geocodificación de las entidades espaciales, respecto a unos ejes de coordenadas. Los puntos, como objetos adimensionales, quedarían representados por un par de coordenadas (x, y). Las líneas y polígonos se construirían a partir de estas unidades elementales, ya que constituyen, bien una sucesión abierta de puntos, en el caso de las líneas, o una sucesión de puntos que cierra el espacio, donde las coordenadas del primero y del último de los puntos coinciden, en el caso del polígono. Ver Figura 8.
-
-
-
-![](media/03-usos-y-aplicaciones-de-los-sig/img_389af93f.png)
-
-**Figura ****8****.** Representación de los elementos espaciales vectoriales (punto, línea y polígono) en un sistema de coordenadas cartesiano. 
-
-**Fuente.** Gutiérrez. y Gould, 1994.
+![Representación de los elementos espaciales vectoriales (punto, línea y polígono) en un sistema de coordenadas cartesiano. Fuente: Gutiérrez y Gould, 1994.](media/03-usos-y-aplicaciones-de-los-sig/img_389af93f.png){#fig-elementos-vectoriales}
 
 En el modelo vectorial, es importante diferenciar las estructuras de datos cartográficas y topológicas. Las primeras manifiestan, exclusivamente, la forma y posición de los objetos espaciales, por lo que la expresión de los puntos, líneas y polígonos, por sus coordenadas respectivas, es suficiente para definirlos. La estructura topológica define, bien la conectividad de los arcos en las intersecciones, bien las relaciones de contigüidad entre polígonos.
 
@@ -122,15 +90,9 @@ El Modelo Digital de Superficie (DMS) representa las altitudes de todos los obje
 
 ### 3.1.4. Modelo Digital de Terreno (DTM) {.unnumbered}
 
-Por su parte, el Modelo Digital de Terreno (DTM) representa de forma más detallada las características topográficas del terreno, ya que se deriva del DEM e incorpora elementos como líneas de cresta, canales de drenaje o líneas de ruptura (Felicísimo, 1994; Wilson & Gallant, 2000). Se estructura normalmente como una red de puntos vectoriales distribuidos regularmente, con atributos que permiten enriquecer el análisis espacial (Burrough & McDonnell, 1998). En la Figura 9 se observa la diferencia de los modelos digitales.
+Por su parte, el Modelo Digital de Terreno (DTM) representa de forma más detallada las características topográficas del terreno, ya que se deriva del DEM e incorpora elementos como líneas de cresta, canales de drenaje o líneas de ruptura (Felicísimo, 1994; Wilson & Gallant, 2000). Se estructura normalmente como una red de puntos vectoriales distribuidos regularmente, con atributos que permiten enriquecer el análisis espacial (Burrough & McDonnell, 1998). En la @fig-diferencia-dms-dem-dtm se observa la diferencia de los modelos digitales.
 
-
-
-![](media/03-usos-y-aplicaciones-de-los-sig/img_ad925e4a.png)
-
-**Figura ****9****. **Diferencia entre DMS, DEM y DTM.
-
-Fuente: UNGRD, 2024.
+![Diferencia entre DMS, DEM y DTM. Fuente: UNGRD, 2024.](media/03-usos-y-aplicaciones-de-los-sig/img_ad925e4a.png){#fig-diferencia-dms-dem-dtm}
 
 ### 3.1.5. Servicios web geográficos  {.unnumbered}
 
@@ -148,17 +110,13 @@ Open Geospatial Consortium (OGC) un consorcio mundial para el consenso de están
 
 La información georreferenciada se caracteriza por estar asociada a una ubicación específica en la superficie terrestre, expresada mediante coordenadas dentro de un sistema de referencia espacial (Chang, 2015; Iliffe & Lott, 2008). La precisión en esta localización depende de la geodesia, ciencia que estudia la forma y dimensiones de la Tierra, la cual no es perfectamente esférica, sino que se aproxima a un elipsoide achatado en los polos (Hofmann-Wellenhof & Moritz, 2005; Snyder, 1987).
 
-En este contexto, se utilizan dos superficies de referencia: el elipsoide, una figura matemática ideal que modela la forma general del planeta, y el geoide, una superficie equipotencial del campo gravitacional terrestre, más representativa del nivel medio del mar (Schwarz et al., 1990; IGAC, 2021). Ver Figura 10.
+En este contexto, se utilizan dos superficies de referencia: el elipsoide, una figura matemática ideal que modela la forma general del planeta, y el geoide, una superficie equipotencial del campo gravitacional terrestre, más representativa del nivel medio del mar (Schwarz et al., 1990; IGAC, 2021). Ver @fig-tierra-geoide-elipsoide.
 
 El conjunto formado por el elipsoide y un punto de tangencia con la superficie terrestre forma un ***datum ***
 
 
 
-![](media/03-usos-y-aplicaciones-de-los-sig/img_bae63cb4.png)
-
-**Figura ****10****.** Representación Tierra, Geoide Elipsoide.
-
-Fuente: Mancebo Quintana et al. (2008) 
+![Representación Tierra, Geoide Elipsoide. Fuente: Mancebo Quintana et al. (2008)](media/03-usos-y-aplicaciones-de-los-sig/img_bae63cb4.png){#fig-tierra-geoide-elipsoide}
 
 Otro aspecto importante al trabajar con un SIG es el uso de proyecciones cartográficas, que permiten representar la superficie curva de la Tierra en un plano mediante modelos matemáticos. Estas proyecciones transforman coordenadas geográficas (esféricas o elipsoidales) en coordenadas planas, lo que es fundamental para la elaboración precisa de mapas (Snyder, 1987; Iliffe & Lott, 2008).
 
@@ -170,43 +128,31 @@ El IGAC define un sistema de coordenadas como el conjunto de parámetros que per
 
 Para asignar coordenadas a un punto en función de los elementos anteriores es necesario definir un **sistema de referencia**. Las coordenadas geográficas han sido utilizadas tradicionalmente, y son de utilidad para grandes zonas. Sin embargo, las coordenadas cartesianas resultan más intuitivas y prácticas al momento de generar ciertos productos, a raíz de esto surgen las **proyecciones cartográficas** definidas como el método que representa la superficie curva de la tierra sobre un plano, que son los que se emplean para la creación de la cartografía.
 
-3.3.1. Sistema de Coordenadas Geográficas: es el sistema de referencia para localizar elementos espaciales en la superficie terrestre. Está definido por las medidas angulares: longitud y la latitud. La primera mide el ángulo este u oeste desde el primer meridiano y la segunda mide el ángulo norte o sur del plano ecuatorial. Las unidades son angulares, generalmente en grados . Ver Figura 11.
+3.3.1. Sistema de Coordenadas Geográficas: es el sistema de referencia para localizar elementos espaciales en la superficie terrestre. Está definido por las medidas angulares: longitud y la latitud. La primera mide el ángulo este u oeste desde el primer meridiano y la segunda mide el ángulo norte o sur del plano ecuatorial. Las unidades son angulares, generalmente en grados. Ver @fig-coordenadas-geograficas.
 
 
 
-![](media/03-usos-y-aplicaciones-de-los-sig/img_0a77336f.png)
-
-**Figura ****11****.** Esquema de los elementos del sistema de coordenadas geográficas.
-
-Fuente: 
+![Esquema de los elementos del sistema de coordenadas geográficas.](media/03-usos-y-aplicaciones-de-los-sig/img_0a77336f.png){#fig-coordenadas-geograficas}
 
 ## 3.4. Proyección cartográfica en Colombia {.unnumbered}
 
 Una proyección cartográfica es un método que transforma las coordenadas geográficas (latitud y longitud) en coordenadas planas (X,Y) sobre un plano, lo que permite representar la superficie curva de la Tierra en mapas ya sea en papel o digital. En Colombia, antes del actual sistema MAGNA-SIRGAS Origen Nacional, el país aplicaba el *Datum Bogotá* adoptado en 1941 y el sistema MAGNA-SIRGAS de seis orígenes adoptado en el 2005 y asociado a una proyección Transversa de Mercator de tipo *tangente*, mientras actualmente es de tipo ***secante*** **(IGAC, 202****0****)****.**
 
-A continuación, en la Figura 12 se evidencia la cronología de las resoluciones técnicas en producción de información georreferenciada según el IGAC desde el año 2005 hasta el año 2020.
+A continuación, en la @fig-cronologia-igac-2005-2020 se evidencia la cronología de las resoluciones técnicas en producción de información georreferenciada según el IGAC desde el año 2005 hasta el año 2020.
 
 
 
-![](media/03-usos-y-aplicaciones-de-los-sig/img_d2b76772.png)
-
-**Figura ****12****.** Cronología IGAC desde 2005 hasta 2020.
-
-Fuente. IGAC, 2020.
+![Cronología IGAC desde 2005 hasta 2020. Fuente: IGAC, 2020.](media/03-usos-y-aplicaciones-de-los-sig/img_d2b76772.png){#fig-cronologia-igac-2005-2020}
 
 Si bien no existe un método perfecto de proyección, la definición de un sistema de proyección de origen nacional en Colombia, busca garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país . Por este motivo, mediante la Resolución 388, actualizada con la Resolución 509, la Resolución 471 actualizada con la Resolución 529, expedidas en el año 2020 por el Instituto Geográfico Agustín Codazzi - IGAC, reglamenta el uso de un nuevo Origen de Proyección Cartográfica: **MAGNA SIRGAS - ORIGEN NACIONAL**** CTM-12** para la gestión, integración y uso de la información de la Cartografía Básica para fines oficiales. 
 
 Al sistema Origen Nacional se le conoció al principio como CTM12, ya que se planteó referida a una banda continental con un ancho de 12º de longitud, pero su nombre oficial es MAGNA-SIRGAS Origen-Nacional. El Datum que usa el sistema sigue siendo Marco Geodésico Nacional, MAGNA-SIRGAS, es decir el mismo que se usaba antes cuando eran seis orígenes.
 
-Mediante la Resolución IGAC 370 de 2021 se establece la proyección cartográfica “Transversa Mercator” como sistema oficial de coordenadas planas para Colombia, con el único origen denominado “Origen Nacional» referido al Marco Geocéntrico Nacional de Referencia, MAGNA SIRGAS. Ver Figura 13.
+Mediante la Resolución IGAC 370 de 2021 se establece la proyección cartográfica “Transversa Mercator” como sistema oficial de coordenadas planas para Colombia, con el único origen denominado “Origen Nacional» referido al Marco Geocéntrico Nacional de Referencia, MAGNA SIRGAS. Ver @fig-origen-nacional-puerto-lopez.
 
 
 
-![](media/03-usos-y-aplicaciones-de-los-sig/img_3c25b477.png)
-
-**Figura ****13****.** El origen nacional se encuentra cerca a Puerto López, Meta.
-
-Fuente: IGAC, 2024.
+![El origen nacional se encuentra cerca a Puerto López, Meta. Fuente: IGAC, 2024.](media/03-usos-y-aplicaciones-de-los-sig/img_3c25b477.png){#fig-origen-nacional-puerto-lopez}
 
 **El nuevo sistema debe ser adoptado para todas aquellas entidades que produzcan, usen o compartan información geográfica oficial y/o pretendan representar sus datos sobre cartografía IGAC**. El proceso de transición por parte de las instituciones al uso de la proyección de origen nacional se debe realizar de manera paulatina.
 
