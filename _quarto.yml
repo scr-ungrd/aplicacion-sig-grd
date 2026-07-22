@@ -35,8 +35,11 @@ book:
 
 lang: es
 
-csl: vancouver-apa-hybrid.csl
+bibliography: references.bib
+csl: apa.csl
 link-citations: true
+nocite: |
+  @*
 
 crossref:
   fig-prefix: "Figura"

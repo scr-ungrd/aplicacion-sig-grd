@@ -1,6 +1,6 @@
 # Usos y aplicaciones de los SIG {.unnumbered}
 
-Las áreas de uso práctico de los SIG abarcan varios sectores; desde un inventario de los recursos naturales y humanos hasta el control y la gestión de datos catastrales urbanos y rurales a través del catastro multipropósito y en la planificación y gestión urbana (IGAC, 2018; Williamson et al., 2010). Además, son esenciales para la cartografía y el monitoreo de grandes instalaciones, como redes telefónicas, sistemas de abastecimiento y evacuación de aguas y las redes de transporte (Longley et al., 2015; Esri, 2013; Heywood et al., 2011)
+Las áreas de uso práctico de los SIG abarcan varios sectores; desde un inventario de los recursos naturales y humanos hasta el control y la gestión de datos catastrales urbanos y rurales a través del catastro multipropósito y en la planificación y gestión urbana [@igac2018a; @williamson2010]. Además, son esenciales para la cartografía y el monitoreo de grandes instalaciones, como redes telefónicas, sistemas de abastecimiento y evacuación de aguas y las redes de transporte [@longley2015; @esri2013a; @heywood2011]
 
 Se requieren también en sectores como el bancario, sanitario, logístico de transporte, las telecomunicaciones, movilidad vial, el medio ambiente y el geológico minero (Pindo, 2007). En resumen, un sistema de información geográfica es útil en cualquier área donde sea necesario el manejo de información espacial (Bosque, 2000) brindando apoyo a diversas funciones y procesos. Ver @fig-funciones-sig.
 
@@ -60,7 +60,7 @@ Con el fin de que los equipos encargados de la gestión del riesgo de desastres 
 
 ### 3.1.2. Modelo Digital de Elevación (DEM) {.unnumbered}
 
-Un Modelo Digital de Elevación (DEM) representa la altitud del terreno respecto al nivel del mar, sin incluir elementos construidos o naturales presentes sobre la superficie, como edificios, árboles o postes (Chang, 2015; Li et al., 2005). Este modelo del terreno es ampliamente utilizado en estudios hidrológicos para el delineamiento de cuencas, análisis de acumulación y dirección del flujo, así como en estudios de suelos y planificación del uso del suelo (Wilson & Gallant, 2000; Burrough & McDonnell, 1998; USGS, 2020). 
+Un Modelo Digital de Elevación (DEM) representa la altitud del terreno respecto al nivel del mar, sin incluir elementos construidos o naturales presentes sobre la superficie, como edificios, árboles o postes [@chang2015; @li2005]. Este modelo del terreno es ampliamente utilizado en estudios hidrológicos para el delineamiento de cuencas, análisis de acumulación y dirección del flujo, así como en estudios de suelos y planificación del uso del suelo [@wilson2000; @burrough1998; @usgs2020]. 
 
 Los métodos más utilizados para recolectar información necesaria para la creación de los DEM, son principalmente métodos de teledetección, como:
 
@@ -86,11 +86,11 @@ SRTM 90m:
 
 ### 3.1.3. Modelo Digital de Superficie (DMS) {.unnumbered}
 
-El Modelo Digital de Superficie (DMS) representa las altitudes de todos los objetos que se encuentran sobre la superficie terrestre, incluyendo copas de árboles, techos de edificios, torres y líneas eléctricas (Esri, 2020; Li et al., 2005). Este modelo es ampliamente utilizado en aplicaciones de modelado 3D, como telecomunicaciones, planificación urbana y navegación aérea, ya que permite identificar obstáculos y estructuras elevadas (Sithole & Vosselman, 2004).
+El Modelo Digital de Superficie (DMS) representa las altitudes de todos los objetos que se encuentran sobre la superficie terrestre, incluyendo copas de árboles, techos de edificios, torres y líneas eléctricas [@esri2020c; @li2005]. Este modelo es ampliamente utilizado en aplicaciones de modelado 3D, como telecomunicaciones, planificación urbana y navegación aérea, ya que permite identificar obstáculos y estructuras elevadas [@sithole2004].
 
 ### 3.1.4. Modelo Digital de Terreno (DTM) {.unnumbered}
 
-Por su parte, el Modelo Digital de Terreno (DTM) representa de forma más detallada las características topográficas del terreno, ya que se deriva del DEM e incorpora elementos como líneas de cresta, canales de drenaje o líneas de ruptura (Felicísimo, 1994; Wilson & Gallant, 2000). Se estructura normalmente como una red de puntos vectoriales distribuidos regularmente, con atributos que permiten enriquecer el análisis espacial (Burrough & McDonnell, 1998). En la @fig-diferencia-dms-dem-dtm se observa la diferencia de los modelos digitales.
+Por su parte, el Modelo Digital de Terreno (DTM) representa de forma más detallada las características topográficas del terreno, ya que se deriva del DEM e incorpora elementos como líneas de cresta, canales de drenaje o líneas de ruptura [@felicisimo1994; @wilson2000]. Se estructura normalmente como una red de puntos vectoriales distribuidos regularmente, con atributos que permiten enriquecer el análisis espacial [@burrough1998]. En la @fig-diferencia-dms-dem-dtm se observa la diferencia de los modelos digitales.
 
 ![Diferencia entre DMS, DEM y DTM. Fuente: UNGRD, 2024.](media/03-usos-y-aplicaciones-de-los-sig/img_ad925e4a.png){#fig-diferencia-dms-dem-dtm}
 
@@ -108,9 +108,9 @@ Open Geospatial Consortium (OGC) un consorcio mundial para el consenso de están
 
 ## 3.2. Fundamentos cartográficos  {.unnumbered}
 
-La información georreferenciada se caracteriza por estar asociada a una ubicación específica en la superficie terrestre, expresada mediante coordenadas dentro de un sistema de referencia espacial (Chang, 2015; Iliffe & Lott, 2008). La precisión en esta localización depende de la geodesia, ciencia que estudia la forma y dimensiones de la Tierra, la cual no es perfectamente esférica, sino que se aproxima a un elipsoide achatado en los polos (Hofmann-Wellenhof & Moritz, 2005; Snyder, 1987).
+La información georreferenciada se caracteriza por estar asociada a una ubicación específica en la superficie terrestre, expresada mediante coordenadas dentro de un sistema de referencia espacial [@chang2015; @iliffe2008]. La precisión en esta localización depende de la geodesia, ciencia que estudia la forma y dimensiones de la Tierra, la cual no es perfectamente esférica, sino que se aproxima a un elipsoide achatado en los polos [@hofmannwellenhof2005; @snyder1987].
 
-En este contexto, se utilizan dos superficies de referencia: el elipsoide, una figura matemática ideal que modela la forma general del planeta, y el geoide, una superficie equipotencial del campo gravitacional terrestre, más representativa del nivel medio del mar (Schwarz et al., 1990; IGAC, 2021). Ver @fig-tierra-geoide-elipsoide.
+En este contexto, se utilizan dos superficies de referencia: el elipsoide, una figura matemática ideal que modela la forma general del planeta, y el geoide, una superficie equipotencial del campo gravitacional terrestre, más representativa del nivel medio del mar [@schwarz1990] (IGAC, 2021). Ver @fig-tierra-geoide-elipsoide.
 
 El conjunto formado por el elipsoide y un punto de tangencia con la superficie terrestre forma un ***datum ***
 
@@ -118,9 +118,9 @@ El conjunto formado por el elipsoide y un punto de tangencia con la superficie t
 
 ![Representación Tierra, Geoide Elipsoide. Fuente: Mancebo Quintana et al. (2008)](media/03-usos-y-aplicaciones-de-los-sig/img_bae63cb4.png){#fig-tierra-geoide-elipsoide}
 
-Otro aspecto importante al trabajar con un SIG es el uso de proyecciones cartográficas, que permiten representar la superficie curva de la Tierra en un plano mediante modelos matemáticos. Estas proyecciones transforman coordenadas geográficas (esféricas o elipsoidales) en coordenadas planas, lo que es fundamental para la elaboración precisa de mapas (Snyder, 1987; Iliffe & Lott, 2008).
+Otro aspecto importante al trabajar con un SIG es el uso de proyecciones cartográficas, que permiten representar la superficie curva de la Tierra en un plano mediante modelos matemáticos. Estas proyecciones transforman coordenadas geográficas (esféricas o elipsoidales) en coordenadas planas, lo que es fundamental para la elaboración precisa de mapas [@snyder1987; @iliffe2008].
 
-Los elementos de la geodesia —como el sistema de referencia y el datum geodésico— junto con las proyecciones cartográficas, hacen posible la producción de cartografía a partir de información georreferenciada (Chang, 2015; Burrough & McDonnell, 1998). 
+Los elementos de la geodesia —como el sistema de referencia y el datum geodésico— junto con las proyecciones cartográficas, hacen posible la producción de cartografía a partir de información georreferenciada [@chang2015; @burrough1998]. 
 
 ## 3.3. Sistemas de coordenadas {.unnumbered}
 
