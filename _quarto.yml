@@ -11,7 +11,6 @@ book:
   
   repo-url: https://github.com/scr-ungrd/aplicacion-sig-grd
   repo-actions: [source, issue]
-  downloads: [pdf]
   site-url: https://scr-ungrd.github.io/aplicacion-sig-grd
   sidebar:
     style: floating
@@ -70,6 +69,5 @@ format:
           <meta name="citation_online_date" content="2026/02/03">
           <meta name="citation_doi" content="10.5281/zenodo.21518659">
           <meta name="citation_language" content="es">
-          <meta name="citation_pdf_url" content="https://scr-ungrd.github.io/aplicacion-sig-grd/Aplicacion_SIG_en_la_Gestion_del_Riesgo_de_Desastres_para_Colombia.pdf">
           <meta name="robots" content="index, follow">
     html-math-method: katex
