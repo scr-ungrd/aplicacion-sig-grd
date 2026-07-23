@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Si usa este libro, por favor cítelo de la siguiente manera."
+title: "Aplicación de los Sistemas de Información Geográfica (SIG) en la Gestión del Riesgo de Desastres"
+type: software
+authors:
+  - name: "Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)"
+    alias: UNGRD
+  - family-names: "Romero Torres"
+    given-names: Mauricio
+date-released: "2026-02-03"
+version: "1.0.0"
+doi: "10.5281/zenodo.21518659"
+url: "https://scr-ungrd.github.io/aplicacion-sig-grd"
+repository-code: "https://github.com/scr-ungrd/aplicacion-sig-grd"
+license: "CC-BY-NC-ND-2.5"
+keywords:
+  - "Sistemas de Información Geográfica"
+  - "Gestión del Riesgo de Desastres"
+  - "cartografía de riesgos"
+  - "Colombia"

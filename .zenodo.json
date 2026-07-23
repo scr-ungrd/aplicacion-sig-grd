@@ -1,0 +1,32 @@
+{
+  "title": "Aplicación de los Sistemas de Información Geográfica (SIG) en la Gestión del Riesgo de Desastres",
+  "description": "Libro digital desarrollado por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) de Colombia, diseñado como guía técnica y práctica para fortalecer las capacidades de las administraciones municipales y departamentales en el uso de los Sistemas de Información Geográfica (SIG) aplicados a la Gestión del Riesgo de Desastres (GRD).",
+  "creators": [
+    {
+      "name": "Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)",
+      "affiliation": "UNGRD"
+    },
+    {
+      "name": "Romero Torres, Mauricio",
+      "affiliation": "UNGRD"
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "book",
+  "access_right": "open",
+  "license": "CC-BY-NC-ND-2.5",
+  "language": "spa",
+  "keywords": [
+    "Sistemas de Información Geográfica",
+    "Gestión del Riesgo de Desastres",
+    "cartografía de riesgos",
+    "Colombia"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://scr-ungrd.github.io/aplicacion-sig-grd",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-book"
+    }
+  ]
+}

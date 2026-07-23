@@ -1,0 +1,8 @@
+# Presentación {.unnumbered}
+
+Este documento proporciona lineamientos básicos y prácticos para la incorporación de los Sistemas de Información Geográfica (SIG) en los procesos de gestión del riesgo de desastres, con énfasis en el conocimiento del riesgo y el desarrollo de productos geoespaciales que apoyen el análisis territorial, la identificación de amenazas y vulnerabilidades, y la toma de decisiones. Está dirigido a coordinadores municipales y departamentales de gestión del riesgo, profesionales, técnicos y demás personas interesadas en fortalecer sus capacidades en el uso de los SIG como herramienta estratégica para comprender el territorio.
+
+Tiene el objetivo de brindar herramientas conceptuales y técnicas para la aplicación de los Sistemas de Información Geográfica (SIG) en los procesos de gestión del riesgo de desastres, promoviendo el desarrollo de insumos cartográficos, análisis espaciales y productos geoespaciales. Asimismo, facilitar el acceso y uso de plataformas gratuitas que permitan la descarga, generación y análisis de información geoespacial.
+
+**Equipo Técnico, Subdirección para el Conocimiento del Riesgo**
+
