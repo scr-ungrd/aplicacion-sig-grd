@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: _book
+  resources:
+    - Anexo_1_slides.html
+    - Anexo_1_slides_files/
 
 book:
   title: "Aplicación SIG en la Gestión del Riesgo"

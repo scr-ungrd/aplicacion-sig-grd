@@ -6,3 +6,5 @@ requirements.txt
 _book/
 
 /.quarto/
+
+**/*.quarto_ipynb

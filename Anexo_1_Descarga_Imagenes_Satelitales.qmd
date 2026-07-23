@@ -1,5 +1,11 @@
 # Anexo 1: Descarga Imágenes Satelitales (QGIS) {.unnumbered}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<iframe src="Anexo_1_slides.html" width="100%" height="700" style="border:1px solid #ccc; border-radius:6px;" loading="lazy"></iframe>
+```
+:::
+
 **Implementación de ****los ****SIG ****en la gestión del riesgo de desastres**** con el Software de uso libre QGIS**
 
 

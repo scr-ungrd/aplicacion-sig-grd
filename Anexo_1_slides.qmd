@@ -1,0 +1,818 @@
+---
+title: "Anexo 1: Descarga de Imágenes Satelitales (QGIS)"
+subtitle: "Versión diapositiva -- evaluación de formato"
+format:
+  revealjs:
+    slide-number: true
+    scrollable: true
+    theme: simple
+    logo: media/CUB_MARCO TEORICO SIG-1.png
+    footer: "Anexo 1 -- Evaluación slides"
+    chalkboard: false
+    transition: fade
+---
+
+## Anexo 1: Descarga Imágenes Satelitales (QGIS)
+
+**Implementación de ****los ****SIG ****en la gestión del riesgo de desastres**** con el Software de uso libre QGIS**
+
+## Descarga del software QGIS
+
+Dirigirse al enlace web:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_704d7ff6.png){fig-align="center" height="480"}
+
+## Descarga del software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9ea908d4.png){fig-align="center" height="480"}
+
+## Descarga del software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6b1f1ab7.png){fig-align="center" height="480"}
+
+## Descarga del software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6cc7f151.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0b3b4fa5.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f3fc14d6.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_324833ff.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_117bd672.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_dec2491d.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_fd0e402e.png){fig-align="center" height="480"}
+
+## Instalación Software QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e323d225.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_984c7f45.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ba86592a.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_fa27a527.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_cd21db3c.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ad07a28a.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_225e9e97.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_70aac8f4.png){fig-align="center" height="480"}
+
+## Instalación de complemento para mapas base
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e0f23b52.png){fig-align="center" height="480"}
+
+## Instalación de complemento para clasificación semiautomática
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1c506d79.png){fig-align="center" height="480"}
+
+## Instalación de complemento para clasificación semiautomática
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_95985e4b.png){fig-align="center" height="480"}
+
+## Instalación de complemento para clasificación semiautomática
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_3e6ad81b.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+De todos los portales para descarga de DEM, se selecciona el ASF Data Search Vertex () que contiene los modelos gratuitos de resolución 12.5 m/pixel para todo el continente.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_3893526c.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e18ee679.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_300495bb.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_30acaef6.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_af0105fe.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_66d246f4.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f49d2182.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_2f12609e.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d9c8db4e.png){fig-align="center" height="480"}
+
+## Descargar un Modelo de Elevación Digital (DEM)
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7ceca05f.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+Dirigirse al enlace web
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_346fa9a1.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d1782890.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1ee99617.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8d64ac66.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_35e8210c.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d1093a57.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_bdc46802.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d83be1fa.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_cf4db6b3.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ffdb76c5.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9b935019.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1ca1f487.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_af3d3470.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9c5dfd32.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_2b0be67b.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_29d64a33.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_425f33c2.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_46d8f682.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ee7ecfda.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_96493449.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d2b82977.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_107cb87e.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_74accef9.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7f89ee68.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_adaa2118.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6cf391fb.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_098b0bcf.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+Cuando el proceso termine, escuchara dos pitidos, luego proceda a cerrar la ventana.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_76711189.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7c36864d.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_51274bb7.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0283e7fb.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_2c91e357.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+Se repite el mismo proceso para la otra imagen que contiene la otra parte del municipio de Rosas – Cauca, después de repetir el proceso se tiene:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_77e623ee.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_23b317d3.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+Repetir el proceso anterior para agrupar las bandas individuales de las dos imágenes analizadas. Ubicándose sobre el grupo respectivo y presionando F2 puede cambiar el nombre del grupo de las imágenes.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_b5495e14.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+Ahora se debe combinar las dos imágenes en una sola escena
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_359635d1.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_3e6a1542.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f66bc342.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_584bb74e.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_567c59bf.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1a8bdecb.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_04045a03.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_80eb8dee.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f2512bc1.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital de Sentinel-2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7394feff.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+Dirigirse al enlace web
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8d6c5010.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d4e52247.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_fc13c134.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0afdc1db.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_20fcfde0.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_2c77ada2.png){fig-align="center" height="480"}
+
+## Descargar una imagen satelital del portal
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_96365039.png){fig-align="center" height="480"}
+
+## Descargar cartografía base IGAC
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_636cf2dc.png){fig-align="center" height="480"}
+
+## Descargar cartografía base IGAC
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_16e43ddc.png){fig-align="center" height="480"}
+
+## Descargar cartografía base IGAC
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6b300ed0.png){fig-align="center" height="480"}
+
+## Descargar cartografía base IGAC
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d7230d48.png){fig-align="center" height="480"}
+
+## Descargar cartografía base IGAC
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9af2d1d0.png){fig-align="center" height="480"}
+
+## Descargar determinantes ambientales
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_65ba30aa.png){fig-align="center" height="480"}
+
+## Descargar determinantes ambientales
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_4be5381b.png){fig-align="center" height="480"}
+
+## Descargar determinantes ambientales
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_182534c3.png){fig-align="center" height="480"}
+
+## Descargar determinantes ambientales
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ff3779da.png){fig-align="center" height="480"}
+
+## Descargar determinantes ambientales
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_64f96ac3.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d391ec2d.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_b58c382b.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_4d4e59d3.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6935bce4.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ee31cd4b.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_36d8154b.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7376d6ad.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_5f98dbb1.png){fig-align="center" height="480"}
+
+## Agregar un servicio WFS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_5134662f.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d391ec2d.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_fdb06b01.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_a3f16c75.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_fdc78df8.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_db4ca9a0.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_880a978b.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1920d4b2.png){fig-align="center" height="480"}
+
+## Agregar un servicio WMS en QGIS
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6f06f3c6.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_c3aae2a4.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_69d24cf7.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_29348e98.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_c3926efe.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9eed1478.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d8afe9ee.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_2a37f676.png){fig-align="center" height="480"}
+
+## Agregar capas de cartografía base al proyecto
+
+Click derecho sobre cada una de las *capas/propiedades/simbología* y ajustar los parámetros de visualización pertinentes.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_77caf3a7.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e7047ee6.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_93140ad0.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d20e4fb5.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_902c84bf.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e77e6971.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1a2324cd.png){fig-align="center" height="480"}
+
+## Recortar la información a la extensión del municipio de Rosas - Cauca
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_521a95d6.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+Ajustar simbología del polígono MUNICIPIO_ROSAS para observar el polígono sin relleno
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d00236e1.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_358f9b1c.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_4563dab9.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_5c5da550.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_c280095d.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_b6fc4b37.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_584a3ec9.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_df9d61c9.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+Se procede a organizar las capas y eliminar las capas virtuales, luego se procede a ajustar la visualización de la capa recortada:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_326f4429.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ca3e24e2.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_a87f9522.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6c589e6d.png){fig-align="center" height="480"}
+
+## Recortar la imagen satelital a la extensión del municipio de Rosas
+
+Repetir el mismo proceso de recortar para el DEM, al final se tiene:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8fb878c3.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+Crear mapa de sombras
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8a95ee2a.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_4441851d.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_160c63de.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_3c795b9b.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_698a83cf.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6701cd48.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8a4e7187.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_583f27e8.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6ea79bb5.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6ea79bb5.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+Aplicar transparencia del 10% a la capa de pendiente y a todos los mapas de sombras:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0573d504.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9f09af96.png){fig-align="center" height="480"}
+
+## Optimizar visualización del DEM
+
+Para la imagen satelital recortada también se puede agregar una transparencia del 60%, y con ese proceso se obtiene:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_882091f9.png){fig-align="center" height="480"}
+
+## Agregar capa de determinantes ambientales al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_847c8a94.png){fig-align="center" height="480"}
+
+## Agregar capa de determinantes ambientales al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_a41323fe.png){fig-align="center" height="480"}
+
+## Agregar capa de determinantes ambientales al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_c57c94f7.png){fig-align="center" height="480"}
+
+## Agregar capa de determinantes ambientales al proyecto
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d6364a17.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+Acceder a la plataforma online Copernicus Browser: , esta plataforma permite varios servicios online gratuitos ilimitados sin registrarse y otros privilegiados cuando el usuario se registra. Vamos a realizar la consulta sin registro:
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_78638f87.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+En el panel de visualización de imágenes acercarse con el scroll del mouse a una zona de interés, posteriormente se puede visualizar la imagen en diferentes vistas predeterminadas, así:
+
+**Imagen en Color Verdadero: **Es la visualización por defecto que carga la plataforma online. Este script de color real optimizado utiliza las bandas de luz visible roja, verde y azul en los canales de color rojo, verde y azul correspondientes, lo que da como resultado un producto con colores naturales que representa la Tierra tal y como los humanos la ven de forma natural. La visualización utiliza compresión de resaltes y mejora el contraste y la viveza del color mediante pequeñas mejoras de contraste y saturación.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_44232db8.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Composición en Falso Color**: Una composición en falso color recurre al menos a una imagen obtenida en longitudes de onda no visibles. Es frecuente la composición en color falso que utiliza las bandas del infrarrojo cercano, el rojo y el verde (una banda es una región del espectro electromagnético; los sensores satelitales obtienen imágenes de la Tierra en múltiples bandas). Estas composiciones en falso color se suelen emplear para diagnosticar la densidad y la salud de la vegetación, porque las plantas reflejan las bandas infrarroja y verde, mientras que absorben el color rojo. Las ciudades y el suelo desnudo aparecen grises o en tonos pardos, mientras que el agua se muestra azul o negra.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_010f981b.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Color Natural Optimizado**: Este script intenta representa la Tierra en imágenes de color natural de apariencia muy buena. Aplica técnicas de optimización para evitar que aparezcan píxeles saturados, así como para equilibrar la exposición.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_180decce.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Índice Normalizado de Vegetación – NDVI: E**l índice normalizado de vegetación (NDVI, Normalized Difference Vegetation Index) es un índice simple, pero efectivo, para cuantificar la vegetación verde. Ofrece una medida del estado de salud de la vegetación, basado en el modo en que las plantas reflejan la luz de ciertas longitudes de onda. NDVI adopta valores entre -1 y +1. Los valores negativos (los más cercanos a -1) corresponden a agua. Valores en torno a cero (entre -0.1 y +0.1) suelen indicar zonas sin vegetación como roca, arena o nieve. Los valores positivos pero pequeños se corresponden con arbustos y campos cubiertos de hierba (aproximadamente entre +0.2 y +0.4), en tanto que cifras más elevadas describen los bosques templados y las selvas tropicales (valores cercanos a +1).
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_aad57d46.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Composición Urbana en Falso Color:** Esta composición se utiliza para visualizar mejor las zonas urbanizadas. La vegetación queda representada en tonos de verde, mientras que el terreno urbanizado aparece en blancos, grises y morados. El suelo, la arena y los minerales se revelan en toda una variedad de colores. La nieve y el hielo se muestran en azul oscuro, mientras que el agua se ve negra o azul. Las zonas inundadas se ven en azul muy oscuro, casi negro. Esta composición resulta útil para detectar incendios forestales y calderas volcánicas, que se reflejan en tonos rojos y amarillos.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_b2a3ed63.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Índice Normalizado de Humedad – NDMI:** El índice normalizado de humedad (NDMI, Normalized Difference Moisture Index) se emplea para determinar el contenido de agua de la vegetación y para monitorizar sequías. NDMI adopta valores entre -1 y +1. Los valores negativos (cercanos a -1) corresponden a suelo desnudo. Valores alrededor de cero (de -0.2 a +0.4) suelen indicar estrés hídrico. Los valores positivos más altos representan cubiertas vegetales elevadas y sin estrés hídrico (aproximadamente desde +0.4 hasta +1).
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6d60db2c.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Composición de Infrarrojo de Onda Corta - SWIR:** Las medidas tomadas en el infrarrojo de onda corta (SWIR, Short Wave InfraRed) sirven para estimar la cantidad de agua presente en la vegetación y en el suelo, porque el agua absorbe estas longitudes de onda. Las bandas del infrarrojo de onda corta (una banda es una región del espectro electromagnético; los sensores satelitales observan la Tierra en múltiples bandas) sirven también para distinguir los tipos de nubes (nubes de agua frente a nubes de hielo), la nieve y el hielo, todos los cuales aparecen blancos en luz visible. La vegetación adopta tonalidades de verde en esta composición, mientras que los suelos desnudos y las zonas urbanas tienen tonos pardos, y el agua se ve negra. El terreno recién quemado refleja con intensidad las bandas del infrarrojo de onda corta, lo que hace útil esta composición para cartografiar los daños debidos a incendios. Cada tipo de roca refleja de un modo distinto la luz infrarroja de onda corta, lo que permite elaborar mapas geológicos comparando la luz SWIR reflejada.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1637e129.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Índice Normalizado de Agua – NDWI:** El índice normalizado de agua (NDWI, Normalized Difference Water Index") resulta adecuado para cartografiar masas de agua e inundaciones, que presentan valores de este índice superiores a +0.5. La vegetación ostenta valores menores. Las edificaciones tienen valores positivos entre cero y +0.2
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_dac713ae.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Índice de Diferencia Normalizada de Nieve – NDSI:** El índice de diferencia normalizada de nieve de Sentinel-2 se puede utilizar para diferenciar entre la cubierta de nubes y la de nieve, ya que la nieve absorbe la luz infrarroja de onda corta, pero refleja la luz visible, mientras que la nube es generalmente reflectante en ambas longitudes de onda. La capa de nieve se representa en azul vivo brillante. En el caso de incendios permite resaltar la cortina de humo generada por el evento.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_71344593.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+**Combinación personalizada:** Esta herramienta se usa para crear una combinación de bandas que no está en los canales por defecto. Por ejemplo, en la siguiente imagen se muestra la combinación RGB: 12-11-8A que permite resaltar incendios y puntos calientes.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_17d041b0.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+Herramientas de descarga y visualización
+
+La descarga de imágenes para usuarios no registrados solo está disponible en formato JPG y es no georreferenciada. Sin embargo, cualquier usuario puede registrarse de manera gratuita y acceder a privilegios como la descarga en formato .TIF georreferenciado e impresiones en alta resolución.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1679d066.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+En el panel derecho, las herramientas también permiten realizar mediciones de distancias y áreas.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_00193169.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+Crear o cargar un área de interés al visor
+
+El visor permite adicionar polígonos o puntos de interés externos, esto es útil como ayuda visual para resaltar zonas de interés dentro de la imagen analizada.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_178a7ab1.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+Visualización 3D
+
+El visor online permite realizar vistas 3D la imagen de interés, para ello usa el modelo digital de terreno de la nasa SRTM-30 m. El acceso a este servicio no requiere de registro previo.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e16e0273.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Incendios
+
+Animación multitemporal
+
+Es un servicio que está disponible solamente para usuarios registrados. Permite crear animación multitemporales de una zona de interés accediendo a todo el catálogo disponible de imágenes Sentinel-2, que en el caso de Colombia cubre desde el mes de octubre de 2016 en adelante. La plataforma permite realizar filtros por nubosidad, fecha y orbita. Posteriormente puede filtrar algunas imágenes manualmente y decidir la velocidad de animación para finalmente descargar la animación en formato de video. En el Anexo 1 se relaciona el video de una animación generada con esta herramienta para el sector sur de la hidroeléctrica el Quimbo.
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_99e77a89.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Inundaciones
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8c568562.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Inundaciones
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0df86373.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Inundaciones
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_c4613f6f.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Inundaciones
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_ee4bf57b.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Inundaciones
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f2bb13ef.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Movimientos en masa
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f5c1f779.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Movimientos en masa
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_3d5404af.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Movimientos en masa
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_196bcbd0.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Movimientos en masa
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0ae0e948.png){fig-align="center" height="480"}
+
+## Aplicaciones SIG en GRD: Movimientos en masa
+
+![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e25c45af.png){fig-align="center" height="480"}
+
