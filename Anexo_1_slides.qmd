@@ -7,7 +7,7 @@ format:
     scrollable: true
     theme: simple
     logo: media/CUB_MARCO TEORICO SIG-1.png
-    footer: "Anexo 1 -- Evaluación slides"
+    footer: "Anexo 1 -- Descarga Imágenes Satelitales"
     chalkboard: false
     transition: fade
 ---
