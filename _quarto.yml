@@ -12,6 +12,7 @@ book:
   repo-url: https://github.com/scr-ungrd/aplicacion-sig-grd
   repo-actions: [source, issue]
   site-url: https://scr-ungrd.github.io/aplicacion-sig-grd
+  favicon: media/favicon.png
   sidebar:
     style: floating
     collapse-level: 1
