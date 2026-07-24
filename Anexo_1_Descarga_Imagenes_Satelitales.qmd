@@ -1,4 +1,4 @@
-# Anexo 1: Descarga Imágenes Satelitales (QGIS) {.unnumbered}
+# Anexo 1: Descarga Imágenes Satelitales (QGIS)
 
 ------------------------------------------------------------------------
 
@@ -12,11 +12,11 @@
 
 ------------------------------------------------------------------------
 
-## Implementación de un SIG a Nivel Municipal {.unnumbered}
+## Implementación de un SIG a Nivel Municipal
 
-### Configuración Básica del entorno de trabajo QGIS {.unnumbered}
+### Configuración Básica del entorno de trabajo QGIS
 
-#### Descarga del software QGIS {.unnumbered}
+#### Descarga del software QGIS
 
 Dirigirse al enlace web:
 
@@ -28,7 +28,7 @@ Dirigirse al enlace web:
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6cc7f151.png)
 
-#### Instalación Software QGIS {.unnumbered}
+#### Instalación Software QGIS
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_0b3b4fa5.png)
 
@@ -44,7 +44,7 @@ Dirigirse al enlace web:
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e323d225.png)
 
-#### Instalación de complemento para mapas base {.unnumbered}
+#### Instalación de complemento para mapas base
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_984c7f45.png)
 
@@ -62,7 +62,7 @@ Dirigirse al enlace web:
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e0f23b52.png)
 
-#### Instalación de complemento para clasificación semiautomática {.unnumbered}
+#### Instalación de complemento para clasificación semiautomática
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_1c506d79.png)
 
@@ -70,9 +70,9 @@ Dirigirse al enlace web:
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_3e6ad81b.png)
 
-### Descarga de datos {.unnumbered}
+### Descarga de datos
 
-#### Descargar un Modelo de Elevación Digital (DEM) {.unnumbered}
+#### Descargar un Modelo de Elevación Digital (DEM)
 
 De todos los portales para descarga de DEM, se selecciona el ASF Data Search Vertex () que contiene los modelos gratuitos de resolución 12.5 m/pixel para todo el continente.
 
@@ -96,7 +96,7 @@ De todos los portales para descarga de DEM, se selecciona el ASF Data Search Ver
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7ceca05f.png)
 
-#### Descargar una imagen satelital de Sentinel-2 {.unnumbered}
+#### Descargar una imagen satelital de Sentinel-2
 
 Dirigirse al enlace web
 
@@ -198,7 +198,7 @@ Ahora se debe combinar las dos imágenes en una sola escena
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_7394feff.png)
 
-#### Descargar una imagen satelital del portal {.unnumbered}
+#### Descargar una imagen satelital del portal
 
 Dirigirse al enlace web
 
@@ -216,7 +216,7 @@ Dirigirse al enlace web
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_96365039.png)
 
-#### Descargar cartografía base IGAC {.unnumbered}
+#### Descargar cartografía base IGAC
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_636cf2dc.png)
 
@@ -228,7 +228,7 @@ Dirigirse al enlace web
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_9af2d1d0.png)
 
-#### Descargar determinantes ambientales {.unnumbered}
+#### Descargar determinantes ambientales
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_65ba30aa.png)
 
@@ -240,7 +240,7 @@ Dirigirse al enlace web
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_64f96ac3.png)
 
-#### Agregar un servicio WFS en QGIS {.unnumbered}
+#### Agregar un servicio WFS en QGIS
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d391ec2d.png)
 
@@ -260,7 +260,7 @@ Dirigirse al enlace web
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_5134662f.png)
 
-#### Agregar un servicio WMS en QGIS {.unnumbered}
+#### Agregar un servicio WMS en QGIS
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d391ec2d.png)
 
@@ -278,9 +278,9 @@ Dirigirse al enlace web
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_6f06f3c6.png)
 
-### Postproceso de la información {.unnumbered}
+### Postproceso de la información
 
-#### Agregar capas de cartografía base al proyecto {.unnumbered}
+#### Agregar capas de cartografía base al proyecto
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_c3aae2a4.png)
 
@@ -300,7 +300,7 @@ Click derecho sobre cada una de las *capas/propiedades/simbología* y ajustar lo
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_77caf3a7.png)
 
-#### Recortar la información a la extensión del municipio de Rosas - Cauca {.unnumbered}
+#### Recortar la información a la extensión del municipio de Rosas - Cauca
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_e7047ee6.png)
 
@@ -316,7 +316,7 @@ Click derecho sobre cada una de las *capas/propiedades/simbología* y ajustar lo
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_521a95d6.png)
 
-#### Recortar la imagen satelital a la extensión del municipio de Rosas {.unnumbered}
+#### Recortar la imagen satelital a la extensión del municipio de Rosas
 
 Ajustar simbología del polígono MUNICIPIO_ROSAS para observar el polígono sin relleno
 
@@ -350,7 +350,7 @@ Repetir el mismo proceso de recortar para el DEM, al final se tiene:
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8fb878c3.png)
 
-#### Optimizar visualización del DEM {.unnumbered}
+#### Optimizar visualización del DEM
 
 Crear mapa de sombras
 
@@ -384,7 +384,7 @@ Para la imagen satelital recortada también se puede agregar una transparencia d
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_882091f9.png)
 
-#### Agregar capa de determinantes ambientales al proyecto {.unnumbered}
+#### Agregar capa de determinantes ambientales al proyecto
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_847c8a94.png)
 
@@ -394,7 +394,7 @@ Para la imagen satelital recortada también se puede agregar una transparencia d
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_d6364a17.png)
 
-#### Aplicaciones SIG en GRD: Incendios {.unnumbered}
+#### Aplicaciones SIG en GRD: Incendios
 
 Acceder a la plataforma online Copernicus Browser: , esta plataforma permite varios servicios online gratuitos ilimitados sin registrarse y otros privilegiados cuando el usuario se registra. Vamos a realizar la consulta sin registro:
 
@@ -470,7 +470,7 @@ Es un servicio que está disponible solamente para usuarios registrados. Permite
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_99e77a89.png)
 
-#### Aplicaciones SIG en GRD: Inundaciones {.unnumbered}
+#### Aplicaciones SIG en GRD: Inundaciones
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_8c568562.png)
 
@@ -482,7 +482,7 @@ Es un servicio que está disponible solamente para usuarios registrados. Permite
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f2bb13ef.png)
 
-#### Aplicaciones SIG en GRD: Movimientos en masa {.unnumbered}
+#### Aplicaciones SIG en GRD: Movimientos en masa
 
 ![](media/anexo_12-implementacion-de-un-sig-a-nivel-municipal/img_f5c1f779.png)
 

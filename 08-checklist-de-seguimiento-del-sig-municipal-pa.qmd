@@ -1,35 +1,37 @@
-# Checklist de seguimiento del SIG municipal para GRD {.unnumbered}
+# 8. Checklist de seguimiento del SIG municipal para GRD
 
-**Sugerencias de uso:**
+# 8.1 Sugerencias de uso
 
 - Esta checklist puede usarse cada 6 meses o anualmente para evaluar el estado del SIG.
 - Puedes agregar columnas con responsables y fechas de cumplimiento.
 - Ideal para presentar avances ante el CMGRD (Consejo Municipal de Gestión del Riesgo) o entes de control.
 
-| Categoría | Ítem | ✅/❌ | Observaciones |
-| --- | --- | --- | --- |
-| 1. Gestión institucional | ¿Existe un equipo o responsable designado para el SIG en la alcaldía? |  |  |
-| 1. Gestión institucional | ¿El equipo está capacitado en SIG, GRD y análisis espacial? |  |  |
-| 1. Gestión institucional | ¿Se articulan actores internos (planeación, ambiente, obras, etc.)? |  |  |
-| 1. Gestión institucional | ¿Se ha coordinado con entidades nacionales o regionales (UNGRD, IGAC, CAR)? |  |  |
-| 1. Gestión institucional | ¿Existe un plan de sostenibilidad o mantenimiento del SIG? |  |  |
-| 2. Infraestructura técnica | ¿Se cuenta con software SIG (preferiblemente libre como QGIS)? |  |  |
-| 2. Infraestructura técnica | ¿Existen computadores con capacidad para análisis espacial? |  |  |
-| 2. Infraestructura técnica | ¿Hay acceso a internet para descargar datos y usar servicios WMS/WFS? |  |  |
-| 3. Información geográfica | ¿Se han recolectado datos base del municipio (límites, vías, ríos, centros poblados)? |  |  |
-| 3. Información geográfica | ¿Se dispone de mapas de amenazas naturales (inundación, deslizamiento, sismos)? |  |  |
-| 3. Información geográfica | ¿Se tiene inventario de población vulnerable e infraestructura crítica? |  |  |
-| 3. Información geográfica | ¿Se han descargado imágenes satelitales o DEMs gratuitos relevantes? |  |  |
-| 4. Organización y estandarización | ¿La información está organizada por temas en carpetas o base de datos espacial? |  |  |
-| 4. Organización y estandarización | ¿Se usa una misma proyección y sistema de coordenadas (MAGNA-SIRGAS)? |  |  |
-| 4. Organización y estandarización | ¿Se han revisado errores topológicos o inconsistencias de atributos? |  |  |
-| 4. Organización y estandarización | ¿Se han documentado los metadatos de cada capa? |  |  |
-| 5. Análisis y productos | ¿Se han generado mapas temáticos de riesgo, vulnerabilidad, rutas de evacuación, etc.? |  |  |
-| 5. Análisis y productos | ¿Se ha realizado algún análisis espacial de exposición o escenarios de riesgo? |  |  |
-| 5. Análisis y productos | ¿Se utilizan los productos del SIG en los instrumentos de planificación (POT, POMIUAC)? |  |  |
-| 6. Actualización y respaldo | ¿Existe un cronograma para actualizar los datos (anual, semestral, etc.)? |  |  |
-| 6. Actualización y respaldo | ¿Se realizan respaldos periódicos de la información SIG? |  |  |
-| 6. Actualización y respaldo | ¿Se almacena la información en servidores locales o en la nube de forma segura? |  |  |
-| 7. Difusión y acceso | ¿Se comparten mapas y análisis con otros sectores de la alcaldía? |  |  |
-| 7. Difusión y acceso | ¿La comunidad o los comités locales conocen los productos del SIG? |  |  |
-| 7. Difusión y acceso | ¿Se ha creado o se planea un visor web (GeoNode, Leaflet, etc.)? |  |  |
+::: checklist-table
+| Categoría | Ítem | Sí | No | Observaciones |
+|----------------|----------------|:-----------:|:-----------:|----------------|
+| **1. Gestión institucional** | ¿Existe un equipo o responsable designado para el SIG en la alcaldía? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **1. Gestión institucional** | ¿El equipo está capacitado en SIG, GRD y análisis espacial? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **1. Gestión institucional** | ¿Se articulan actores internos (planeación, ambiente, obras, etc.)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **1. Gestión institucional** | ¿Se ha coordinado con entidades nacionales o regionales (UNGRD, IGAC, CAR)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **1. Gestión institucional** | ¿Existe un plan de sostenibilidad o mantenimiento del SIG? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **2. Infraestructura técnica** | ¿Se cuenta con software SIG (preferiblemente libre como QGIS)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **2. Infraestructura técnica** | ¿Existen computadores con capacidad para análisis espacial? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **2. Infraestructura técnica** | ¿Hay acceso a internet para descargar datos y usar servicios WMS/WFS? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **3. Información geográfica** | ¿Se han recolectado datos base del municipio (límites, vías, ríos, centros poblados)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **3. Información geográfica** | ¿Se dispone de mapas de amenazas naturales (inundación, deslizamiento, sismos)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **3. Información geográfica** | ¿Se tiene inventario de población vulnerable e infraestructura crítica? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **3. Información geográfica** | ¿Se han descargado imágenes satelitales o DEMs gratuitos relevantes? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **4. Organización y estandarización** | ¿La información está organizada por temas en carpetas o base de datos espacial? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **4. Organización y estandarización** | ¿Se usa una misma proyección y sistema de coordenadas (MAGNA-SIRGAS)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **4. Organización y estandarización** | ¿Se han revisado errores topológicos o inconsistencias de atributos? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **4. Organización y estandarización** | ¿Se han documentado los metadatos de cada capa? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **5. Análisis y productos** | ¿Se han generado mapas temáticos de riesgo, vulnerabilidad, rutas de evacuación, etc.? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **5. Análisis y productos** | ¿Se ha realizado algún análisis espacial de exposición o escenarios de riesgo? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **5. Análisis y productos** | ¿Se utilizan los productos del SIG en los instrumentos de planificación (POT, POMIUAC)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **6. Actualización y respaldo** | ¿Existe un cronograma para actualizar los datos (anual, semestral, etc.)? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **6. Actualización y respaldo** | ¿Se realizan respaldos periódicos de la información SIG? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **6. Actualización y respaldo** | ¿Se almacena la información en servidores locales o en la nube de forma segura? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **7. Difusión y acceso** | ¿Se comparten mapas y análisis con otros sectores de la alcaldía? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **7. Difusión y acceso** | ¿La comunidad o los comités locales conocen los productos del SIG? | <input type="checkbox"> | <input type="checkbox"> |  |
+| **7. Difusión y acceso** | ¿Se ha creado o se planea un visor web (GeoNode, Leaflet, etc.)? | <input type="checkbox"> | <input type="checkbox"> |  |
+:::

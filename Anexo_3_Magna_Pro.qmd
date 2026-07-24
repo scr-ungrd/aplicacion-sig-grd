@@ -1,4 +1,4 @@
-# Anexo 3: Magna Pro {.unnumbered}
+# Anexo 3: Magna Pro
 
 **Implementación de los SIG en la gestión del riesgo de desastres con el Software de uso libre MAGNA SIRGAS PRO 5.1.**
 
@@ -6,7 +6,7 @@
 
 
 
-## Introducción {.unnumbered}
+## Introducción
 
 MAGNA SIRGAS Pro 5.1 es un software especializado desarrollado por el Instituto Geográfico Agustín Codazzi (IGAC) con el propósito de apoyar el trabajo técnico y científico en georreferenciación, cartografía y levantamientos topográficos en Colombia. Está diseñado para garantizar que todas las coordenadas y datos espaciales se ajusten al Marco Geocéntrico Nacional de Referencia – MAGNA-SIRGAS, que es el sistema oficial de referencia geodésica del país.
 
@@ -14,39 +14,39 @@ Su función central es facilitar la conversión, transformación y cálculo prec
 
 Gracias a estas capacidades, el aplicativo **MAGNA Sirgas Pro-5.1** se ha consolidado como una herramienta clave para entidades públicas, empresas privadas y profesionales de diferentes sectores, brindando soluciones confiables y estandarizadas para las necesidades relacionadas con coordenadas y georreferenciación en Colombia.
 
-Principales funciones del MAGNA Sirgas Pro 5.1 
+Principales funciones del MAGNA Sirgas Pro 5.1
 
-### Cambiar de un sistema de referencia a otro {.unnumbered}
+### Cambiar de un sistema de referencia a otro
 
 Permite transformar coordenadas del sistema antiguo (Datum Bogotá) al sistema actual oficial del país (MAGNA-SIRGAS) y viceversa.
 
-### Transformar coordenadas geográficas a planas (y viceversa) {.unnumbered}
+### Transformar coordenadas geográficas a planas (y viceversa)
 
 Convierte latitud y longitud (grados) a coordenadas en metros dentro de un plano de proyección oficial, como UTM o Gauss-Krüger.
 
-### Mover coordenadas entre diferentes zonas cartográficas {.unnumbered}
+### Mover coordenadas entre diferentes zonas cartográficas
 
 Permite cambiar coordenadas de una zona UTM o Gauss-Krüger a otra cuando un punto está en otra franja del mapa.
 
-### Ajustar alturas medidas con GPS {.unnumbered}
+### Ajustar alturas medidas con GPS
 
 Corrige las alturas obtenidas con GPS para que coincidan con las alturas sobre el nivel del mar, usando el cálculo de ondulación geoidal.
 
-### Actualizar coordenadas por cambios en el terreno {.unnumbered}
+### Actualizar coordenadas por cambios en el terreno
 
 Corrige coordenadas antiguas considerando movimientos de la corteza terrestre (por ejemplo, pequeños desplazamientos causados por tectónica).
 
-### Convertir varia coordenadas a la vez {.unnumbered}
+### Convertir varia coordenadas a la vez
 
 Procesa listas o archivos completos con varios puntos para convertir o transformar coordenadas en una sola operación.
 
 
 
-## Guía para la instalación en ordenadores {.unnumbered}
+## Guía para la instalación en ordenadores
 
 Para garantizar la obtención de la versión más reciente y segura, el aplicativo debe descargarse únicamente desde el portal oficial del IGAC, en la sección de herramientas geográficas, disponible en el siguiente enlace:
 
-🔗 
+🔗
 
 
 
@@ -56,7 +56,7 @@ El enlace permitirá descargar un archivo comprimido con extensión (.ZIP) con e
 
 
 
-## Requerimientos de Hardware {.unnumbered}
+## Requerimientos de Hardware
 
 Para garantizar el óptimo funcionamiento del aplicativo Magna Sirgas Pro-5.1, es indispensable que el equipo de cómputo cumpla con ciertos requerimientos técnicos mínimos. Estos requisitos aseguran que el software pueda ejecutarse de forma estable, con tiempos de respuesta adecuados y sin interrupciones durante los procesos de cálculo o visualización de datos geoespaciales.
 
@@ -70,7 +70,7 @@ A continuación, se precisan las condiciones mínimas y recomendadas de hardware
 
 ![Requerimientos recomendados de Hardware para el uso del aplicativo.](media/anexo_24-requerimientos-de-hardware/img_08924600.png){#fig-mp-hardware-recomendado}
 
-### Requerimientos de Software {.unnumbered}
+### Requerimientos de Software
 
 Para poder ejecutar correctamente la herramienta, es indispensable realizar previamente la instalación del siguiente software, el cual garantiza el funcionamiento óptimo y la compatibilidad del sistema. La ausencia de estos componentes puede generar errores de ejecución o limitar el acceso a determinadas funciones de la aplicación.
 
@@ -78,7 +78,7 @@ Para poder ejecutar correctamente la herramienta, es indispensable realizar prev
 
 ![Requerimientos de software para el uso del aplicativo.](media/anexo_24-requerimientos-de-hardware/img_9f9b9891.png){#fig-mp-requerimientos-software}
 
-### Instalación y ejecución {.unnumbered}
+### Instalación y ejecución
 
 Al descargar el aplicativo desde el enlace anteriormente mencionado, deberá seguir los pasos indicados a continuación, teniendo en cuenta que la herramienta Magna Sirgas Pro-5.1 es un aplicativo portable.
 
@@ -111,7 +111,7 @@ Finalmente, el aplicativo se abrirá y quedará listo para su uso, permitiendo a
 
 
 
-## Interfaz del aplicativo {.unnumbered}
+## Interfaz del aplicativo
 
 La interfaz de **Magna Sirgas Pro 5.1** ha sido diseñada para ofrecer un entorno intuitivo y organizado, que facilite la realización de cálculos y transformaciones geodésicas con precisión. En la parte superior, se encuentra una barra de herramientas con accesos directos a las principales funciones del aplicativo.
 
@@ -123,7 +123,7 @@ El área central corresponde al visor cartográfico, donde se visualizan datos g
 
 A continuación, se describen las principales funciones de la interfaz del aplicativo:
 
-### **Conversión y transformación:**  {.unnumbered}
+### Conversión y transformación
 
 Este apartado permite realizar la conversión de coordenadas desde diversos sistemas de origen hacia sistemas de referencia preestablecidos. Asimismo, brinda la opción de crear nuevos orígenes cartesianos, así como editar o eliminar los existentes. Esta funcionalidad resulta especialmente útil para garantizar la precisión en la georreferenciación, facilitando la adaptación de los datos espaciales a diferentes marcos de referencia según las necesidades del proyecto.
 
@@ -131,15 +131,15 @@ Este apartado permite realizar la conversión de coordenadas desde diversos sist
 
 ![Interfaz de las herramientas del menú Conversión y Transformación. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_8df92762.png){#fig-mp-menu-conversion-transformacion}
 
-**Punto Individual: **Permite realizar la conversión o transformación de coordenadas para un solo punto, ingresando sus valores manualmente. Es útil para procesar datos puntuales sin necesidad de manejar archivos completos.
+Punto Individual Permite realizar la conversión o transformación de coordenadas para un solo punto, ingresando sus valores manualmente. Es útil para procesar datos puntuales sin necesidad de manejar archivos completos.
 
-**Archivo: **Ejecuta la conversión o transformación de coordenadas para múltiples puntos contenidos en un archivo. Ideal para procesar grandes volúmenes de datos de forma automatizada y consistente.
+Archivo Ejecuta la conversión o transformación de coordenadas para múltiples puntos contenidos en un archivo. Ideal para procesar grandes volúmenes de datos de forma automatizada y consistente.
 
-**Crear origen cartesiano:** Genera un sistema de coordenadas cartesiano local a partir de un punto de referencia definido por el usuario. Esto facilita trabajos topográficos o de ingeniería donde se requiere un sistema propio para cálculos precisos.
+Crear origen cartesiano Genera un sistema de coordenadas cartesiano local a partir de un punto de referencia definido por el usuario. Esto facilita trabajos topográficos o de ingeniería donde se requiere un sistema propio para cálculos precisos.
 
-**Editar o eliminar origen cartesiano: **Permite modificar las características de un origen cartesiano previamente creado o eliminarlo cuando ya no sea necesario, manteniendo actualizada la configuración del proyecto.
+Editar o eliminar origen cartesiano Permite modificar las características de un origen cartesiano previamente creado o eliminarlo cuando ya no sea necesario, manteniendo actualizada la configuración del proyecto.
 
-### **Ondulación Geoidal** {.unnumbered}
+### **Ondulación Geoidal**
 
 Sirve para calcular la diferencia entre dos tipos de alturas: la altura medida por GPS (elipsoidal) y la altura real sobre el nivel del mar (ortométrica). Para esto, utiliza modelos geoidales oficiales, que aseguran resultados precisos y confiables. Esta función es muy útil para transformar mediciones tomadas con equipos GNSS en datos compatibles con mapas y referencias oficiales del país. El programa permite trabajar con un solo punto o con varios a la vez, lo que facilita y agiliza el manejo de la información.
 
@@ -147,11 +147,11 @@ Sirve para calcular la diferencia entre dos tipos de alturas: la altura medida p
 
 ![Interfaz de las herramientas del menú Ondulación Geoidal. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_c641d393.png){#fig-mp-menu-ondulacion-geoidal}
 
-**Punto individual: **Permite calcular la ondulación geoidal para un solo punto ingresando manualmente sus coordenadas geográficas, planas, geocéntricas, Gauss Kruger o UTM. Este cálculo devuelve la diferencia entre la altura elipsoidal y la altura ortométrica para esa ubicación específica.
+Punto individual Permite calcular la ondulación geoidal para un solo punto ingresando manualmente sus coordenadas geográficas, planas, geocéntricas, Gauss Kruger o UTM. Este cálculo devuelve la diferencia entre la altura elipsoidal y la altura ortométrica para esa ubicación específica.
 
-**Archivo: **Ejecuta el cálculo de la ondulación geoidal para múltiples puntos contenidos en un archivo, permitiendo procesar grandes volúmenes de datos de forma automática y consistente. Es ideal para proyectos de cartografía, topografía y geodesia que requieren tratamiento masivo de información altimétrica.
+Archivo Ejecuta el cálculo de la ondulación geoidal para múltiples puntos contenidos en un archivo, permitiendo procesar grandes volúmenes de datos de forma automática y consistente. Es ideal para proyectos de cartografía, topografía y geodesia que requieren tratamiento masivo de información altimétrica.
 
-### **Nivelación GPS: ** {.unnumbered}
+### Nivelación GPS
 
 Ayuda a transformar las alturas obtenidas con GPS en alturas reales sobre el nivel del mar. Para lograrlo, aplica correcciones basadas en modelos geoidales oficiales, lo que asegura que los resultados sean más precisos y compatibles con los mapas y referencias usadas en el país. Se puede trabajar con un solo punto o con varios a la vez, lo que permite usarla tanto en mediciones simples como en proyectos más grandes.
 
@@ -159,11 +159,11 @@ Ayuda a transformar las alturas obtenidas con GPS en alturas reales sobre el niv
 
 ![Interfaz de las herramientas del menú Nivelación GPS. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_cb55d8ff.png){#fig-mp-menu-nivelacion-gps}
 
-**Punto Individual: **Permite para calcular la altura real de un solo punto medido con GPS, ajustándola para que esté referida al nivel del mar. Es muy útil cuando se necesita conocer la altitud de un lugar específico de manera rápida.
+Punto Individual Permite para calcular la altura real de un solo punto medido con GPS, ajustándola para que esté referida al nivel del mar. Es muy útil cuando se necesita conocer la altitud de un lugar específico de manera rápida.
 
-**Perfil: **Permite trabajar con varios puntos alineados para mostrar cómo cambia la altura a lo largo de un recorrido. Es ideal para ver la forma del terreno en caminos, senderos o cualquier tramo que se quiera analizar.
+Perfil Permite trabajar con varios puntos alineados para mostrar cómo cambia la altura a lo largo de un recorrido. Es ideal para ver la forma del terreno en caminos, senderos o cualquier tramo que se quiera analizar.
 
-### **Cálculos Elipsoidales**:  {.unnumbered}
+### Cálculos Elipsoidales
 
 Sirve para medir distancias y direcciones entre dos lugares, o para encontrar un nuevo punto partiendo de uno ya conocido y siguiendo una dirección determinada. Estos cálculos se hacen usando la forma y tamaño real de la Tierra, lo que permite obtener resultados más exactos. Es una función muy útil para trabajos que requieren conocer con precisión la ubicación y separación entre puntos en el terreno.
 
@@ -171,11 +171,11 @@ Sirve para medir distancias y direcciones entre dos lugares, o para encontrar un
 
 ![Interfaz de las herramientas del menú Cálculos elipsoidales. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_6dc3a9ba.png){#fig-mp-menu-calculos-elipsoidales}
 
-**Cálculo del problema Geodésico inverso: **Esta herramienta sirve para saber la distancia y la dirección entre dos puntos, partiendo de sus coordenadas. Es muy útil para medir recorridos o conocer cómo se relacionan dos lugares en un mapa.
+Cálculo del problema Geodésico inverso Esta herramienta sirve para saber la distancia y la dirección entre dos puntos, partiendo de sus coordenadas. Es muy útil para medir recorridos o conocer cómo se relacionan dos lugares en un mapa.
 
-**Cálculo del problema Geodésico Directo: **De forma contraria si tienes un punto de partida, una dirección y una distancia, te indica dónde estará el punto de llegada. Esto es ideal para planificar rutas o ubicar puntos en terreno.
+Cálculo del problema Geodésico Directo De forma contraria si tienes un punto de partida, una dirección y una distancia, te indica dónde estará el punto de llegada. Esto es ideal para planificar rutas o ubicar puntos en terreno.
 
-### **Cálculo de velocidades: ** {.unnumbered}
+### Cálculo de velocidades
 
 Permite determinar cómo y cuánto se ha movido un punto en la superficie terrestre a lo largo del tiempo. Esto es útil para monitorear cambios en el terreno, como desplazamientos por actividad tectónica, hundimientos o levantamientos del suelo. Con esta función, se pueden comparar mediciones de diferentes fechas y así conocer la velocidad y dirección del movimiento, lo que ayuda en estudios geológicos, obras de ingeniería y en el seguimiento de redes geodésicas.
 
@@ -183,11 +183,11 @@ Permite determinar cómo y cuánto se ha movido un punto en la superficie terres
 
 ![Interfaz de las herramientas del menú Cálculo Velocidades. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_4033fa6c.png){#fig-mp-menu-calculo-velocidades}
 
-**Punto individual: **Permite calcular la velocidad de movimiento de un sitio específico a partir de sus coordenadas y datos asociados.
+Punto individual Permite calcular la velocidad de movimiento de un sitio específico a partir de sus coordenadas y datos asociados.
 
-**Archivo: **Está pensada para procesar varios puntos de forma simultánea, cargando un archivo que contenga la información de coordenadas y fechas para cada uno, lo que agiliza el trabajo cuando se manejan grandes volúmenes de datos. Estas funciones resultan especialmente útiles para el monitoreo de cambios en el terreno, estudios geodésicos y seguimiento de movimientos del suelo.
+Archivo Está pensada para procesar varios puntos de forma simultánea, cargando un archivo que contenga la información de coordenadas y fechas para cada uno, lo que agiliza el trabajo cuando se manejan grandes volúmenes de datos. Estas funciones resultan especialmente útiles para el monitoreo de cambios en el terreno, estudios geodésicos y seguimiento de movimientos del suelo.
 
-### **Cambio de Época: ** {.unnumbered}
+### Cambio de Época
 
 Esta herramienta permite transformar coordenadas geográficas o cartesianas de una fecha de referencia determinada a otra diferente, teniendo en cuenta el desplazamiento que ocurre por el movimiento constante de la corteza terrestre. Este proceso es fundamental cuando se comparan o combinan datos obtenidos en distintos momentos, garantizando que toda la información se encuentre ajustada a una misma época de referencia. La función es útil en aplicaciones como el seguimiento de deformaciones, la integración de bases de datos históricas y la actualización de información geodésica para estudios y proyectos técnicos.
 
@@ -195,13 +195,13 @@ Esta herramienta permite transformar coordenadas geográficas o cartesianas de u
 
 ![Interfaz de las herramientas del menú Cambio de Época. Fuente: IGAC.](media/anexo_25-interfaz-del-aplicativo/img_946d8ef7.png){#fig-mp-menu-cambio-epoca}
 
-**Punto individual: **Esta función permite realizar la transformación temporal de coordenadas para un solo punto geográfico. Es decir, ajusta las coordenadas de un punto específico según la variación de la referencia geodésica en diferentes épocas o años, considerando los movimientos tectónicos y otros factores geodinámicos. Esto es útil cuando se necesita actualizar o comparar la posición exacta de un punto en distintos tiempos de referencia.
+Punto individual Esta función permite realizar la transformación temporal de coordenadas para un solo punto geográfico. Es decir, ajusta las coordenadas de un punto específico según la variación de la referencia geodésica en diferentes épocas o años, considerando los movimientos tectónicos y otros factores geodinámicos. Esto es útil cuando se necesita actualizar o comparar la posición exacta de un punto en distintos tiempos de referencia.
 
-**Archivo: **Esta herramienta facilita la transformación de coordenadas para un conjunto de puntos contenidos en un archivo, aplicando los ajustes de época de forma masiva. De esta manera, es posible procesar lotes de datos georreferenciados para actualizar sus coordenadas de acuerdo con la evolución temporal del sistema de referencia geodésico. Esto optimiza el trabajo cuando se manejan grandes volúmenes de información que requieren ser ajustados a diferentes épocas.
+Archivo Esta herramienta facilita la transformación de coordenadas para un conjunto de puntos contenidos en un archivo, aplicando los ajustes de época de forma masiva. De esta manera, es posible procesar lotes de datos georreferenciados para actualizar sus coordenadas de acuerdo con la evolución temporal del sistema de referencia geodésico. Esto optimiza el trabajo cuando se manejan grandes volúmenes de información que requieren ser ajustados a diferentes épocas.
 
-### **Configuración: ** {.unnumbered}
+### Configuración
 
-Esta ventana permite editar los parámetros de visualización de paneles en los módulos de Conversión y Transformación, Ondulación Geoidal, Calculo de Velocidades y Cambio de Época.  
+Esta ventana permite editar los parámetros de visualización de paneles en los módulos de Conversión y Transformación, Ondulación Geoidal, Calculo de Velocidades y Cambio de Época.
 
 
 
@@ -211,9 +211,7 @@ Es importante destacar que el software **Magna Sirgas Pro 5.1** ofrece una ampli
 
 Sin embargo, esta guía se centrará en las funcionalidades orientadas a la conversión y transformación de coordenadas, consideradas fundamentales para el procesamiento y análisis geodésico. De acuerdo con las necesidades específicas de los usuarios, podrá desarrollarse una guía complementaria que aborde el uso de las herramientas avanzadas que ofrece el software.
 
-
-
-## Conversión y transformación {.unnumbered}
+## Conversión y transformación
 
 En este apartado se presentarán ejemplos explicativos sobre los subprocesos incluidos en la herramienta de conversión y transformación, específicamente en las secciones de: punto individual y archivo.
 
@@ -249,13 +247,13 @@ Esta casilla permite definir si el software genera automáticamente la codificac
 
 En este apartado se ingresarán las coordenadas de origen o partida sobre las cuales se desea realizar una conversión o transformación hacia otro sistema de coordenadas, es importante destacar que permite ingresar coordenadas elipsoidales (geográficas), planas cartesianas, Universal Transverse Mercator (UTM), Origen Único Nacional (CTM 12) Y Gauss Kruger. Para el presente ejemplo realizaremos una conversión de coordenadas elipsoidales (geográficas, grados, minutos, segundos).
 
-**Nota: **También posee la opción de activar la casilla Coordenadas decimales en la cual se podrán ingresar coordenadas geográficas (Grados, decimales).
+Nota También posee la opción de activar la casilla Coordenadas decimales en la cual se podrán ingresar coordenadas geográficas (Grados, decimales).
 
-**Coordenadas del ejercicio: **
+Coordenadas del ejercicio
 
-**Latitud:   **5°42'41.23"N
+Latitud 5°42'41.23"N
 
-**Longitud: **72°47'19.91"W
+Longitud 72°47'19.91"W
 
 Así mismo se deberán ingresar las coordenadas en el aplicativo y ejecutar el comando calcular:
 
@@ -301,7 +299,7 @@ La opción “Sistema de Referencia Partida” del módulo Cálculo Coordenadas 
 
 La opción “Archivo Entrada” permite al usuario seleccionar el archivo que contiene las coordenadas iniciales que serán procesadas o transformadas. En este panel se pueden realizar dos acciones principales: **Seleccionar el formato de archivo** mediante un menú desplegable, que admite formatos como CSV, XLS y XLSX. **Abrir el archivo** usando el botón *Abrir*, lo que carga la información en el software para su posterior análisis o conversión. Esta herramienta es esencial para iniciar el proceso de transformación de coordenadas, ya que define la fuente de datos que se usará como base para los cálculos posteriores.
 
-**Nota: **En el archivo Excel se deberán crear las casillas o columnas que seleccionen la identificación de los puntos y sus respectivas coordenadas de la siguiente forma:
+Nota En el archivo Excel se deberán crear las casillas o columnas que seleccionen la identificación de los puntos y sus respectivas coordenadas de la siguiente forma:
 
 
 
@@ -313,9 +311,9 @@ Para el siguiente ejemplo realizaremos una conversión de coordenadas Elipsoidal
 
 ![Configuración del archivo de entrada. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_48cbbb5b.png){#fig-mp-config-archivo-entrada}
 
-La opción “Configuración Archivo” del módulo Cálculo Coordenadas Archivo de Puntos en Magna Sirgas Pro 5.1 permite establecer los parámetros de lectura del archivo de entrada que contiene las coordenadas a procesar. En este panel se definen dos configuraciones clave: **Separador de columna**: especifica el carácter que se utiliza en el archivo para separar los diferentes campos o datos (por ejemplo, coma “,”, punto y coma “;” o tabulación). **Separador decimal**: indica el símbolo que se emplea para separar la parte entera de la decimal en los valores numéricos (comúnmente punto “.” o coma “,”).
+La opción “Configuración Archivo” del módulo Cálculo Coordenadas Archivo de Puntos en Magna Sirgas Pro 5.1 permite establecer los parámetros de lectura del archivo de entrada que contiene las coordenadas a procesar. En este panel se definen dos configuraciones clave: Separador de columna especifica el carácter que se utiliza en el archivo para separar los diferentes campos o datos (por ejemplo, coma “,”, punto y coma “;” o tabulación). Separador decimal indica el símbolo que se emplea para separar la parte entera de la decimal en los valores numéricos (comúnmente punto “.” o coma “,”).
 
-**Nota: **Definir correctamente estos parámetros asegura que el software interprete de forma precisa los datos del archivo, evitando errores de lectura o desalineación de la información.
+Nota Definir correctamente estos parámetros asegura que el software interprete de forma precisa los datos del archivo, evitando errores de lectura o desalineación de la información.
 
 
 
@@ -327,7 +325,7 @@ Permite indicar si el archivo de entrada contiene una fila inicial destinada a l
 
 ![Configuración del sistema de coordenadas de partida y vinculación de casillas. Fuente: IGAC.](media/anexo_26-conversion-y-transformacion/img_6d3dda8f.png){#fig-mp-config-coordenadas-partida-vinculacion}
 
-La sección **“Configuración Coordenada de Partida”** dentro del bloque *Archivo Entrada* en el módulo *Cálculo Coordenadas Archivo de Puntos* de *Magna Sirgas Pro 5.1* permite definir el tipo de coordenadas y la asignación de columnas que contienen los datos de origen a procesar. En **Opciones Archivo**: mediante listas desplegables, se asignan las columnas del archivo que contienen la información de:
+La sección **“Configuración Coordenada de Partida”** dentro del bloque *Archivo Entrada* en el módulo *Cálculo Coordenadas Archivo de Puntos* de *Magna Sirgas Pro 5.1* permite definir el tipo de coordenadas y la asignación de columnas que contienen los datos de origen a procesar. En Opciones Archivo mediante listas desplegables, se asignan las columnas del archivo que contienen la información de:
 
 **ID** (identificador del punto), **Latitud y  Longitud.** Esta configuración es esencial para que el software interprete correctamente la información cargada y realice la conversión de coordenadas de manera precisa según el sistema de referencia seleccionado.
 

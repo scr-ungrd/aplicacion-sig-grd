@@ -1,22 +1,23 @@
-# Marco teórico de los SIG {.unnumbered}
+# 2. Marco teórico de los SIG
 
-## Definición SIG {.unnumbered}
+## 2.1. Definición SIG
 
 Los SIG son conjuntos de herramientas integradas para capturar, almacenar, consultar, analizar y desplegar datos geoespaciales [@chang2015; @longley2015]. Los SIG son el núcleo de la tecnología geoespacial, que está relacionada con una serie de campos como la teledetección, Sistema de Posicionamiento Global (GPS), cartografía, topografía, geoestadística, programación, gestión de bases de datos y diseño gráfico [@heywood2011; @burrough1998]. Estas herramientas permiten combinar información gráfica y alfanumérica para generar productos como mapas, visores, modelaciones y bases de datos [@esri2013b].
 
 Según la definición del IGAC (2005) los SIG son herramientas y actividades que actúan coordinada y sistemáticamente para recolectar, almacenar, validar, manipular, integrar, analizar, actualizar, extraer y desplegar información, tanto gráfica como descriptiva de los elementos considerados, con el fin de satisfacer múltiples propósitos.
 
-## Contexto mundial {.unnumbered}
+## 2.2. Contexto mundial
 
 A nivel mundial, los SIG desempeñan un papel importante en diversas áreas, desde la planificación territorial y la gestión del medio ambiente hasta la gestión del riesgo de desastres y la toma de decisiones en el ámbito gubernamental y empresarial. Para comprender el contexto, se presenta el marco histórico.
 
-### Marco histórico {.unnumbered}
+### 2.2.1. Marco histórico
 
-Las bases de los SIG se sentaron a mediados del siglo XX con pioneros como John K. Wright y Waldo Tobler, quien en 1959 definió los principios de los sistemas de cartografía computarizada un sistema denominado MIMO (Map In, Map Out). El hito fundacional fue el desarrollo del Canadian Geographical Information Systems (CGIS) por Roger Tomlinson en la década de 1960, marcando el inicio formal de los SIG. Desde entonces, estas herramientas han experimentado una rápida evolución, pasando de sistemas aislados a plataformas colaborativas e interoperables, impulsadas por el avance tecnológico y el auge de la geografía voluntaria y la participación ciudadana [@williamson2003; @dangermond2019]. Esta evolución ha posicionado a los SIG como aliados estratégicos en la gestión del riesgo de desastres a nivel mundial, permitiendo la representación precisa de áreas de riesgo, el monitoreo en tiempo real, le ordenamiento territorial y la toma de decisiones basada en datos [@nrc2007; @esri2020a] como se evidenció en eventos críticos como el terremoto de Tohoku y el huracán Irene. En la @fig-cronologia-mundial-sig se evidencia la cronología mundial de los Sistemas de Información geográfica.
+Las bases de los SIG se sentaron a mediados del siglo XX con pioneros como John K. Wright y Waldo Tobler, quien en 1959 definió los principios de los sistemas de cartografía computarizada un sistema denominado MIMO (Map In, Map Out). El hito fundacional fue el desarrollo del Canadian Geographical Information Systems (CGIS) por Roger Tomlinson en la década de 1960, marcando el inicio formal de los SIG. Desde entonces, estas herramientas han experimentado una rápida evolución, pasando de sistemas aislados a plataformas colaborativas e interoperables, impulsadas por el avance tecnológico y el auge de la geografía voluntaria y la participación ciudadana [@williamson2003; @dangermond2019]. 
+Esta evolución ha posicionado a los SIG como aliados estratégicos en la gestión del riesgo de desastres a nivel mundial, permitiendo la representación precisa de áreas de riesgo, el monitoreo en tiempo real, le ordenamiento territorial y la toma de decisiones basada en datos [@nrc2007; @esri2020a] como se evidenció en eventos críticos como el terremoto de Tohoku y el huracán Irene. En la @fig-cronologia-mundial-sig se evidencia la cronología mundial de los Sistemas de Información geográfica.
 
 ![Cronología mundial de los SIG. Fuente: Modificado UNGRD, 2024](media/02-marco-teorico-de-los-sig/img_50cb8ac1.png){#fig-cronologia-mundial-sig}
 
-### Marco normativo {.unnumbered}
+### 2.2.2. Marco normativo
 
 El marco normativo internacional de los SIG está compuesto por estándares y directrices que buscan garantizar la interoperabilidad, calidad, accesibilidad, privacidad y uso ético de la información geoespacial. Estos lineamientos promueven la colaboración internacional y el intercambio de buenas prácticas en el desarrollo y uso de los SIG.
 
@@ -31,11 +32,11 @@ Entre las normas internacionales que están relacionadas con los SIG, infraestru
 - **ISO 19118 (2011):** Especifica reglas de codificación para la interoperabilidad basada en esquemas UML.
 - **ISO 19139-2 (2012):** Proporciona esquemas XML para la implementación de metadatos de datos ráster (extensión ISO 19115-2).
 
-## Contexto nacional  {.unnumbered}
+## 2.3. Contexto nacional
 
 En Colombia, los SIG son fundamentales para la política de sistematización y acceso a la información, promoviendo el uso coordinado de datos geográficos generados por entidades como el IGAC, DANE y DNP. El IGAC, en particular, es la entidad rectora en la producción cartográfica oficial, la investigación geográfica y la coordinación de la Infraestructura Colombiana de Datos Espaciales (ICDE). Actualmente, los SIG son esenciales para el análisis espacial y la correlación de datos con localización geográfica, facilitando la planificación y el ordenamiento territorial a todos los niveles de decisión.
 
-### Marco histórico {.unnumbered}
+### 2.3.1. Marco histórico
 
 El desarrollo de los SIG en Colombia, impulsado por la evolución tecnológica y la necesidad de una planificación territorial adecuada, se remonta a 1902 con la creación del IGAC, entidad que desde entonces ha liderado la producción geográfica y cartográfica del país. A lo largo del siglo XX y principios del XXI, el IGAC ha marcado hitos como la instalación del Observatorio Geomagnético (1950), el intercambio de información con otras entidades (1984), la publicación de guías metodológicas para el POT (1997) y atlas digitales (2002), y la firma de acuerdos internacionales (2011). Recientemente, desde 2014, el IGAC ha modernizado su plataforma tecnológica con el lanzamiento del Portal Geográfico Nacional y otras herramientas como Colombia OT y Colombia en Mapas, consolidando los SIG como instrumentos esenciales para la formulación de políticas públicas, el desarrollo territorial y la gestión del riesgo de desastres a nivel nacional, en concordancia con la normatividad vigente.. En la @fig-cronologia-sig-colombia se resume la historia de los SIG en Colombia.
 
@@ -43,7 +44,7 @@ El desarrollo de los SIG en Colombia, impulsado por la evolución tecnológica y
 
 Actualmente, diversas entidades públicas en Colombia utilizan portales SIG y mecanismos de gestión de datos geoespaciales, lo que ha fortalecido la planificación, el control territorial, la gestión del riesgo y la toma de decisiones estratégicas, en concordancia con la normatividad vigente. Estos instrumentos se han consolidado como herramientas clave para la formulación de políticas públicas y el desarrollo territorial en distintas escalas [@igac2018b; @esri2020b].
 
-### Marco normativo {.unnumbered}
+### 2.3.2. Marco normativo
 
 En Colombia, la implementación de los SIG se rige por la normatividad estatal vigente en materia de divulgación de datos públicos y las regulaciones de uso que cada institución declara al usuario. Entre las normas y documentos pertinentes figura: la Ley 1523 de 2012 y los documentos 3585 de 2009 y el 3762 de 2013.
 

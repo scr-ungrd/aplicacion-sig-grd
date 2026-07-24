@@ -1,16 +1,16 @@
-# Usos y aplicaciones de los SIG {.unnumbered}
+# 3. Usos y aplicaciones de los SIG
 
 Las áreas de uso práctico de los SIG abarcan varios sectores; desde un inventario de los recursos naturales y humanos hasta el control y la gestión de datos catastrales urbanos y rurales a través del catastro multipropósito y en la planificación y gestión urbana [@igac2018a; @williamson2010]. Además, son esenciales para la cartografía y el monitoreo de grandes instalaciones, como redes telefónicas, sistemas de abastecimiento y evacuación de aguas y las redes de transporte [@longley2015; @esri2013a; @heywood2011]
 
-Se requieren también en sectores como el bancario, sanitario, logístico de transporte, las telecomunicaciones, movilidad vial, el medio ambiente y el geológico minero (Pindo, 2007). En resumen, un sistema de información geográfica es útil en cualquier área donde sea necesario el manejo de información espacial (Bosque, 2000) brindando apoyo a diversas funciones y procesos. Ver @fig-funciones-sig.
+Se requieren también en sectores como el bancario, sanitario, logístico de transporte, las telecomunicaciones, movilidad vial, el medio ambiente y el geológico minero (Pindo, 2007). En resumen, un sistema de información geográfica es útil en cualquier área donde sea necesario el manejo de información espacial (Bosque, 2000) brindando apoyo a diversas funciones y procesos (ver @fig-funciones-sig).
 
 ![Funciones de un SIG. Fuente: Lozada, 2017.](media/03-usos-y-aplicaciones-de-los-sig/img_d76deeae.png){#fig-funciones-sig}
 
-## Conceptos básicos de los SIG {.unnumbered}
+## 3.1. Conceptos básicos de los SIG
 
 Para elaborar insumos con SIG, se requiere conocer una serie de conceptos previos necesarios para realizar y comprender correctamente las operaciones. En este capítulo, se presentan algunos conceptos básicos de los SIG, geodesia y cartografía.
 
-### Componentes básicos de los SIG {.unnumbered}
+### 3.1.1. Componentes básicos de los SIG
 
 Son cinco los elementos principales que conforman un SIG: datos, métodos, software, hardware y factor organizativo o personal (Esri, 2003). Ver @fig-componentes-sig.
 
@@ -32,9 +32,7 @@ El modelo raster estructura la información temática, individualmente, para cad
 
 ![Capas temáticas de la información en el modelo raster. Fuente: Barredo, 1996.](media/03-usos-y-aplicaciones-de-los-sig/img_bc5d2d6f.png){#fig-capas-tematicas-raster}
 
-Los datos geográficos del mundo real quedan representados, de acuerdo a la correspondencia de las figuras geométricas elementales planas y el formato raster. Así, los elementos puntuales serían reemplazados por celdas individuales, los lineales por una secuencia de celdas alineadas y los polígonos por celdas contiguas del mismo valor temático. Ver @fig-objetos-geograficos-raster.
-
-
+Los datos geográficos del mundo real quedan representados, de acuerdo a la correspondencia de las figuras geométricas elementales planas y el formato raster. Así, los elementos puntuales serían reemplazados por celdas individuales, los lineales por una secuencia de celdas alineadas y los polígonos por celdas contiguas del mismo valor temático (@fig-objetos-geograficos-raster).
 
 ![Representación de los objetos geográficos (puntos, líneas y polígonos) en el modelo raster. Fuente: Gutiérrez y Gould, 1994.](media/03-usos-y-aplicaciones-de-los-sig/img_5402fa5b.png){#fig-objetos-geograficos-raster}
 
@@ -56,7 +54,7 @@ Un SIG debe tener un sistema computarizado, una computadora u ordenador que se c
 
 Con el fin de que los equipos encargados de la gestión del riesgo de desastres en los municipios puedan elaborar su propia cartografía básica, útil para la toma de decisiones, este documento incluye el paso a paso para construir dichos insumos utilizando el software QGIS, ya que es de acceso libre, y puede ser utilizado e todos los territorios. 
 
-### 3.1.2. Modelo Digital de Elevación (DEM) {.unnumbered}
+### 3.1.2. Modelo Digital de Elevación (DEM)
 
 Un Modelo Digital de Elevación (DEM) representa la altitud del terreno respecto al nivel del mar, sin incluir elementos construidos o naturales presentes sobre la superficie, como edificios, árboles o postes [@chang2015; @li2005]. Este modelo del terreno es ampliamente utilizado en estudios hidrológicos para el delineamiento de cuencas, análisis de acumulación y dirección del flujo, así como en estudios de suelos y planificación del uso del suelo [@wilson2000; @burrough1998; @usgs2020]. 
 
@@ -70,27 +68,27 @@ Los métodos más utilizados para recolectar información necesaria para la crea
 
 Las principales fuentes de descarga son: 
 
-a) **Repositorio USGS SRTM 30m:** [https://earthexplorer.usgs.gov/](https://earthexplorer.usgs.gov/)
-b) **ALOS-PALSAR (L) 12,5 m:** [https://search.asf.alaska.edu/](https://search.asf.alaska.edu/)
-c) **Repositorio ESA SRTM 30m:** [http://step.esa.int/auxdata/dem/SRTMGL1/](http://step.esa.int/auxdata/dem/SRTMGL1/)
-d) **SRTM 90m:** [https://srtm.csi.cgiar.org/srtmdata/](https://srtm.csi.cgiar.org/srtmdata/)
+- **Repositorio USGS SRTM 30m:** [https://earthexplorer.usgs.gov/](https://earthexplorer.usgs.gov/)
+- **ALOS-PALSAR (L) 12,5 m:** [https://search.asf.alaska.edu/](https://search.asf.alaska.edu/)
+- **Repositorio ESA SRTM 30m:** [http://step.esa.int/auxdata/dem/SRTMGL1/](http://step.esa.int/auxdata/dem/SRTMGL1/)
+- **SRTM 90m:** [https://srtm.csi.cgiar.org/srtmdata/](https://srtm.csi.cgiar.org/srtmdata/)
 
 
-### 3.1.3. Modelo Digital de Superficie (DMS) {.unnumbered}
+### 3.1.3. Modelo Digital de Superficie (DMS)
 
 El Modelo Digital de Superficie (DMS) representa las altitudes de todos los objetos que se encuentran sobre la superficie terrestre, incluyendo copas de árboles, techos de edificios, torres y líneas eléctricas [@esri2020c; @li2005]. Este modelo es ampliamente utilizado en aplicaciones de modelado 3D, como telecomunicaciones, planificación urbana y navegación aérea, ya que permite identificar obstáculos y estructuras elevadas [@sithole2004].
 
-### 3.1.4. Modelo Digital de Terreno (DTM) {.unnumbered}
+### 3.1.4. Modelo Digital de Terreno (DTM)
 
 Por su parte, el Modelo Digital de Terreno (DTM) representa de forma más detallada las características topográficas del terreno, ya que se deriva del DEM e incorpora elementos como líneas de cresta, canales de drenaje o líneas de ruptura [@felicisimo1994; @wilson2000]. Se estructura normalmente como una red de puntos vectoriales distribuidos regularmente, con atributos que permiten enriquecer el análisis espacial [@burrough1998]. En la @fig-diferencia-dms-dem-dtm se observa la diferencia de los modelos digitales.
 
 ![Diferencia entre DMS, DEM y DTM. Fuente: UNGRD, 2024.](media/03-usos-y-aplicaciones-de-los-sig/img_ad925e4a.png){#fig-diferencia-dms-dem-dtm}
 
-### 3.1.5. Servicios web geográficos  {.unnumbered}
+### 3.1.5. Servicios web geográficos
 
 La interoperabilidad entre sistemas heterogéneos se define como la capacidad para ejecutar programas y transferir datos entre diferentes unidades funcionales  este objetivo se logra principalmente con la implementación de servicios web. 
 
-Open Geospatial Consortium (OGC) un consorcio mundial para el consenso de estándares relacionados con la gestión de información geográfica, definió el *Web **Map Service* (WMS), *Web Feature Service* (WFS) y *Web Coverage Service* (WCS) para compartir datos, vector, raster e imágenes de mapas respectivamente.. Estos estándares son adoptados por SIG como ArcGis, MapWindow, Google Earth, NASA World Wind y portales como Google maps y Yahoo maps permitiendo la interoperabilidad.
+Open Geospatial Consortium (OGC) un consorcio mundial para el consenso de estándares relacionados con la gestión de información geográfica, definió el Web Map Service (WMS), Web Feature Service (WFS) y Web Coverage Service (WCS) para compartir datos, vector, raster e imágenes de mapas respectivamente.Estos estándares son adoptados por SIG como ArcGis, MapWindow, Google Earth, NASA World Wind y portales como Google maps y Yahoo maps permitiendo la interoperabilidad.
 
 - **Web Map Service (WMS):** es un servicio renderizado, que proporciona una interfaz HTTP (HyperText Transfer Protocol) para el uso de imágenes de mapas registrados desde una o más bases de datos geoespaciales. Las operaciones WMS se pueden extraer y utilizar desde un navegador estándar mediante un URL (HyperText Transfer Protocol)
 
@@ -98,15 +96,13 @@ Open Geospatial Consortium (OGC) un consorcio mundial para el consenso de están
 
 - **Web Coverage Service (WCS):** proporciona la interfaz de implementación y las operaciones que permiten el acceso interoperable a coberturas geoespaciales. El término cobertura se refiere a contenidos de imágenes de satélite, fotos aéreas, datos digitales de elevación, entre otros. La respuesta a una solicitud WCS incluye metadatos de la cobertura y la cobertura como tal, cuyos pixeles se almacenan en un formato binario específico, como GeoTIFF o NetCDF
 
-## 3.2. Fundamentos cartográficos  {.unnumbered}
+## 3.2. Fundamentos cartográficos
 
 La información georreferenciada se caracteriza por estar asociada a una ubicación específica en la superficie terrestre, expresada mediante coordenadas dentro de un sistema de referencia espacial [@chang2015; @iliffe2008]. La precisión en esta localización depende de la geodesia, ciencia que estudia la forma y dimensiones de la Tierra, la cual no es perfectamente esférica, sino que se aproxima a un elipsoide achatado en los polos [@hofmannwellenhof2005; @snyder1987].
 
 En este contexto, se utilizan dos superficies de referencia: el elipsoide, una figura matemática ideal que modela la forma general del planeta, y el geoide, una superficie equipotencial del campo gravitacional terrestre, más representativa del nivel medio del mar [@schwarz1990] (IGAC, 2021). Ver @fig-tierra-geoide-elipsoide.
 
-El conjunto formado por el elipsoide y un punto de tangencia con la superficie terrestre forma un ***datum ***
-
-
+El conjunto formado por el elipsoide y un punto de tangencia con la superficie terrestre forma un ***datum ***.
 
 ![Representación Tierra, Geoide Elipsoide. Fuente: Mancebo Quintana et al. (2008)](media/03-usos-y-aplicaciones-de-los-sig/img_bae63cb4.png){#fig-tierra-geoide-elipsoide}
 
@@ -114,7 +110,7 @@ Otro aspecto importante al trabajar con un SIG es el uso de proyecciones cartogr
 
 Los elementos de la geodesia —como el sistema de referencia y el datum geodésico— junto con las proyecciones cartográficas, hacen posible la producción de cartografía a partir de información georreferenciada [@chang2015; @burrough1998]. 
 
-## 3.3. Sistemas de coordenadas {.unnumbered}
+## 3.3. Sistemas de coordenadas
 
 El IGAC define un sistema de coordenadas como el conjunto de parámetros que permiten definir inequívocamente la posición de cualquier punto en un espacio geométrico respecto de un punto denominado origen sobre la superficie terrestre. 
 
@@ -126,13 +122,10 @@ Para asignar coordenadas a un punto en función de los elementos anteriores es n
 
 ![Esquema de los elementos del sistema de coordenadas geográficas.](media/03-usos-y-aplicaciones-de-los-sig/img_0a77336f.png){#fig-coordenadas-geograficas}
 
-## 3.4. Proyección cartográfica en Colombia {.unnumbered}
+## 3.4. Proyección cartográfica en Colombia
 
-Una proyección cartográfica es un método que transforma las coordenadas geográficas (latitud y longitud) en coordenadas planas (X,Y) sobre un plano, lo que permite representar la superficie curva de la Tierra en mapas ya sea en papel o digital. En Colombia, antes del actual sistema MAGNA-SIRGAS Origen Nacional, el país aplicaba el *Datum Bogotá* adoptado en 1941 y el sistema MAGNA-SIRGAS de seis orígenes adoptado en el 2005 y asociado a una proyección Transversa de Mercator de tipo *tangente*, mientras actualmente es de tipo ***secante*** **(IGAC, 202****0****)****.**
-
+Una proyección cartográfica es un método que transforma las coordenadas geográficas (latitud y longitud) en coordenadas planas (X,Y) sobre un plano, lo que permite representar la superficie curva de la Tierra en mapas ya sea en papel o digital. En Colombia, antes del actual sistema MAGNA-SIRGAS Origen Nacional, el país aplicaba el *Datum Bogotá* adoptado en 1941 y el sistema MAGNA-SIRGAS de seis orígenes adoptado en el 2005 y asociado a una proyección Transversa de Mercator de tipo *tangente*, mientras actualmente es de tipo *secante* (IGAC, 2020).
 A continuación, en la @fig-cronologia-igac-2005-2020 se evidencia la cronología de las resoluciones técnicas en producción de información georreferenciada según el IGAC desde el año 2005 hasta el año 2020.
-
-
 
 ![Cronología IGAC desde 2005 hasta 2020. Fuente: IGAC, 2020.](media/03-usos-y-aplicaciones-de-los-sig/img_d2b76772.png){#fig-cronologia-igac-2005-2020}
 
@@ -142,15 +135,14 @@ Al sistema Origen Nacional se le conoció al principio como CTM12, ya que se pla
 
 Mediante la Resolución IGAC 370 de 2021 se establece la proyección cartográfica “Transversa Mercator” como sistema oficial de coordenadas planas para Colombia, con el único origen denominado “Origen Nacional» referido al Marco Geocéntrico Nacional de Referencia, MAGNA SIRGAS. Ver @fig-origen-nacional-puerto-lopez.
 
-
-
 ![El origen nacional se encuentra cerca a Puerto López, Meta. Fuente: IGAC, 2024.](media/03-usos-y-aplicaciones-de-los-sig/img_3c25b477.png){#fig-origen-nacional-puerto-lopez}
 
 **El nuevo sistema debe ser adoptado para todas aquellas entidades que produzcan, usen o compartan información geográfica oficial y/o pretendan representar sus datos sobre cartografía IGAC**. El proceso de transición por parte de las instituciones al uso de la proyección de origen nacional se debe realizar de manera paulatina.
 
 El IGAC actualizó su aplicativo de conversión MAGNA SIRGAS a su versión 5.1 que incorpora usa el Origen único nacional. Se puede descargar el instalador e instructivo de instalación en [https://origen.igac.gov.co/herramientas.html](https://origen.igac.gov.co/herramientas.html).
 
-**3.4.1. MAGNA PRO:** es un software o aplicación del IGAC, que permite emplear los parámetros de transformación oficiales, conversión, cálculo de ondulación, cálculo de velocidades y tranformación entre el antiguo Datum Bogotá y el actual Marco Geocéntrico Nacional de Rederencia (MAGNA-SIRGAS)
+### 3.4.1. MAGNA PRO
+Es un software o aplicación del IGAC, que permite emplear los parámetros de transformación oficiales, conversión, cálculo de ondulación, cálculo de velocidades y tranformación entre el antiguo Datum Bogotá y el actual Marco Geocéntrico Nacional de Rederencia (MAGNA-SIRGAS)
 
 Link de acceso: 
 [https://antiguo.igac.gov.co/es/noticias/igac-presenta-la-nueva-version-magna-sirgas-pro-42](https://antiguo.igac.gov.co/es/noticias/igac-presenta-la-nueva-version-magna-sirgas-pro-42)

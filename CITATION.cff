@@ -5,8 +5,6 @@ type: software
 authors:
   - name: "Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)"
     alias: UNGRD
-  - family-names: "Romero Torres"
-    given-names: Mauricio
 date-released: "2026-02-03"
 version: "1.0.0"
 doi: "10.5281/zenodo.21518659"

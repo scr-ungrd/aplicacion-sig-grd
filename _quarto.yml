@@ -19,15 +19,24 @@ book:
     - index.qmd
     - Pagina-legal.qmd
     - presentacion.qmd
-    - 01-introduccion.qmd
-    - 02-marco-teorico-de-los-sig.qmd
-    - 03-usos-y-aplicaciones-de-los-sig.qmd
-    - 04-fuentes-de-informacion.qmd
-    - 05-sig-aplicado-a-la-gestion-del-riesgo.qmd
-    - 06-como-realizar-un-sig-en-grd-a-nivel-municipal.qmd
-    - 07-recomendaciones-generales-para-un-sig-en-grd-.qmd
-    - 08-checklist-de-seguimiento-del-sig-municipal-pa.qmd
-    - 09-insumos-de-interes.qmd
+    - text: "1. Introducción"
+      href: 01-introduccion.qmd
+    - text: "2. Marco teórico de los SIG"
+      href: 02-marco-teorico-de-los-sig.qmd
+    - text: "3. Usos y aplicaciones de los SIG"
+      href: 03-usos-y-aplicaciones-de-los-sig.qmd
+    - text: "4. Fuentes de información"
+      href: 04-fuentes-de-informacion.qmd
+    - text: "5. SIG aplicado a la gestión del riesgo"
+      href: 05-sig-aplicado-a-la-gestion-del-riesgo.qmd
+    - text: "6. ¿Cómo realizar un SIG en GRD a nivel municipal?"
+      href: 06-como-realizar-un-sig-en-grd-a-nivel-municipal.qmd
+    - text: "7. Recomendaciones generales para un SIG en GRD municipal"
+      href: 07-recomendaciones-generales-para-un-sig-en-grd-.qmd
+    - text: "8. Checklist de seguimiento del SIG municipal para GRD"
+      href: 08-checklist-de-seguimiento-del-sig-municipal-pa.qmd
+    - text: "9. Insumos de interés"
+      href: 09-insumos-de-interes.qmd
     - 10-referencias.qmd
     - part: anexos.qmd
       chapters:
@@ -58,7 +67,6 @@ format:
     reference-location: block
     logo: media/CUB_MARCO TEORICO SIG-1.png
     css:
-      - custom.css
       - custom.css
     include-in-header:
       - caption-bold.html

@@ -1,4 +1,4 @@
-# ¿Cómo realizar un SIG en GRD a nivel municipal? {.unnumbered}
+# 6. ¿Cómo realizar un SIG en GRD a nivel municipal?
 
 Implementar un SIG en GRD a nivel municipal implica establecer una plataforma geoespacial que integre información ambiental, social, física y de amenazas, para apoyar la planeación, monitoreo y toma de decisiones frente al riesgo. El proceso general incluye:
 
@@ -13,7 +13,7 @@ Implementar un SIG en GRD a nivel municipal implica establecer una plataforma ge
 
 **Resultado esperado:** un sistema operativo, útil y sostenible que permita a los municipios visualizar riesgos, tomar decisiones y cumplir con la Ley 1523 de 2012 (Política Nacional de GRD).
 
-## Recolección de información e insumos geográficos {.unnumbered}
+## 6.1. Recolección de información e insumos geográficos
 
 Para alimentar el SIG municipal en GRD, es necesario recopilar insumos de distintas fuentes. Se incluyen:
 
@@ -32,10 +32,11 @@ Para alimentar el SIG municipal en GRD, es necesario recopilar insumos de distin
   - Uso de GPS, drones o encuestas participativas para registrar puntos, rutas, zonas vulnerables.
   - Formularios móviles (ej. KoboToolbox, QField).
 
-> [!TIP]
-> **Consejo:** Priorizar datos oficiales, gratuitos y en formato SIG editable (.shp, .geojson, .tif, etc.).
+::: {.callout-tip}
+**Consejo:** Priorizar datos oficiales, gratuitos y en formato SIG editable (.shp, .geojson, .tif, etc.).
+:::
 
-## Estandarización de la información {.unnumbered}
+## 6.2. Estandarización de la información
 
 Una vez recolectada la información, debe ser validada y organizada para asegurar que sea interoperable dentro del SIG. Este paso incluye:
 
@@ -47,7 +48,7 @@ Una vez recolectada la información, debe ser validada y organizada para asegura
 
 *Herramientas útiles:* QGIS para limpieza y validación; Excel o LibreOffice para revisar tablas; Metadata Editor de GeoNetwork.
 
-## Cargar información a la base de datos {.unnumbered}
+## 6.3. Cargar información a la base de datos
 
 Este paso implica integrar toda la información estandarizada en un entorno SIG municipal:
 
@@ -59,10 +60,11 @@ Este paso implica integrar toda la información estandarizada en un entorno SIG 
   - **Sociales:** población vulnerable, asentamientos informales.
 - **Documentación técnica:** archivos README, metadatos, mapas de referencia.
 
-> [!TIP]
-> **Consejo:** realizar respaldos frecuentes y compartir la base de datos con entidades clave como el Consejo Municipal de Gestión del Riesgo.
+::: {.callout-tip title="Consejo"}
+Realizar respaldos frecuentes y compartir la base de datos con entidades clave como el Consejo Municipal de Gestión del Riesgo.
+:::
 
-## Despliegue y análisis de la información {.unnumbered}
+## 6.4. Despliegue y análisis de la información
 
 Con los datos cargados en el SIG, se pueden generar productos de análisis espacial para la GRD:
 

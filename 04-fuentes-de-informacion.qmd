@@ -1,4 +1,4 @@
-# Fuentes de información {.unnumbered}
+# 4. Fuentes de información
 
 En el contexto de los SIG, las fuentes de información juegan un papel clave al proporcionar la base de datos espaciales sobre la cual se elaboran mapas y análisis. Existen múltiples fuentes gratuitas disponibles para los municipios, que incluyen imágenes satelitales ópticas y de radar, modelos digitales de elevación (DEM), modelos de superficie (DSM) y modelos del terreno (DTM) [@lillesand2015; @campbell2011].
 
@@ -10,7 +10,7 @@ Además, plataformas SIG modernas permiten acceder a datos mediante servicios we
 
 Herramientas como Google Earth, QGIS, ArcGIS Online y TerriaJS permiten integrar estos servicios y explorar información geográfica de forma interactive. Geoportales como EarthExplorer [@usgs2021], Copernicus Open Access Hub [-@copernicus2021] y la ICDE en Colombia (IGAC, 2022) ofrecen acceso libre a este tipo de información.
 
-## 4.1. Imágenes satelitales ópticas gratuitas  {.unnumbered}
+## 4.1. Imágenes satelitales ópticas gratuitas
 
 - **LANDSAT:** Serie de satélites de órbita polar y captura de imágenes multiespectrales, desarrollados por la NASA y el Servicio Geológico de los Estados Unidos (USGS) empleados para:
   - El inventario de la cobertura y el uso de suelo
@@ -39,7 +39,7 @@ PlanetScope permite mediante el índice diferencial de vegetación normalizado (
 
 - **Link de acceso:** [https://developers.planet.com/docs/data/planetscope/](https://developers.planet.com/docs/data/planetscope/)
 
-## 4.2. Imágenes satelitales de radar gratuitas {.unnumbered}
+## 4.2. Imágenes satelitales de radar gratuitas
 
 - **SENTINEL 1:** La misión Sentinel-1 comprende una constelación de dos satélites (1A/1B) en órbita polar, que operan día y noche y realizan imágenes de radar de apertura sintética de banda C, lo que les permite adquirir imágenes independientemente del clima. Permiten:
   - El monitoreo terrestre de bosques, agua, suelo y agricultura
@@ -58,7 +58,7 @@ PlanetScope permite mediante el índice diferencial de vegetación normalizado (
   - Aplicaciones de supervisión de bosques, inundaciones o calidad del agua
   - Aplicaciones para ciencias como hidrología, geología, climatología, oceanografía entre otras
 
-## 4.3. Imágenes satelitales de alta resolución {.unnumbered}
+## 4.3. Imágenes satelitales de alta resolución
 
 Las imágenes satelitales de alta resolución hacen referencia a precisiones menores de 1 metro por píxel. Muy alta resolución son imágenes de menos de 30 cm por píxel, lo que permite una mejor visualización y acciones como:
 
@@ -72,11 +72,11 @@ En Colombia las imágenes satelitales de alta resolución se pueden descargar de
 
 ![Portal de descarga de imágenes satelitales de alta resolución. Fuente: IGAC, 2024.](media/04-fuentes-de-informacion/img_479eff90.png){#fig-portal-descarga-alta-resolucion}
 
-## 4.4. Geoportales disponibles {.unnumbered}
+## 4.4. Geoportales disponibles
 
 Actualmente, son varias las entidades públicas colombianas que utilizan datos geográficos y han desarrollado portales SIG para el manejo de su información geográfica. A continuación, se encuentra el link de algunos portales.
 
-### Colombia en Mapas {.unnumbered}
+### Colombia en Mapas
 
 Herramienta web interactiva que dispone a la ciudadanía diferentes productos de información georreferenciada que produce el IGAC. 
 
@@ -101,7 +101,7 @@ Además, esta plataforma ofrece herramientas de construcción de mapas a diferen
 
 ![Geoportal Colombia en Mapas. Fuente: IGAC, 2024.](media/04-fuentes-de-informacion/img_85cfbb5c.png){#fig-geoportal-colombia-en-mapas}
 
-### Colombia OT {.unnumbered}
+### Colombia OT
 
 Colombia OT es el espacio que ha pensado el IGAC para que se construya el territorio. Esta plataforma es el punto de partida, consulta y llegada de quienes necesitan los instrumentos que orientan el desarrollo, la transformación, la ocupación y vocación, del territorio habitado. Colombia OT, es el punto de encuentro para empoderar y alinear a los entes territoriales en su tarea político - administrativa de gestionar la planeación física y afianzar la identidad dentro de sus límites competentes. 
 
@@ -124,7 +124,7 @@ Para visualizar capas de interés, tenga en cuenta los siguientes pasos:
 
 ![Portal Colombia OT. Fuente: IGAC, 2024.](media/04-fuentes-de-informacion/img_d49bee72.png){#fig-portal-colombia-ot}
 
-### Visor consolidado de atención a emergencias UNGRD {.unnumbered}
+### Visor consolidado de atención a emergencias UNGRD
 
 Con el fin de consolidar el inventario de atención de emergencias a nivel nacional, la UNGRD ha construido a partir del consolidado de atención de emergencias [@ungrd2023] y el Inventario histórico nacional de desastres (Corporación OSSO, 2019) el Inventario de atención de emergencias en el territorio colombiano. 
 
@@ -134,7 +134,7 @@ En este inventario es posible filtrar la información por temporada, departament
 
 ![Consolidado de atención a emergencias. Fuente: UNGRD, 2025.](media/04-fuentes-de-informacion/img_919990ae.png){#fig-consolidado-atencion-emergencias}
 
-### Geoportal del Servicio Geológico Colombiano (SGC) {.unnumbered}
+### Geoportal del Servicio Geológico Colombiano (SGC)
 
 El objetivo del Geoportal del SGC es mostrar información generada por las direcciones de: Geociencias Básicas, Recursos Minerales, Geoamenazas, Gestión de Información de la entidad, Información Petrolera y Laboratorios.
 
@@ -144,19 +144,19 @@ La información está almacenada en una geodatabase (GDB) corporativa y administ
 
 ![Geoportal Servicio Geológico Colombiano. Fuente: SGC, 2024.](media/04-fuentes-de-informacion/img_3a8a5e7e.png){#fig-geoportal-sgc}
 
-### Motor de Integración de Información Geocientífica (MIIG) del Servicio Geológico Colombiano {.unnumbered}
+### Motor de Integración de Información Geocientífica (MIIG) del Servicio Geológico Colombiano
 
 Es una herramienta que integra por medio de metadatos el contenido misional disponible en el Servicio Geológico Colombiano esto es la información almacenada en el SIG, Contenidos Documentales, tipo Web y otros sistemas misionales. A través del MIIG los usuarios internos y externos pueden realizar búsquedas inteligentes y descargar los contenidos de información en temas relacionados con Geociencias Básicas, Recursos Minerales, Amenazas Geológicas, Recursos Hidrocarburíferos, Tecnología Nucleares y Caracterización de Materiales Geológicos.
 
 **Link de acceso:** [https://miig.sgc.gov.co/Paginas/advanced.aspx](https://miig.sgc.gov.co/Paginas/advanced.aspx)
 
-### Sistema de Información de Movimientos en Masa–SIMMA {.unnumbered}
+### Sistema de Información de Movimientos en Masa–SIMMA
 
 Sistema que permite cargar, administrar y consultar los movimientos en masa que ocurrieron en Colombia, además permite consultar los informes y proyectos generados por parte del grupo de Evaluación de Amenaza por movimientos en masa.
 
 **Link de acceso:** [https://simma.sgc.gov.co/](https://simma.sgc.gov.co/)
 
-### Sistema de Información para la gestión de datos Hidrológicos y Meteorológicos – DHIME {.unnumbered}
+### Sistema de Información para la gestión de datos Hidrológicos y Meteorológicos – DHIME
 
 Este portal permite el acceso a las herramientas de gestión de series temporales, datos de laboratorio, acceso bajo demanda a datos oficiales, apoyado en mapas inteligentes, herramientas analíticas y geoinformación del IDEAM.
 
@@ -164,7 +164,7 @@ Este portal permite el acceso a las herramientas de gestión de series temporale
 
 ![Geoportal IDEAM. Fuente: IDEAM.](media/04-fuentes-de-informacion/img_54395714.png){#fig-geoportal-ideam}
 
-### Geovisor OE-IECC: Índice de erosión costera de Colombia (INVEMAR) {.unnumbered}
+### Geovisor OE-IECC: Índice de erosión costera de Colombia (INVEMAR)
 
 La Operación estadística OE IECC o Índice de erosión costera de Colombia en su nombre corto, busca producir información estadística cuatrienalmente que permita el seguimiento de los cambios espacio-temporales de la línea de costa de Colombia, relacionados con la erosión y acreción costera. La información estadística producida con la OE IECC, representa el estado de la totalidad de la línea de costa continental del país (Caribe y Pacífico). De las áreas insulares solo representa información del estado de la línea de costa de San Andrés, Providencia y Santa Catalina, excluyendo las demás islas y cayos del país; debido a la poca disponibilidad de imágenes de satélite con la resolución espacial necesaria para el análisis. Por tanto, la cobertura por extensión de la línea de costa se analiza alrededor del 95% de la línea de costa de Colombia.
 
@@ -174,7 +174,7 @@ La Operación estadística OE IECC o Índice de erosión costera de Colombia en 
 
 ![Geoportal INVEMAR. Fuente: INVEMAR.](media/04-fuentes-de-informacion/img_f4bd2311.png){#fig-geoportal-invemar}
 
-### Plataforma WildFire Solution del ORORATECH {.unnumbered}
+### Plataforma WildFire Solution del ORORATECH
 
 La UNGRD, a través de la Subdirección para el Conocimiento del Riesgo, con el fin de fortalecer las capacidades institucionales para la detección, monitoreo y análisis de incendios forestales en el país, adquirió la plataforma satelital WildFire Solution (WFS) de ORORATECH, que permite la visualización, análisis, monitoreo y modelación de incendios forestales mediante el uso de información satelital. Esta plataforma dispone un servicio de Inteligencia Térmica Satelital especializado en la detección de anomalías térmicas en tiempo cuasi real, el cálculo de áreas afectadas y quemadas, la simulación del comportamiento del fuego y la emisión de alertas tempranas, facilitando la toma de decisiones.
 

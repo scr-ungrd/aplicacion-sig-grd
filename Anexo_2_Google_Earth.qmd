@@ -1,21 +1,8 @@
-# Anexo 2: Google Earth {.unnumbered}
+# Anexo 2: Manual de Google Earth para documento SIG
 
-**Implementación de los SIG en la gestión del riesgo de desastres con el Software de uso libre Google Earth**
+## Implementación de los SIG en la gestión del riesgo de desastres con el Software de uso libre Google Earth
 
-**Contenido**
-
-**MANUAL DE GOOGLE EARTH PARA DOCUMENTO SIG**
-
-
-
-## Configuración básica de GOOGLE EARTH {.unnumbered}
-
-### Descarga del software Google Earth para escritorio {.unnumbered}
-
-Dirigirse al enlace web:  
-
-Posteriormente, escribir en la barra de búsqueda: Google Earth pro
-
+Para la configuración básica y descarga del software Google Earth para escritorio dirigirse al enlace web <https://www.google.com/?hl=es> y posteriormente, escribir en la barra de búsqueda: Google Earth pro
 
 
 ![](media/anexo_14-configuracion-basica-de-google-earth/img_d8a773d0.png)
@@ -182,7 +169,7 @@ A modo de ejemplo, colocaremos en el buscador la Plaza de Bolívar de Bogotá pa
 
 Podemos observar que al dar click en buscar, aparecerá el paso 20 que nos lleva directamente a la ubicación deseada (21).
 
-### **Creación de polígonos en GOOGLE EARTH** {.unnumbered}
+### **Creación de polígonos en Google Earth**
 
 Siguiendo el ejemplo y luego de haber elegido ubicación para la búsqueda, en la parte superior de la interfaz, seleccionamos la herramienta **‘’añadir polígono’’** (paso 22) y aparecerá una nueva ventana denominada **‘’Nuevo polígono’’ **(23)**,** podemos cambiar el nombre para el mismo, según el ejemplo, colocaremos **Plaza_Bolivar_Bogotá **(paso 24)
 
@@ -214,7 +201,7 @@ A continuación, se digitaliza el polígono deseado, del mismo modo que se reali
 
 Una vez, se finalice el polígono (paso 25), en la barra señalada de la figura anterior (26), se podrá utilizar las pestañas descripción, estilo, color, ver y altitud para personalizar el marcador, agregar textos, enlaces, cambiar icono y color del marcador, configurar la perspectiva inicial (latitud, longitud, alcance, etc), definir altura respecto al terreno y obtener la medida del polígono, se da click en **‘’aceptar’’ **(paso 27) de la ventana **‘’nuevo polígono’’.**
 
-#### **Guardar polígono como KML en GOOGLE EARTH** {.unnumbered}
+#### **Guardar polígono como KML en Google Earth**
 
 Luego de crear el polígono, en la tabla de contenidos, parte izquierda de la pantalla, en el ítem de **Lugares, **se evidencia que se ha añadido el polígono digitalizado (paso 28). Se realiza click derecho con el mouse, se observa un desplegable con opciones, por ejemplo:
 
@@ -258,7 +245,7 @@ Se guarda el archivo en tu disco local, en una carpeta nueva creada o de prefere
 
 
 
-## Creación de marca de posición en GOOGLE EARTH {.unnumbered}
+## Creación de marca de posición en Google Earth
 
 Acorde al ejemplo y luego de haber elegido ubicación para la búsqueda, en la parte superior de la interfaz, seleccionamos la herramienta **‘’agregar marca de posición’’** (paso 31) y aparecerá una nueva ventana denominada **‘’Nueva/o Marca de posición’’ **(32), podemos cambiar el nombre para el mismo, según el ejemplo, colocaremos **Coordenadas_PlazaB **(paso 33). Se visualizan las coordenadas del punto creado.
 
@@ -338,7 +325,7 @@ Luego de crear la marca de posición, en la tabla de contenidos, parte izquierda
 
 
 
-## Creación de ruta en GOOGLE EARTH {.unnumbered}
+## Creación de ruta en Google Earth
 
 Seleccionamos la herramienta **‘’agregar ruta’’** (paso 38) y aparecerá una nueva ventana denominada **‘’Nueva/o Ruta’’ **(39), podemos cambiar el nombre para el mismo, según el ejemplo, colocaremos **Ruta_PlazaB **(paso 40). Se puede visualizar una línea azul, la cual es el resultado de esta acción (41). Al igual que en las anteriores creaciones, se podrá utilizar las pestañas descripción, estilo, color, visualizar coordenadas, altitud, personalizar la ruta, agregar textos, enlaces, cambiar icono y color de la ruta, configurar la perspectiva inicial (latitud, longitud, alcance, etc) y definir altura respecto al terreno (42).
 
@@ -372,7 +359,7 @@ Luego de crear la ruta, en la tabla de contenidos, parte izquierda de la pantall
 
 
 
-## Superposición de imágenes en GOOGLE EARTH {.unnumbered}
+## Superposición de imágenes en Google Earth
 
 Seleccionamos la herramienta **‘’agregar superposición de imágenes’’** (paso 46) y aparecerá una nueva ventana denominada **‘’Nueva/o Superposición de imágenes’’ **(47), podemos cambiar el nombre para el mismo, en este caso, colocaremos **Corregimientos Valledupar **(paso 48). 
 
@@ -422,7 +409,7 @@ Luego de superponer la imagen, en la tabla de contenidos, parte izquierda de la 
 
 
 
-## Cómo generar perfiles de elevación en GOOGLE EARTH {.unnumbered}
+## Cómo generar perfiles de elevación en Google Earth
 
 Seleccionamos ‘’**Herramientas’’** (paso 57), click en **‘’regla’’ **(58)
 
@@ -458,7 +445,7 @@ Se podrá iniciar el respectivo análisis de la ruta a la cual se le generó el 
 
 
 
-## Otras herramientas de GOOGLE EARTH {.unnumbered}
+## Otras herramientas de Google Earth
 
 Continuando con el panel de herramientas, encontramos la opción ‘**’mostrar el historial de imágenes’’ **que nos permite visualizar imágenes históricas satelitales de un lugar específico, sirve para explorar como ha cambiado la zona a lo largo del tiempo.                           
 
@@ -508,7 +495,7 @@ Continuando con el panel de herramientas, encontramos la opción ‘**’mostrar
 
 
 
-## Uso de panel principal de GOOGLE EARTH {.unnumbered}
+## Uso de panel principal de Google Earth
 
 
 
@@ -516,7 +503,7 @@ Continuando con el panel de herramientas, encontramos la opción ‘**’mostrar
 
 En el panel principal de Google Earth Pro encontramos herramientas como:
 
-#### **Archivo** {.unnumbered}
+#### **Archivo**
 
 
 
@@ -541,7 +528,7 @@ En el panel principal de Google Earth Pro encontramos herramientas como:
 | Salir del servidor | Desconectarse del servidor sin cerrar el programa. |
 | Salir | Cerrar Google Earth Pro. |
 
-#### **Editar** {.unnumbered}
+#### **Editar**
 
 
 
@@ -563,7 +550,7 @@ En el panel principal de Google Earth Pro encontramos herramientas como:
 | Vista instantánea | Guardar perspectiva actual. |
 | Propiedades | Editar propiedades del elemento seleccionado. |
 
-#### **Ver** {.unnumbered}
+#### **Ver**
 
 
 
@@ -589,7 +576,7 @@ En el panel principal de Google Earth Pro encontramos herramientas como:
 | Restablecer | Devolver vista y orientación a valores predeterminados. |
 | Establecer esta ubicación como mi ubicación de inicio | Guardar la ubicación actual como punto de partida al iniciar. |
 
-#### **Herramientas** {.unnumbered}
+#### **Herramientas**
 
 
 
@@ -606,7 +593,7 @@ En el panel principal de Google Earth Pro encontramos herramientas como:
 | Entrar al simulador de vuelo | Pilotar un avión virtual sobre el globo terrestre. |
 | Opciones | Configurar preferencias generales de Google Earth Pro. |
 
-#### **Añadir** {.unnumbered}
+#### **Añadir**
 
 
 
@@ -625,7 +612,7 @@ En el panel principal de Google Earth Pro encontramos herramientas como:
 | Superposición de imágenes | Coloca una imagen sobre el terreno, ajustando su posición, tamaño y transparencia. |
 | Vínculo de red | Conecta datos en línea a través de archivos KML/KMZ. Útil para cargar información dinámica o actualizada automáticamente. |
 
-#### **Ayuda** {.unnumbered}
+#### **Ayuda**
 
 
 

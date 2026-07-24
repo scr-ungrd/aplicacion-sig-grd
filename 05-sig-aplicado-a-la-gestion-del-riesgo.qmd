@@ -1,14 +1,14 @@
-# SIG aplicado a la gestión del riesgo {.unnumbered}
+# 5. SIG aplicado a la gestión del riesgo
 
 Los desastres son eventos que alteran significativamente las condiciones normales de funcionamiento de las sociedades, ocasionando daños o pérdidas de vidas, bienes materiales, recursos económicos o deterioro ambiental. La causalidad de estos eventos se vincula con la materialización de amenazas, ya sean de origen natural o antrópico, que, al interactuar con condiciones de vulnerabilidad, ejercen presiones sobre poblaciones expuestas. En este contexto, es concluyente destacar que los desastres incorporan elementos de vulnerabilidad y exposición, evidenciando que no son meramente fenómenos naturales sino el resultado de la interacción entre dichos fenómenos y las acciones humanas, las cuales subestiman el peligro asociado a estos eventos.
 
-Los desastres han experimentado un incremento gradual a nivel mundial por 5 veces en su frecuencia en los últimos 50 años, esto se relaciona con el aumento de fenómenos como el cambio climático que en parte es inducido por el ser humano, además esta tendencia se prevé que aumente con el tiempo [@wmo2023]. En este sentido se hace necesario contar con herramientas tecnológicas que permitan soportar esa toma decisiones para la reducción en la cantidad de eventos que desencadenen pérdidas de vida y daños.
+Los desastres han experimentado un incremento gradual a nivel mundial por 5 veces en su frecuencia en los últimos 50 años, esto se relaciona con el aumento de fenómenos como el cambio climático que en parte es inducido por el ser humano, además esta tendencia se prevé que aumente con el tiempo. En este sentido se hace necesario contar con herramientas tecnológicas que permitan soportar esa toma decisiones para la reducción en la cantidad de eventos que desencadenen pérdidas de vida y daños.
 
 Colombia es un país que a lo largo de su historia ha experimentado eventos adversos que han impactado de manera directa e indirecta a la población y sus bienes. Sin embargo, en la medida en que han ocurrido emergencias en el territorio, se han fortalecido las capacidades para comprender y reducir el riesgo de desastres. Un claro ejemplo de ello es la creación del actual Sistema Nacional de Gestión del Riesgo (SNGRD), que corresponde a ese conjunto de elementos en todo el territorio colombiano que tienen la finalidad de llevar a cabo el proceso social de gestión del riesgo de tal manera que ofrece protección a la población en el territorio colombiano, mejora la seguridad, el bienestar y la calidad de vida y contribuye al desarrollo sostenible.
 
-El SNGRD se crea a partir de la ley 1523 de 2012 y nace en un momento en que el anterior modelo de gestión del riesgo (Sistema Nacional para la Atención y Prevención de Desastres - SNPAD) supera sus capacidades para atender un fenómeno de La Niña donde existió una insuficiencia de los medios de acción del Estado para prever y encarar emergencias de gran magnitud, también se evidenciaron deficiencias en materia de administración de recursos e instrumentación legal. En este sentido el SNGRD se consolida como un sistema robusto con una estructura organizacional definida, que actúa a través de tres procesos: Conocimiento del Riesgo, Reducción del Riesgo y Manejo de desastres. 
+El SNGRD se crea a partir de la ley 1523 de 2012 y nace en un momento en que el anterior modelo de gestión del riesgo (Sistema Nacional para la Atención y Prevención de Desastres, SNPAD) supera sus capacidades para atender un fenómeno de La Niña donde existió una insuficiencia de los medios de acción del Estado para prever y encarar emergencias de gran magnitud, también se evidenciaron deficiencias en materia de administración de recursos e instrumentación legal. En este sentido el SNGRD se consolida como un sistema robusto con una estructura organizacional definida, que actúa a través de tres procesos: Conocimiento del Riesgo, Reducción del Riesgo y Manejo de desastres. 
 
-Cada proceso en la gestión del riesgo de desastres aborda diferentes subprocesos como se muestra en la @fig-procesos-subprocesos-grd. Independiente de cualquier proceso de la gestión del riesgo es importante el rol de la gestión y administración de información geográfica. Dicha gestión implica la recopilación y consolidación de información de diferentes fuentes y la comunicación y distribución de esta a los diferentes actores en la gestión del riesgo en el país [@tomaszewski2021]. Las investigaciones sobre desastres dentro de un contexto geográfico se han enfocado principalmente en el rol de los SIG en el proceso del manejo del desastre [@kevany2003]. Sin embargo, en el presente documento se abordará un uso integral del SIG en los procesos en gestión del riesgo de desastres.
+Cada proceso en la gestión del riesgo de desastres aborda diferentes subprocesos como se muestra en la @fig-procesos-subprocesos-grd. Independiente de cualquier proceso de la gestión del riesgo es importante el rol de la gestión y administración de información geográfica. Dicha gestión implica la recopilación y consolidación de información de diferentes fuentes y la comunicación y distribución de esta a los diferentes actores en la gestión del riesgo en el país [@tomaszewski2021]. Las investigaciones sobre desastres dentro de un contexto geográfico se han enfocado principalmente en el rol de los SIG en el proceso del manejo del desastre. Sin embargo, en el presente documento se abordará un uso integral del SIG en los procesos en gestión del riesgo de desastres.
 
 ![Procesos y subprocesos en la gestión del riesgo de desastres. Fuente: UNGRD.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_23d2f279.png){#fig-procesos-subprocesos-grd}
 
@@ -32,7 +32,7 @@ En el análisis del caso de estudio realizado por la UNOOSA se logró determinar
 
 En conclusión, la integración de los SIG en la gestión del riesgo de desastres representa una herramienta vital para los territorios locales en Colombia. Al aprovechar las capacidades analíticas y de visualización de los SIG, las autoridades y miembros del SNGRD pueden identificar, analizar y evaluar áreas en riesgo, optimizar los recursos, establecer medidas de reducción y mejorar las respuestas en situaciones de emergencia. Esta tecnología no solo facilita una planificación más informada y efectiva, sino que también promueve una participación comunitaria más activa al proporcionar información accesible y comprensible para todos los ciudadanos. 
 
-## 5.1. SIG en Conocimiento del Riesgo {.unnumbered}
+## 5.1. SIG en Conocimiento del Riesgo
 
 **¿Qué es el conocimiento del riesgo?**
 
@@ -55,7 +55,7 @@ Como se ha mencionado, a nivel nacional los Sistemas de Información Geográfica
 - **Estudios básicos y detallados:** Teniendo en cuenta lo expuesto bajo el principio de gradualidad de la ley 1523 de 2012, el uso del SIG será complementario a la formulación y desarrollo de estudios básicos y detallados relacionados con las medidas de intervención, orientadas a establecer restricciones y condicionamientos que contribuyan a la mitigación del riesgo.
 - **Delimitación de áreas en condición de amenaza y riesgo:** A partir de análisis puntuales, estudios realizados y herramientas SIG poder delimitar y realizar zonificaciones por amenazas y en base a esto especificar criterios de riesgo y plasmar la información en anexos cartográficos que permitan espacializar las variables estructuradas.
 
-### 5.1.1. Integración de los SIG dentro de los procesos de Conocimiento del Riesgo {.unnumbered}
+### 5.1.1. Integración de los SIG dentro de los procesos de Conocimiento del Riesgo
 
 La integración de los SIG en los procesos de Conocimiento del Riesgo es fundamental para obtener una comprensión completa y detallada de la relación entre la geografía y los factores de riesgo. Existen aplicaciones para zonificar las amenazas y mediante la incorporación de datos sobre la población, zonificar también actividades económicas o infraestructura expuesta y llevar a cabo evaluaciones preliminares del riesgo.
 
@@ -73,7 +73,7 @@ A continuación, en la @fig-flujo-identificacion-escenarios se evidencia el fluj
 
 ![Flujo de trabajo de la implementación de un SIG en el subproceso de Identificación de Escenarios de Riesgo. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_2b5c194b.png){#fig-flujo-identificacion-escenarios}
 
-## 5.2. SIG en Reducción del riesgo {.unnumbered}
+## 5.2. SIG en Reducción del riesgo
 
 **¿Qué es la reducción del riesgo?**
 
@@ -91,7 +91,7 @@ Las condiciones y especificaciones técnicas para la incorporación de la gesti�
 - **Estudios básicos y detallados:** Teniendo en cuenta lo expuesto bajo el principio de gradualidad de la Ley 1523 de 2012, el uso del SIG será complementario a la formulación y desarrollo de estudios básicos y detallados relacionados con las medidas de intervención, orientadas a establecer restricciones y condicionamientos que contribuyan a la mitigación del riesgo.
 - **Medidas de intervención y mitigación del riesgo:** Encaminadas principalmente a la georreferenciación de obras estructurales y no estructurales, la evaluación mediante sensores remotos de las condiciones bióticas y abióticas de un territorio y el uso de los SIG para el monitoreo en tiempo real de los diversos procesos incluidos en el desarrollo de estas medidas de mitigación.
 
-### 5.2.1. Integración de los SIG dentro de los procesos de Reducción del Riesgo {.unnumbered}
+### 5.2.1. Integración de los SIG dentro de los procesos de Reducción del Riesgo
 
 La principal habilidad de los SIG ante la preparación de una emergencia dentro del marco de la reducción de los desastres se basa principalmente en la particularidad de ser aplicado a la planificación y preparación ante un evento de desastre. Un ejemplo de ello podría ser la disponibilidad eficaz de información geográfica digital para apoyar las decisiones de respuesta a desastres y toma de decisiones.
 
@@ -106,7 +106,7 @@ A continuación, se presenta un ejemplo de las ventajas de los SIG en la Reducci
 
 El uso de los SIG resulta crucial en el análisis de todas las etapas o fases de los ciclos de desastres, y su aplicación genera mayores beneficios en la planificación del territorio, la prevención y la mitigación. Es necesario, entonces, que los SIG sean integrales e integrados, de manera que resulten efectivos y sostenibles en el tiempo y el espacio (Montilla & Cantaya, 2010).
 
-#### 5.2.1.1. Intervención prospectiva {.unnumbered}
+#### 5.2.1.1. Intervención prospectiva
 
 - **Generación de bases de datos y visores para visualización de información:** Dentro de la intervención prospectiva será útil para recopilar e integrar dentro de los procesos información de ordenamiento territorial, escenarios de riesgo, información de variabilidad climática, áreas con ocurrencia de eventos de desastres, áreas intervenidas, localización de obras y demás variables incluidas dentro de la reducción del riesgo. No obstante, una interfaz de simple acceso, adaptativa y de rápida consulta será fundamental para la respuesta rápida ante múltiples eventos y como apoyo en la toma de decisiones.
 
@@ -114,13 +114,13 @@ El uso de los SIG resulta crucial en el análisis de todas las etapas o fases de
   - **Vigilancia y control de urbanismo proyectado y en desarrollo:** Para los apartados incluidos dentro del subproceso de intervención correctiva se enfocan directamente hacia la zonificación de áreas restringidas para construcción, zonificación de usos de suelos, control y monitoreo de procesos urbanísticos actuales y proyectados según las capacidades del territorio.
   - **Mapas de expansión urbana y edificaciones:** Este tipo de anexos cartográficos serán de especial interés en las actividades de monitoreo y seguimiento de las actividades de expansión urbana que a su vez serán un insumo para fortalecer los procesos de reducción del riesgo desde el marco de la planificación territorial y el control de expansión urbana sobre áreas con restricciones de tipo ambiental o limitaciones respecto a construcción de vivienda y procesos de asentamientos poblacionales, así mismo tener un control en tiempo real de las dinámicas poblacionales y demográficas respecto a áreas con potencial de amenaza y riesgo.
 
-#### 5.2.1.2. Intervención Correctiva {.unnumbered}
+#### 5.2.1.2. Intervención Correctiva
 
 - **Mapas de localización de obras y proyectos, monitoreo mediante sensores remotos de las obras dispuestas, información de avance y ejecución de estas:** Desde la perspectiva de la inclusión de los SIG esta se basará en la georreferenciación de las obras o proyectos ejecutados, en desarrollo y proyectados para los diversos escenarios de cada territorio; así mismo se podrán generar bases de datos correspondientes a estados de avance, tipo de obra o proyecto, e información relevante relacionada.
 
 ![Flujo de trabajo en la implementación de un SIG en el proceso de reducción del riesgo. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_6cc77dbe.png){#fig-flujo-reduccion-riesgo}
 
-## 5.3. SIG en el Manejo de Desastres {.unnumbered}
+## 5.3. SIG en el Manejo de Desastres
 
 **¿Qué es el manejo de desastres?**
 
@@ -132,15 +132,15 @@ Dentro del manejo de desastres existen tres acciones derivadas, que son abordada
 
 ![Esquema de los subprocesos relacionados con el manejo de desastres. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_da216748.png){#fig-esquema-manejo-desastres}
 
-### 5.3.1. Integración de los SIG en el Manejo de Desastres {.unnumbered}
+### 5.3.1. Integración de los SIG en el Manejo de Desastres
 
-Este subproceso incluye un amplio espectro de actividades que deben ser administradas de una manera adecuada y eficiente, tales como la formulación y ejecución de programas, planes y proyectos relacionados con los desastres en lo referente a su Prevención, Mitigación, Preparación, Respuesta y Recuperación [@cardona1996].
+Este subproceso incluye un amplio espectro de actividades que deben ser administradas de una manera adecuada y eficiente, tales como la formulación y ejecución de programas, planes y proyectos relacionados con los desastres en lo referente a su Prevención, Mitigación, Preparación, Respuesta y Recuperación.
 
 Para realizar análisis relacionados al manejo de riesgo utilizando los SIG es necesario contar con tres categorías de información:
 
 1. **Amenazas naturales:** incluye la ubicación, severidad y probabilidad de ocurrencia.
 2. **Ecosistemas naturales:** indicando aspectos como los caudales de los ríos, uso de suelo, topografía, etc.
-3. **Población e infraestructuras:** proporcionando información para cuantificar el impacto que podría generar un desastre [@vallarino2021].
+3. **Población e infraestructuras:** proporcionando información para cuantificar el impacto que podría generar un desastre.
 
 Los SIG pueden ser usados para conocer la ubicación de instalaciones críticas vulnerables y facilitar la implementación de los preparativos de emergencia y actividades de respuesta (Organización de los Estados Americanos, 1994). Los usos evidenciados son los siguientes:
 
@@ -150,35 +150,35 @@ Los SIG pueden ser usados para conocer la ubicación de instalaciones críticas 
 
 ![Flujo de trabajo en la implementación de un SIG en el proceso de manejo de desastres. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_518076c1.png){#fig-flujo-manejo-desastres}
 
-## 5.4. Ejemplos de aplicaciones de los SIG en la GRD {.unnumbered}
+## 5.4. Ejemplos de aplicaciones de los SIG en la GRD
 
 El uso de distintas metodologías SIG (reclasificación, teledetección, heurísticas, superposición, entre otras) para el estudio de una misma amenaza abre brechas al momento de realizar el análisis, generando la necesidad de identificar y conocer el diseño de cada una de las metodologías y de esta forma escoger la más idónea para cada amenaza. Se hace necesario conocer los diferentes escenarios de riesgo que a criterio de experto y en concordancia con los SIG han sido utilizados y establecen, según lo que se desea conocer, cuáles serían las más apropiadas según el área de estudio y las variables que se requieren para su correcta aplicación (Luna, 2023).
 
 Con herramientas SIG se han realizado estudios detallados de zonas seleccionadas; por ejemplo, para integrar información acerca de los regímenes de precipitación, la topografía y la capacidad de los cauces de los ríos, con el fin de determinar el impacto máximo de las inundaciones, ubicación de llanuras de inundación o para ubicar proyectos de desarrollo, usos de suelo, tipos de suelo, asentamientos humanos, etc. [@maskrey1998]. Dentro de los procesos de gestión del riesgo de desastres, los SIG se han utilizado como herramientas para llevar a cabo estudios de factibilidad de proyectos específicos de infraestructura e inversión. Las aplicaciones han analizado los sistemas para instalaciones productivas en cuanto a agricultura y asentamientos humanos con el objetivo de definir componentes o segmentos críticos que deberían tener los niveles de riesgos más bajos o que deberían ser priorizados para la reconstrucción después de la ocurrencia de un fenómeno amenazante.
 
-#### Análisis de Sensores Remotos {.unnumbered}
+### 5.4.1. Análisis de Sensores Remotos
 
 Dentro de los SIG constituye una herramienta para monitoreo de variables en tiempo real, identificación de cambios en las coberturas terrestres, identificación de escenarios de riesgo geológico, complemento a identificación de cambios puntuales a lo largo del tiempo, categorización de escenarios de amenaza y riesgo.
 
 ![Análisis multitemporal de la dinámica fluvial de un río y su interacción con el asentamiento poblacional en su ronda hídrica. Fuente: SERTIT - Introducción a la percepción remota para la gestión de desastres (UNOOSA).](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_92610159.png){#fig-dinamica-fluvial-multitemporal}
 
-#### Mapa de pendientes a partir de un DEM {.unnumbered}
+### 5.4.2. Mapa de pendientes a partir de un DEM
 
 ![Mapa de pendientes reclasificadas Microcuenca Quebrada Guachucal, Pasto - Nariño. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_c72becf3.png){#fig-pendientes-guachucal}
 
-#### Mapa de curvas de nivel a partir de un DEM {.unnumbered}
+### 5.4.3. Mapa de curvas de nivel a partir de un DEM
 
 ![Mapa topográfico con curvas de nivel detalladas a escala, Abrego - Norte de Santander. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_823f92e5.png){#fig-topografico-abrego}
 
-#### Mapa geomorfológico {.unnumbered}
+### 5.4.4. Mapa geomorfológico
 
 ![Mapa de unidades geomorfológicas, Rosas - Cauca. Fuente: SGC, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_9dee5a6a.png){#fig-geomorfologico-rosas-cauca}
 
-#### Imágenes satelitales de radar multitemporales {.unnumbered}
+### 5.4.5. Imágenes satelitales de radar multitemporales
 
 ![Imágenes satelitales de radar multitemporales a diversos periodos de tiempo, Sector Caregato - Mojana. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_a2d82020.png){#fig-radar-multitemporal-caregato}
 
-#### Georreferenciación, identificación y sectorización de elementos tipológicos puntuales {.unnumbered}
+### 5.4.6. Georreferenciación, identificación y sectorización de elementos tipológicos puntuales
 
 ::: {#fig-georreferenciacion-guachucal layout-ncol="2"}
 ![](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_ddc85f22.jpeg)
@@ -188,46 +188,46 @@ Dentro de los SIG constituye una herramienta para monitoreo de variables en tiem
 Georreferenciación de drenajes, movimientos en masa y procesos erosivos Microcuenca Quebrada Guachucal, Pasto - Nariño. Fuente: UNGRD, 2024.
 :::
 
-#### Insumos complementarios para modelamiento de inundaciones y crecientes súbitas {.unnumbered}
+### 5.4.7. Insumos complementarios para modelamiento de inundaciones y crecientes súbitas
 
 ![Modelamiento de huella de inundación en Bello, Antioquia. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_85e248ff.jpeg){#fig-huella-inundacion-bello}
 
-#### Insumos complementarios para modelamiento de avenidas torrenciales {.unnumbered}
+### 5.4.8. Insumos complementarios para modelamiento de avenidas torrenciales
 
 ![Modelamiento de flujo por avenida torrencial en Bello, Antioquia. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_f8f2640f.jpeg){#fig-flujo-avenida-torrencial-bello}
 
-#### Mapa de expansión urbana {.unnumbered}
+### 5.4.9. Mapa de expansión urbana
 
 ![Mapas de expansión urbana para el municipio de Aguachica Año 2009, 2010, 2011. Fuente: [www.atlasexpansionurbanacolombia.org](http://www.atlasexpansionurbanacolombia.org)](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_07ee1aff.png){#fig-expansion-urbana-aguachica}
 
-#### Mapa de uso de suelo {.unnumbered}
+### 5.4.10. Mapa de uso de suelo
 
 ![Mapa de usos de suelos actualizado de la ciudad de Bogotá. Fuente: [www.recursos.ccb.org.co](http://www.recursos.ccb.org.co)](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_af0f8219.jpeg){#fig-uso-suelos-bogota}
 
-#### Mapa de coberturas vegetales a partir de imágenes Landsat {.unnumbered}
+### 5.4.11. Mapa de coberturas vegetales a partir de imágenes Landsat
 
 ![Mapas de cambio de uso del suelo en la cuenca hidrográfica del Río Magdalena para el periodo 1980-2000 derivados de la clasificación de imágenes Landsat. Fuente: Modificado de Restrepo & Syvitski, 2006.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_a355c472.png){#fig-cambio-uso-suelo-magdalena}
 
-#### Visor de emergencias viales {.unnumbered}
+### 5.4.12. Visor de emergencias viales
 
 ![Central de emergencias viales de la UNGRD. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_a9a311f8.png){#fig-central-emergencias-viales}
 
-#### Visor de control de inspección a viviendas postdesastre {.unnumbered}
+### 5.4.13. Visor de control de inspección a viviendas postdesastre
 
 ![Sistema de control para la inspección de viviendas post desastre. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_85a3cc9e.png){#fig-inspeccion-viviendas-postdesastre}
 
-#### Visor de respuesta ante emergencia volcánica {.unnumbered}
+### 5.4.14. Visor de respuesta ante emergencia volcánica
 
 ![Mapa de respuesta ante un escenario de emergencia volcánica, volcán Nevado del Ruiz. Contiene rutas de evacuación, infraestructura, puestos de salud, aeropuertos. Fuente: UNGRD, 2024.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_b63318ea.png){#fig-respuesta-emergencia-volcanica}
 
-#### Visor de erosión costera {.unnumbered}
+### 5.4.15. Visor de erosión costera
 
 ![Visor de sitios reportados con erosión costera. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_1cb97237.png){#fig-visor-erosion-costera}
 
-#### Visor de Sistemas de Alerta Temprana {.unnumbered}
+### 5.4.16. Visor de Sistemas de Alerta Temprana
 
 ![Visor de Sistemas de Alerta Temprana. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_37a09009.png){#fig-visor-alerta-temprana}
 
-#### Visor de Instalaciones Industriales con potencial riesgo NATECH y tecnológico {.unnumbered}
+### 5.4.17. Visor de Instalaciones Industriales con potencial riesgo NATECH y tecnológico
 
 ![Visor de Instalaciones Industriales con potencial riesgo NATECH y tecnológico en Colombia. Fuente: UNGRD, 2025.](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_24e01b81.png){#fig-visor-natech}

@@ -1,12 +1,9 @@
-# Anexo 4: KoboToolbox {.unnumbered}
+# Anexo 4: KoboToolbox
 
-**Implementación de los SIG en la gestión del riesgo de desastres con la plataforma de uso libre KoboToolbox**
-
-**Contenido**
+# Implementación de los SIG en la gestión del riesgo de desastres con la plataforma de uso libre KoboToolbox
 
 
-
-## Introducción {.unnumbered}
+## Introducción
 
 KoboToolbox es una suite de software gratuita y de código abierto para recopilar, gestionar y analizar datos, especialmente en entornos complejos. Desarrollada por la Iniciativa Humanitaria de Harvard, se utiliza ampliamente en emergencias humanitarias, investigación, monitoreo y evaluación. La plataforma está diseñada para encuestas individuales donde la identidad de los encuestados no es una preocupación principal. Por otro lado, KoboCollect es una aplicación para Android basada en ODK Collect, y se utiliza para la entrada de datos con el software.
 
@@ -32,17 +29,17 @@ La aplicación móvil funciona con el GPS del celular, lo que permite capturar i
 
 
 
-## Guía práctica KoboToolbox para Municipios {.unnumbered}
+## Guía práctica KoboToolbox para Municipios
 
 Captura y Gestión de Información Georreferenciada (SIG Municipal)
 
-### Introducción {.unnumbered}
+### Introducción
 
 KoboToolbox es una herramienta gratuita que permite a los municipios realizar levantamiento de información georreferenciada (puntos, líneas, polígonos) desde dispositivos móviles, facilitando la recolección de datos de campo para su posterior análisis en sistemas GIS (ArcGIS, QGIS). Esta guía enseña el paso a paso desde la creación del formulario hasta la descarga de los datos.
 
-### PASO 1: Crear una cuenta en KoboToolbox {.unnumbered}
+### PASO 1: Crear una cuenta en KoboToolbox
 
-- Accede a:  
+- Accede a:  <https://kf.kobotoolbox.org >
 
 - Haz clic en “Crear una Cuenta”.
 
@@ -52,7 +49,7 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Verifica tu cuenta desde el correo recibido.
 
-### PASO 2: Crear un nuevo proyecto y cargar el formulario {.unnumbered}
+### PASO 2: Crear un nuevo proyecto y cargar el formulario
 
 - En el panel de inicio, haz clic en “Nuevo Proyecto” (New Project).
 
@@ -64,7 +61,7 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Haz clic en “Create Project”.
 
-### PASO 3: Configurar permisos de acceso y edición {.unnumbered}
+### PASO 3: Configurar permisos de acceso y edición
 
 - Ve a la pestaña “Sharing”.
 
@@ -72,7 +69,7 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Habilita el formulario para que pueda ser llenado mediante enlace web o a través de la App KoboCollect.
 
-### PASO 4: Revisar y editar la estructura del formulario {.unnumbered}
+### PASO 4: Revisar y editar la estructura del formulario
 
 - En la pestaña “Form”, verifica que las preguntas (puntos, líneas, polígonos, fotos) se hayan cargado correctamente.
 
@@ -80,7 +77,7 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Guarda los cambios.
 
-### PASO 5: Desplegar el formulario para uso en campo {.unnumbered}
+### PASO 5: Desplegar el formulario para uso en campo
 
 - Dirígete a “Deployments”.
 
@@ -88,11 +85,11 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Obtendrás un enlace web y un código QR para distribución a encuestadores.
 
-### PASO 6: Captura de datos en campo (App KoboCollect o Web) {.unnumbered}
+### PASO 6: Captura de datos en campo (App KoboCollect o Web)
 
 - Descarga KoboCollect desde PlayStore.
 
-- Configura el servidor en la App:  
+- Configura el servidor en la App: <https://kf.kobotoolbox.org>  
 
 - Ingresa con tu usuario y sincroniza los formularios disponibles.
 
@@ -100,7 +97,7 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Si estás sin internet, los datos se almacenarán offline y se sincronizarán cuando recuperes conexión.
 
-### PASO 7: Revisión de datos capturados {.unnumbered}
+### PASO 7: Revisión de datos capturados
 
 - En la pestaña “Data” de KoboToolbox, visualiza los registros enviados.
 
@@ -108,7 +105,7 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 - Revisa la galería de imágenes para verificar las fotografías de campo.
 
-### PASO 8: Exportar datos para análisis SIG {.unnumbered}
+### PASO 8: Exportar datos para análisis SIG
 
 - Descarga los datos en formatos XLS, CSV o KML.
 
@@ -180,71 +177,71 @@ KoboToolbox es una herramienta gratuita que permite a los municipios realizar le
 
 
 
-## Manual Rápido: Carga de Formulario en KoboToolbox {.unnumbered}
+## Manual Rápido: Carga de Formulario en KoboToolbox
 
-### Paso 1: Ingresar a KoboToolbox {.unnumbered}
-
-
-
-## 1. Accede a https://kf.kobotoolbox.org (cuentas de ONGs) o https://kc.kobotoolbox.org (cuentas públicas). {.unnumbered}
+### Paso 1: Ingresar a KoboToolbox
 
 
 
-## 2. Inicia sesión con tu usuario y contraseña. {.unnumbered}
-
-### Paso 2: Crear un nuevo Proyecto {.unnumbered}
+## 1. Accede a https://kf.kobotoolbox.org (cuentas de ONGs) o https://kc.kobotoolbox.org (cuentas públicas).
 
 
 
-## 1. Haz clic en "New Project" o "Nuevo Proyecto". {.unnumbered}
+## 2. Inicia sesión con tu usuario y contraseña.
+
+### Paso 2: Crear un nuevo Proyecto
 
 
 
-## 2. Selecciona la opción "Upload an XLSForm". {.unnumbered}
+## 1. Haz clic en "New Project" o "Nuevo Proyecto".
 
 
 
-## 3. Carga el archivo Formulario_Erosion_Costera_Kobo.xlsx. {.unnumbered}
+## 2. Selecciona la opción "Upload an XLSForm".
 
 
 
-## 4. Asigna un nombre al proyecto y haz clic en "Create Project". {.unnumbered}
-
-### Paso 3: Verificar la estructura del formulario {.unnumbered}
+## 3. Carga el archivo Formulario_Erosion_Costera_Kobo.xlsx.
 
 
 
-## 1. Revisa la pestaña "Form" para verificar que las preguntas y grupos se cargaron correctamente. {.unnumbered}
+## 4. Asigna un nombre al proyecto y haz clic en "Create Project".
+
+### Paso 3: Verificar la estructura del formulario
 
 
 
-## 2. Si es necesario, puedes realizar ajustes menores en el diseño desde la interfaz gráfica. {.unnumbered}
-
-### Paso 4: Habilitar el proyecto para recolección {.unnumbered}
+## 1. Revisa la pestaña "Form" para verificar que las preguntas y grupos se cargaron correctamente.
 
 
 
-## 1. En la pestaña "Deployments", haz clic en "Deploy". {.unnumbered}
+## 2. Si es necesario, puedes realizar ajustes menores en el diseño desde la interfaz gráfica.
+
+### Paso 4: Habilitar el proyecto para recolección
 
 
 
-## 2. El proyecto quedará listo para la recolección de datos en campo. {.unnumbered}
-
-### Paso 5: Recolectar datos {.unnumbered}
+## 1. En la pestaña "Deployments", haz clic en "Deploy".
 
 
 
-## 1. Comparte el enlace de recolección o utiliza la app KoboCollect para registrar datos en campo. {.unnumbered}
+## 2. El proyecto quedará listo para la recolección de datos en campo.
+
+### Paso 5: Recolectar datos
 
 
 
-## 2. Los datos ingresados quedarán almacenados en tiempo real en el servidor de KoboToolbox. {.unnumbered}
-
-### Paso 6: Descarga y análisis de datos {.unnumbered}
+## 1. Comparte el enlace de recolección o utiliza la app KoboCollect para registrar datos en campo.
 
 
 
-## 1. En la pestaña "Data", descarga los registros en formato Excel, CSV o KML para su análisis geoespacial. {.unnumbered}
+## 2. Los datos ingresados quedarán almacenados en tiempo real en el servidor de KoboToolbox.
+
+### Paso 6: Descarga y análisis de datos
+
+
+
+## 1. En la pestaña "Data", descarga los registros en formato Excel, CSV o KML para su análisis geoespacial.
 
 Un esquema visual de cómo se verá en Kobo (tipo diagrama).
 
@@ -347,7 +344,6 @@ Un esquema visual de cómo se verá en Kobo (tipo diagrama).
 ![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_db2c9520.png)
 
 **Regresamos a KoboToolBox… verificamos los resultados**
-
 
 
 ![](media/anexo_43-1-en-la-pestana-data-descarga-los-registros-e/img_025dc7cd.png)

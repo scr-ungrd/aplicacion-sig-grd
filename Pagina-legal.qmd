@@ -10,7 +10,7 @@ Aplicación de los Sistemas de Información Geográfica (SIG) en la Gestión del
 ::: {style="line-height: 0.96;"}
 **Gustavo Petro Urrego** \| Presidente de la República
 
-**Carlos Alberto Carrillo Arenas** \| Director General
+**Carlos Alberto Carrillo Arenas** \| Director General,
 Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
 
 **Ana Milena Prada Uribe** \| Subdirectora para el Conocimiento del Riesgo

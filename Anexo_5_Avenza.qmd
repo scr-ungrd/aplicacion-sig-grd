@@ -1,4 +1,4 @@
-# Anexo 5: Avenza {.unnumbered}
+# Anexo 5: Avenza
 
 Implementación de los SIG en la gestión del riesgo de desastres con la aplicación de uso libre Avenza 
 
@@ -8,7 +8,7 @@ Implementación de los SIG en la gestión del riesgo de desastres con la aplicac
 
 
 
-## ¿Qué es Avenza Maps? {.unnumbered}
+## ¿Qué es Avenza Maps?
 
 Avenza Maps (@fig-av-avenza-maps) es una app móvil (disponible en Android y iOS) que permite usar mapas georreferenciados en formato PDF o GeoTIFF, incluso sin conexión a internet. Es ideal para navegación en campo, toma de datos y elaboración de informes técnicos.
 

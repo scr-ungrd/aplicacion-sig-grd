@@ -1,12 +1,12 @@
-# Inicio {.unnumbered}
+# Inicio
 
-![](media/CUB_MARCO TEORICO SIG-1.png){.ungrd-cover-float}
+![](media/CUB_MARCO%20TEORICO%20SIG-1.png){.ungrd-cover-float}
 
 Bienvenidos al libro digital **Aplicación de los Sistemas de Información Geográfica (SIG) en la Gestión del Riesgo de Desastres**. Este recurso ha sido diseñado por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) como una guía práctica y conceptual orientada a fortalecer las capacidades técnicas de las administraciones municipales y departamentales en Colombia en el uso de los Sistemas de Información Geográfica (SIG) aplicados a la Gestión del Riesgo de Desastres (GRD).
 
 A través de este libro digital, podrá explorar los fundamentos teóricos y metodológicos de los SIG, identificar las principales fuentes y geoportales de datos geoespaciales gratuitos, y comprender cómo se integran estas tecnologías en los procesos de Conocimiento del Riesgo, Reducción del Riesgo y Manejo de Desastres. Asimismo, el libro incluye una serie de anexos y guías prácticas paso a paso para el uso de herramientas como QGIS, Google Earth, MAGNA PRO, KoboToolbox y Avenza Maps, facilitando la autonomía técnica en los territorios.
 
-::: {.clearfix}
+::: clearfix
 :::
 
 ::: {.d-flex .justify-content-start .mb-3}
@@ -15,75 +15,79 @@ A través de este libro digital, podrá explorar los fundamentos teóricos y met
 
 ------------------------------------------------------------------------
 
-::::: {.ungrd-cards-grid}
-
-::: {.ungrd-card}
-::: {.ungrd-card-header}
+::::::::::::::::::::: ungrd-cards-grid
+::::: ungrd-card
+::: ungrd-card-header
 [Capítulo 2: Marco Teórico de los SIG](02-marco-teorico-de-los-sig.html)
 :::
-::: {.ungrd-card-body}
-![](media/02-marco-teorico-de-los-sig/img_50cb8ac1.png){class="ungrd-card-img"}
+
+::: ungrd-card-body
+![](media/02-marco-teorico-de-los-sig/img_50cb8ac1.png){.ungrd-card-img}
 
 Fundamentos conceptuales, definición de SIG, antecedentes históricos a nivel mundial y nacional, y el marco normativo aplicable en Colombia.
 :::
-:::
+:::::
 
-::: {.ungrd-card}
-::: {.ungrd-card-header}
+::::: ungrd-card
+::: ungrd-card-header
 [Capítulo 3: Usos y Aplicaciones de los SIG](03-usos-y-aplicaciones-de-los-sig.html)
 :::
-::: {.ungrd-card-body}
-![](media/03-usos-y-aplicaciones-de-los-sig/img_d76deeae.png){class="ungrd-card-img"}
+
+::: ungrd-card-body
+![](media/03-usos-y-aplicaciones-de-los-sig/img_d76deeae.png){.ungrd-card-img}
 
 Campos prácticos de aplicación, formatos de datos (raster/vector), modelos digitales (DEM, DMS, DTM), y fundamentos cartográficos en el país.
 :::
-:::
+:::::
 
-::: {.ungrd-card}
-::: {.ungrd-card-header}
+::::: ungrd-card
+::: ungrd-card-header
 [Capítulo 4: Fuentes de Información](04-fuentes-de-informacion.html)
 :::
-::: {.ungrd-card-body}
-![](media/04-fuentes-de-informacion/img_fd61a985.png){class="ungrd-card-img"}
+
+::: ungrd-card-body
+![](media/04-fuentes-de-informacion/img_fd61a985.png){.ungrd-card-img}
 
 Repositorios y geoportales oficiales para la descarga de imágenes satelitales ópticas y de radar, y datos georreferenciados gratuitos.
 :::
-:::
+:::::
 
-::: {.ungrd-card}
-::: {.ungrd-card-header}
+::::: ungrd-card
+::: ungrd-card-header
 [Capítulo 5: SIG Aplicado a la Gestión del Riesgo](05-sig-aplicado-a-la-gestion-del-riesgo.html)
 :::
-::: {.ungrd-card-body}
-![](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_9e9261f1.jpeg){class="ungrd-card-img"}
+
+::: ungrd-card-body
+![](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_9e9261f1.jpeg){.ungrd-card-img}
 
 Integración de herramientas geoespaciales en los tres procesos de la GRD: Conocimiento del Riesgo, Reducción del Riesgo y Manejo de Desastres.
 :::
-:::
+:::::
 
-::: {.ungrd-card}
-::: {.ungrd-card-header}
+::::: ungrd-card
+::: ungrd-card-header
 [Capítulo 6: ¿Cómo realizar un SIG en GRD a nivel municipal?](06-como-realizar-un-sig-en-grd-a-nivel-municipal.html)
 :::
-::: {.ungrd-card-body}
-![](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_47369585.png){class="ungrd-card-img"}
+
+::: ungrd-card-body
+![](media/05-sig-aplicado-a-la-gestion-del-riesgo/img_47369585.png){.ungrd-card-img}
 
 Ruta metodológica paso a paso para administraciones locales: diagnóstico, recolección de insumos, estandarización y despliegue cartográfico.
 :::
-:::
+:::::
 
-::: {.ungrd-card}
-::: {.ungrd-card-header}
+::::: ungrd-card
+::: ungrd-card-header
 [Capítulo 7: Recomendaciones Generales para un SIG en GRD Municipal](07-recomendaciones-generales-para-un-sig-en-grd-.html)
 :::
-::: {.ungrd-card-body}
-![](media/07-recomendaciones-generales-para-un-sig-en-grd-/img_109b2fa3.png){class="ungrd-card-img"}
+
+::: ungrd-card-body
+![](media/07-recomendaciones-generales-para-un-sig-en-grd-/img_109b2fa3.png){.ungrd-card-img}
 
 Lineamientos estratégicos para la sostenibilidad del sistema, enfoque interinstitucional, participación comunitaria y software libre.
 :::
-:::
-
 :::::
+:::::::::::::::::::::
 
 ------------------------------------------------------------------------
 
