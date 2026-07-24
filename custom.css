@@ -233,6 +233,53 @@ h3, h4, h5, h6 {
   border-right: 1px solid #dee2e6;
 }
 
+/* Caja de texto para la columna Observaciones */
+.checklist-table td input[type="text"] {
+  width: 100%;
+  min-width: 120px;
+  border: 1px solid #adb5bd;
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+/* Botón de impresión de la checklist */
+.checklist-print-btn {
+  display: inline-block;
+  background-color: #223764;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.checklist-print-btn:hover {
+  background-color: #FAC718;
+  color: #223764;
+}
+
+/* Al imprimir: ocultar el botón y asegurar que casillas/cajas se vean */
+@media print {
+  .checklist-print-btn {
+    display: none;
+  }
+
+  .checklist-table input[type="checkbox"] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .checklist-table td input[type="text"] {
+    border: 1px solid #333;
+  }
+}
+
 /* --- PORTADA FLOTANTE --- */
 .ungrd-cover-float {
   float: right;
