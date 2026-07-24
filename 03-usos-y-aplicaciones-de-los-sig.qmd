@@ -16,7 +16,7 @@ Son cinco los elementos principales que conforman un SIG: datos, métodos, softw
 
 ![Componentes de un SIG. Fuente: Esri, 2003.](media/03-usos-y-aplicaciones-de-los-sig/img_6c9c53b4.png){#fig-componentes-sig}
 
-3.1.1.1. Formato de Datos:  
+#### 3.1.1.1. Formato de Datos:  
 
 Son una representación simbólica (numérica, alfabética, espacial, etc.) de un atributo o variable cuantitativa o cualitativa (Ministerio de Educación, 2021). Existen dos tipos de datos vectorial (puntos, líneas y polígonos) o raster (basado en cuadrículas). Ver la @fig-raster-vector.
 
@@ -44,17 +44,15 @@ Los datos geográficos del mundo real quedan representados, de acuerdo a la corr
 
 En el modelo vectorial, es importante diferenciar las estructuras de datos cartográficas y topológicas. Las primeras manifiestan, exclusivamente, la forma y posición de los objetos espaciales, por lo que la expresión de los puntos, líneas y polígonos, por sus coordenadas respectivas, es suficiente para definirlos. La estructura topológica define, bien la conectividad de los arcos en las intersecciones, bien las relaciones de contigüidad entre polígonos.
 
-3.1.1.2. Software y Hardware:
+#### 3.1.1.2. Software y Hardware:
 
 Un SIG debe tener un sistema computarizado, una computadora u ordenador que se concibe como «una máquina capaz de aceptar unos datos de entrada, efectuar con ellos operaciones lógicas y aritméticas y proporcionar la información resultante a través de un medio de salida (Santos, 2004). Todo ello, sin intervención de un operador humano y bajo el control de un programa de instrucciones previamente almacenado en la propia computadora (Pedrera Carvajal, A. y Sánchez Figueroa, F., 1997 en Santos, 2004). Desde este punto de vista (tecnológico), son dos los componentes que resultan esenciales para el uso de los sistemas de información geográfico: el software y el hardware. 
 
-**Hardware:** corresponde al soporte físico de la informática, es decir, el conjunto de circuitos electrónicos, cables, armarios, dispositivos electromecánicos y otros elementos físicos (Santos, 2004). 
+- **Hardware:** corresponde al soporte físico de la informática, es decir, el conjunto de circuitos electrónicos, cables, armarios, dispositivos electromecánicos y otros elementos físicos (Santos, 2004). 
 
-**Software:** por su parte, como soporte lógico, es decir, la programación (instrucciones y datos) necesaria para que el equipo informático realice la función requerida, unos de los ejemplos de software más usados en la actualidad son ArcGis y QGis.
-
-ARCGIS (Esri): es un software con licenciamiento, costos académicos y costos empresariales que permite recopilar, administrar, analizar y compartir información geográfica.
-
-QGIS: es un software libre y gratuito, sin restricción para proyectos empresariales, posibilita la creación, visualización, análisis y publicación de información geoespacial. Permite conexión con servicios WMS y WFS.
+- **Software:** por su parte, como soporte lógico, es decir, la programación (instrucciones y datos) necesaria para que el equipo informático realice la función requerida, unos de los ejemplos de software más usados en la actualidad son ArcGis y QGis.
+  - **ARCGIS (Esri):** es un software con licenciamiento, costos académicos y costos empresariales que permite recopilar, administrar, analizar y compartir información geográfica.
+  - **QGIS:** es un software libre y gratuito, sin restricción para proyectos empresariales, posibilita la creación, visualización, análisis y publicación de información geoespacial. Permite conexión con servicios WMS y WFS.
 
 Con el fin de que los equipos encargados de la gestión del riesgo de desastres en los municipios puedan elaborar su propia cartografía básica, útil para la toma de decisiones, este documento incluye el paso a paso para construir dichos insumos utilizando el software QGIS, ya que es de acceso libre, y puede ser utilizado e todos los territorios. 
 
@@ -64,25 +62,19 @@ Un Modelo Digital de Elevación (DEM) representa la altitud del terreno respecto
 
 Los métodos más utilizados para recolectar información necesaria para la creación de los DEM, son principalmente métodos de teledetección, como:
 
-Interferometría de Satélite
-
-Fotogrametría
-
-LIDAR
-
-Radar terrestre
-
-Topografía
+- Interferometría de Satélite
+- Fotogrametría
+- LIDAR
+- Radar terrestre
+- Topografía
 
 Las principales fuentes de descarga son: 
 
-Repositorio USGS SRTM 30m: 
+a) **Repositorio USGS SRTM 30m:** [https://earthexplorer.usgs.gov/](https://earthexplorer.usgs.gov/)
+b) **ALOS-PALSAR (L) 12,5 m:** [https://search.asf.alaska.edu/](https://search.asf.alaska.edu/)
+c) **Repositorio ESA SRTM 30m:** [http://step.esa.int/auxdata/dem/SRTMGL1/](http://step.esa.int/auxdata/dem/SRTMGL1/)
+d) **SRTM 90m:** [https://srtm.csi.cgiar.org/srtmdata/](https://srtm.csi.cgiar.org/srtmdata/)
 
-ALOS-PALSAR (L) 12,5 m: 
-
-Repositorio ESA SRTM 30m: 
-
-SRTM 90m: 
 
 ### 3.1.3. Modelo Digital de Superficie (DMS) {.unnumbered}
 
@@ -100,11 +92,11 @@ La interoperabilidad entre sistemas heterogéneos se define como la capacidad pa
 
 Open Geospatial Consortium (OGC) un consorcio mundial para el consenso de estándares relacionados con la gestión de información geográfica, definió el *Web **Map Service* (WMS), *Web Feature Service* (WFS) y *Web Coverage Service* (WCS) para compartir datos, vector, raster e imágenes de mapas respectivamente.. Estos estándares son adoptados por SIG como ArcGis, MapWindow, Google Earth, NASA World Wind y portales como Google maps y Yahoo maps permitiendo la interoperabilidad.
 
-**Web Map Service**** (WMS):** es un servicio renderizado, que proporciona una interfaz HTTP (HyperText Transfer Protocol) para el uso de imágenes de mapas registrados desde una o más bases de datos geoespaciales. Las operaciones WMS se pueden extraer y utilizar desde un navegador estándar mediante un URL (HyperText Transfer Protocol)
+- **Web Map Service (WMS):** es un servicio renderizado, que proporciona una interfaz HTTP (HyperText Transfer Protocol) para el uso de imágenes de mapas registrados desde una o más bases de datos geoespaciales. Las operaciones WMS se pueden extraer y utilizar desde un navegador estándar mediante un URL (HyperText Transfer Protocol)
 
-**Web Feature Service**** (WFS):** define la interfaz de implementación y las operaciones para la consulta y edición de entidades geográficas o features, como carreteras o líneas de contorno de cuerpos de agua o divisiones políticas.
+- **Web Feature Service (WFS):** define la interfaz de implementación y las operaciones para la consulta y edición de entidades geográficas o features, como carreteras o líneas de contorno de cuerpos de agua o divisiones políticas.
 
-**Web Coverage Service**** (WCS):** proporciona la interfaz de implementación y las operaciones que permiten el acceso interoperable a coberturas geoespaciales. El término cobertura se refiere a contenidos de imágenes de satélite, fotos aéreas, datos digitales de elevación, entre otros. La respuesta a una solicitud WCS incluye metadatos de la cobertura y la cobertura como tal, cuyos pixeles se almacenan en un formato binario específico, como GeoTIFF o NetCDF
+- **Web Coverage Service (WCS):** proporciona la interfaz de implementación y las operaciones que permiten el acceso interoperable a coberturas geoespaciales. El término cobertura se refiere a contenidos de imágenes de satélite, fotos aéreas, datos digitales de elevación, entre otros. La respuesta a una solicitud WCS incluye metadatos de la cobertura y la cobertura como tal, cuyos pixeles se almacenan en un formato binario específico, como GeoTIFF o NetCDF
 
 ## 3.2. Fundamentos cartográficos  {.unnumbered}
 
@@ -128,7 +120,7 @@ El IGAC define un sistema de coordenadas como el conjunto de parámetros que per
 
 Para asignar coordenadas a un punto en función de los elementos anteriores es necesario definir un **sistema de referencia**. Las coordenadas geográficas han sido utilizadas tradicionalmente, y son de utilidad para grandes zonas. Sin embargo, las coordenadas cartesianas resultan más intuitivas y prácticas al momento de generar ciertos productos, a raíz de esto surgen las **proyecciones cartográficas** definidas como el método que representa la superficie curva de la tierra sobre un plano, que son los que se emplean para la creación de la cartografía.
 
-3.3.1. Sistema de Coordenadas Geográficas: es el sistema de referencia para localizar elementos espaciales en la superficie terrestre. Está definido por las medidas angulares: longitud y la latitud. La primera mide el ángulo este u oeste desde el primer meridiano y la segunda mide el ángulo norte o sur del plano ecuatorial. Las unidades son angulares, generalmente en grados. Ver @fig-coordenadas-geograficas.
+**3.3.1. Sistema de Coordenadas Geográficas:** es el sistema de referencia para localizar elementos espaciales en la superficie terrestre. Está definido por las medidas angulares: longitud y la latitud. La primera mide el ángulo este u oeste desde el primer meridiano y la segunda mide el ángulo norte o sur del plano ecuatorial. Las unidades son angulares, generalmente en grados. Ver @fig-coordenadas-geograficas.
 
 
 
@@ -144,7 +136,7 @@ A continuación, en la @fig-cronologia-igac-2005-2020 se evidencia la cronologí
 
 ![Cronología IGAC desde 2005 hasta 2020. Fuente: IGAC, 2020.](media/03-usos-y-aplicaciones-de-los-sig/img_d2b76772.png){#fig-cronologia-igac-2005-2020}
 
-Si bien no existe un método perfecto de proyección, la definición de un sistema de proyección de origen nacional en Colombia, busca garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país . Por este motivo, mediante la Resolución 388, actualizada con la Resolución 509, la Resolución 471 actualizada con la Resolución 529, expedidas en el año 2020 por el Instituto Geográfico Agustín Codazzi - IGAC, reglamenta el uso de un nuevo Origen de Proyección Cartográfica: **MAGNA SIRGAS - ORIGEN NACIONAL**** CTM-12** para la gestión, integración y uso de la información de la Cartografía Básica para fines oficiales. 
+Si bien no existe un método perfecto de proyección, la definición de un sistema de proyección de origen nacional en Colombia, busca garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país . Por este motivo, mediante la Resolución 388, actualizada con la Resolución 509, la Resolución 471 actualizada con la Resolución 529, expedidas en el año 2020 por el Instituto Geográfico Agustín Codazzi - IGAC, reglamenta el uso de un nuevo Origen de Proyección Cartográfica: **MAGNA SIRGAS - ORIGEN NACIONAL CTM-12** para la gestión, integración y uso de la información de la Cartografía Básica para fines oficiales. 
 
 Al sistema Origen Nacional se le conoció al principio como CTM12, ya que se planteó referida a una banda continental con un ancho de 12º de longitud, pero su nombre oficial es MAGNA-SIRGAS Origen-Nacional. El Datum que usa el sistema sigue siendo Marco Geodésico Nacional, MAGNA-SIRGAS, es decir el mismo que se usaba antes cuando eran seis orígenes.
 
@@ -156,9 +148,10 @@ Mediante la Resolución IGAC 370 de 2021 se establece la proyección cartográfi
 
 **El nuevo sistema debe ser adoptado para todas aquellas entidades que produzcan, usen o compartan información geográfica oficial y/o pretendan representar sus datos sobre cartografía IGAC**. El proceso de transición por parte de las instituciones al uso de la proyección de origen nacional se debe realizar de manera paulatina.
 
-El IGAC actualizó su aplicativo de conversión MAGNA SIRGAS a su versión 5.1 que incorpora usa el Origen único nacional. Se puede descargar el instalador e instructivo de instalación en 
+El IGAC actualizó su aplicativo de conversión MAGNA SIRGAS a su versión 5.1 que incorpora usa el Origen único nacional. Se puede descargar el instalador e instructivo de instalación en [https://origen.igac.gov.co/herramientas.html](https://origen.igac.gov.co/herramientas.html).
 
-3.4.1. MAGNA PRO es un software o aplicación del IGAC, que permite emplear los parámetros de transformación oficiales, conversión, cálculo de ondulación, cálculo de velocidades y tranformación entre el antiguo Datum Bogotá y el actual Marco Geocéntrico Nacional de Rederencia (MAGNA-SIRGAS)
+**3.4.1. MAGNA PRO:** es un software o aplicación del IGAC, que permite emplear los parámetros de transformación oficiales, conversión, cálculo de ondulación, cálculo de velocidades y tranformación entre el antiguo Datum Bogotá y el actual Marco Geocéntrico Nacional de Rederencia (MAGNA-SIRGAS)
 
 Link de acceso: 
+[https://antiguo.igac.gov.co/es/noticias/igac-presenta-la-nueva-version-magna-sirgas-pro-42](https://antiguo.igac.gov.co/es/noticias/igac-presenta-la-nueva-version-magna-sirgas-pro-42)
 

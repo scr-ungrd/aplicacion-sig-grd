@@ -2,121 +2,85 @@
 
 Implementar un SIG en GRD a nivel municipal implica establecer una plataforma geoespacial que integre información ambiental, social, física y de amenazas, para apoyar la planeación, monitoreo y toma de decisiones frente al riesgo. El proceso general incluye:
 
-**Diagnóstico institucional y técnico:** ¿Existe personal capacitado? ¿Computadores y software? ¿Conectividad?
+- **Diagnóstico institucional y técnico:** ¿Existe personal capacitado? ¿Computadores y software? ¿Conectividad?
+- **Identificación de actores:** alcaldía, gestión del riesgo, planeación, servicios públicos, defensa civil, entre otros.
+- **Definición de objetivos del SIG-GRD:** por ejemplo, caracterizar amenazas, ubicar población expuesta, planear evacuaciones, etc.
+- **Selección del software SIG:** QGIS (libre), ArcGIS (licencia), gvSIG, entre otros.
+- **Diseño de estructura de datos geográficos:** capas, atributos, proyecciones, metadatos.
+- **Desarrollo de una base de datos geoespacial:** que se alimente con información secundaria y recolección de campo.
+- **Producción de mapas temáticos y análisis:** amenazas, vulnerabilidad, riesgo, rutas de evacuación, escenarios.
+- **Difusión o integración con geoportales o tableros públicos.**
 
-**Identificación de actores:** alcaldía, gestión del riesgo, planeación, servicios públicos, defensa civil, entre otros.
-
-**Definición de objetivos del SIG-GRD:** por ejemplo, caracterizar amenazas, ubicar población expuesta, planear evacuaciones, etc.
-
-**Selección del software SIG:** QGIS (libre), ArcGIS (licencia), gvSIG, entre otros.
-
-**Diseño de estructura de datos geográficos:** capas, atributos, proyecciones, metadatos.
-
-**Desarrollo de una base de datos geoespacial:** que se alimente con información secundaria y recolección de campo.
-
-**Producción de mapas temáticos y análisis:** amenazas, vulnerabilidad, riesgo, rutas de evacuación, escenarios.
-
-**Difusión o integración con geoportales o tableros públicos.**
-
-Resultado esperado: un sistema operativo, útil y sostenible que permita a los municipios visualizar riesgos, tomar decisiones y cumplir con la Ley 1523 de 2012 (Política Nacional de GRD).
+**Resultado esperado:** un sistema operativo, útil y sostenible que permita a los municipios visualizar riesgos, tomar decisiones y cumplir con la Ley 1523 de 2012 (Política Nacional de GRD).
 
 ## Recolección de información e insumos geográficos {.unnumbered}
 
 Para alimentar el SIG municipal en GRD, es necesario recopilar insumos de distintas fuentes. Se incluyen:
 
-Fuentes secundarias (descarga o solicitud):
+- **Fuentes secundarias (descarga o solicitud):**
+  - **Capas base:** límites veredales, red vial, uso del suelo, cuerpos de agua (IGAC, DANE, ICDE).
+  - **Amenazas:** mapas de amenaza por inundación, remoción en masa, sismos (UNGRD, IDEAM, SGC).
+  - **Población y viviendas:** censos, capas de manzanas, estratos (DANE).
+  - **Infraestructura crítica:** hospitales, colegios, acueductos, puentes (planeación municipal, sectores).
 
-Capas base: límites veredales, red vial, uso del suelo, cuerpos de agua (IGAC, DANE, ICDE).
+- **Fuentes remotas (teledetección):**
+  - Imágenes satelitales ópticas (Landsat, Sentinel-2).
+  - Modelos digitales de elevación (SRTM, ASTER).
+  - Imágenes radar para zonas con nubosidad.
 
-Amenazas: mapas de amenaza por inundación, remoción en masa, sismos (UNGRD, IDEAM, SGC).
+- **Recolección primaria o de campo:**
+  - Uso de GPS, drones o encuestas participativas para registrar puntos, rutas, zonas vulnerables.
+  - Formularios móviles (ej. KoboToolbox, QField).
 
-Población y viviendas: censos, capas de manzanas, estratos (DANE).
-
-Infraestructura crítica: hospitales, colegios, acueductos, puentes (planeación municipal, sectores).
-
-Fuentes remotas (teledetección):
-
-Imágenes satelitales ópticas (Landsat, Sentinel-2).
-
-Modelos digitales de elevación (SRTM, ASTER).
-
-Imágenes radar para zonas con nubosidad.
-
-Recolección primaria o de campo:
-
-Uso de GPS, drones o encuestas participativas para registrar puntos, rutas, zonas vulnerables.
-
-Formularios móviles (ej. KoboToolbox, QField).
-
-Consejo: Priorizar datos oficiales, gratuitos y en formato SIG editable (.shp, .geojson, .tif, etc.).
+> [!TIP]
+> **Consejo:** Priorizar datos oficiales, gratuitos y en formato SIG editable (.shp, .geojson, .tif, etc.).
 
 ## Estandarización de la información {.unnumbered}
 
 Una vez recolectada la información, debe ser validada y organizada para asegurar que sea interoperable dentro del SIG. Este paso incluye:
 
-Unificación de sistema de coordenadas: usar el sistema oficial del país (MAGNA-SIRGAS en Colombia).
+- **Unificación de sistema de coordenadas:** usar el sistema oficial del país (MAGNA-SIRGAS Origen Nacional en Colombia).
+- **Homogeneidad en formatos:** capas vectoriales (.shp, .geojson), ráster (.tif), tablas (.csv).
+- **Control de calidad:** revisar errores topológicos (líneas abiertas, polígonos sin cerrar), duplicados, datos faltantes.
+- **Asignación de metadatos:** fuente, fecha, escala, proyección, descripción.
+- **Estructura de atributos clara:** por ejemplo, una capa de puentes debe tener atributos como nombre, estado, material, año de construcción, etc.
 
-Homogeneidad en formatos: capas vectoriales (.shp, .geojson), raster (.tif), tablas (.csv).
-
-Control de calidad: revisar errores topológicos (líneas abiertas, polígonos sin cerrar), duplicados, datos faltantes.
-
-Asignación de metadatos: fuente, fecha, escala, proyección, descripción.
-
-Estructura de atributos clara: por ejemplo, una capa de puentes debe tener atributos como nombre, estado, material, año de construcción, etc.
-
-Herramientas útiles: QGIS para limpieza y validación; Excel o LibreOffice para revisar tablas; Metadata Editor de GeoNetwork.
+*Herramientas útiles:* QGIS para limpieza y validación; Excel o LibreOffice para revisar tablas; Metadata Editor de GeoNetwork.
 
 ## Cargar información a la base de datos {.unnumbered}
 
 Este paso implica integrar toda la información estandarizada en un entorno SIG municipal:
 
-Creación de una base de datos espacial: puede ser en formato GeoPackage, PostgreSQL/PostGIS (si se tiene servidor) o simplemente organizando carpetas con capas y metadatos.
+- **Creación de una base de datos espacial:** puede ser en formato GeoPackage, PostgreSQL/PostGIS (si se tiene servidor) o simplemente organizando carpetas con capas y metadatos.
+- **Estructuración jerárquica por temas:**
+  - **Físico-natural:** hidrografía, relieve, cobertura vegetal.
+  - **Infraestructura y servicios:** vías, hospitales, redes eléctricas.
+  - **Amenazas y riesgos:** mapas de amenaza, rutas de evacuación.
+  - **Sociales:** población vulnerable, asentamientos informales.
+- **Documentación técnica:** archivos README, metadatos, mapas de referencia.
 
-Estructuración jerárquica por temas:
-
-Físico-natural: hidrografía, relieve, cobertura vegetal.
-
-Infraestructura y servicios: vías, hospitales, redes eléctricas.
-
-Amenazas y riesgos: mapas de amenaza, rutas de evacuación.
-
-Sociales: población vulnerable, asentamientos informales.
-
-Documentación técnica: archivos README, metadatos, mapas de referencia.
-
-Consejo: realizar respaldos frecuentes y compartir la base de datos con entidades clave como el Consejo Municipal de Gestión del Riesgo.
+> [!TIP]
+> **Consejo:** realizar respaldos frecuentes y compartir la base de datos con entidades clave como el Consejo Municipal de Gestión del Riesgo.
 
 ## Despliegue y análisis de la información {.unnumbered}
 
 Con los datos cargados en el SIG, se pueden generar productos de análisis espacial para la GRD:
 
-Mapas temáticos:
+- **Mapas temáticos:**
+  - Zonas de amenaza por inundación o deslizamiento.
+  - Infraestructura crítica expuesta.
+  - Mapa de riesgo total (amenaza × vulnerabilidad).
+  - Rutas de evacuación y puntos seguros.
 
-Zonas de amenaza por inundación o deslizamiento.
+- **Análisis espacial:**
+  - Intersección de capas (ej. escuelas en zonas de riesgo).
+  - Cálculo de distancias a centros de salud o refugios.
+  - Modelado de evacuación (Network Analysis).
+  - Escenarios de riesgo ante amenazas múltiples.
 
-Infraestructura crítica expuesta.
+- **Publicación y difusión:**
+  - Impresión de mapas (cartografía oficial).
+  - Visores web (ej. GeoServer + Leaflet/QGIS Server).
+  - Reportes para planes de gestión del riesgo o POT.
 
-Mapa de riesgo total (amenaza × vulnerabilidad).
-
-Rutas de evacuación y puntos seguros.
-
-Análisis espacial:
-
-Intersección de capas (ej. escuelas en zonas de riesgo).
-
-Cálculo de distancias a centros de salud o refugios.
-
-Modelado de evacuación (Network Analysis).
-
-Escenarios de riesgo ante amenazas múltiples.
-
-Publicación y difusión:
-
-Impresión de mapas (cartografía oficial).
-
-Visores web (ej. GeoServer + Leaflet/QGIS Server).
-
-Reportes para planes de gestión del riesgo o POT.
-
-Resultado esperado: Información comprensible, útil y oportuna para los tomadores de decisión, y herramientas prácticas para reducir el riesgo.
-
+**Resultado esperado:** Información comprensible, útil y oportuna para los tomadores de decisión, y herramientas prácticas para reducir el riesgo.

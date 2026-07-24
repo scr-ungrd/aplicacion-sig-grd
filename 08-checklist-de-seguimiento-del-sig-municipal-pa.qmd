@@ -1,13 +1,10 @@
 # Checklist de seguimiento del SIG municipal para GRD {.unnumbered}
 
-Sugerencias de uso:
+**Sugerencias de uso:**
 
-Esta checklist puede usarse cada 6 meses o anualmente para evaluar el estado del SIG.
-
-Puedes agregar columnas con responsables y fechas de cumplimiento.
-
-Ideal para presentar avances ante el CMGRD (Consejo Municipal de Gestión del Riesgo) o entes de control.
-
+- Esta checklist puede usarse cada 6 meses o anualmente para evaluar el estado del SIG.
+- Puedes agregar columnas con responsables y fechas de cumplimiento.
+- Ideal para presentar avances ante el CMGRD (Consejo Municipal de Gestión del Riesgo) o entes de control.
 
 | Categoría | Ítem | ✅/❌ | Observaciones |
 | --- | --- | --- | --- |
@@ -36,4 +33,3 @@ Ideal para presentar avances ante el CMGRD (Consejo Municipal de Gestión del Ri
 | 7. Difusión y acceso | ¿Se comparten mapas y análisis con otros sectores de la alcaldía? |  |  |
 | 7. Difusión y acceso | ¿La comunidad o los comités locales conocen los productos del SIG? |  |  |
 | 7. Difusión y acceso | ¿Se ha creado o se planea un visor web (GeoNode, Leaflet, etc.)? |  |  |
-
