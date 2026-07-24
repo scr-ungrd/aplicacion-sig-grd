@@ -6,8 +6,8 @@ project:
     - Anexo_1_slides_files/
 
 book:
-  title: "Aplicación SIG en la Gestión del Riesgo"
-  date: "2025-12-03"
+  title: "Aplicación de los sistemas de información geográfica (SIG) en la Gestión del Riesgo"
+  date: "2026-06-03"
   
   repo-url: https://github.com/scr-ungrd/aplicacion-sig-grd
   repo-actions: [source, issue]
