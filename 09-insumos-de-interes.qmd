@@ -1,23 +1,21 @@
 # Insumos de interés {.unnumbered}
 
-
 | Fuente | Descripción | Enlace |
 | --- | --- | --- |
-| SENTINEL HUD | Información imágenes satelitales Sentinel y Landsat, entre otras | https://www.sentinel-hub.com/ |
-| LANDSAT | Información imágenes satelitales Sentinel y Landsat, entre otras | https://glovis.usgs.gov/ |
-| LANDSAT | Información imágenes satelitales Sentinel y Landsat, entre otras | https://earthexplorer.usgs.gov/ |
-| PLANETSCOPE | Información imágenes satelitales | https://developers.planet.com/docs/data/planetscope/ |
-| SENTINEL 1 | Información imágenes satelitales | https://sentinels.copernicus.eu/web/sentinel/home |
-| ASF DATA SEARCH VERTEX NASA | Aplicación de búsqueda de imágenes captadas remotas de la tierra y descarga de datos SAR, así como acceso directo a conjuntos de datos temáticos. | https://search.asf.alaska.edu/#/?searchType=Geographic%20Search&zoom=7.042&center=-74.163,2.221&resultsLoaded=true |
-| IGAC DATOS ABIERTOS. Colombia en mapas | Datos correspondientes a la cartografía del país. (Información integrada, información Raster, Información por plancha a través del visor del IGAC y descarga de  archivos en formato. | https://www.colombiaenmapas.gov.co/?e=-82.43784778320864,-0.17644239911865092,-71.23179309571162,9.90326984502256,4686&b=igac&u=0&t=23&servicio=206 |
-| IGAC DATOS ABIERTOS. Colombia OT | ítems directamente relacionados al ordenamiento territorial | https://www.colombiaot.gov.co/pot/buscador.html |
-| Servicio Geológico Colombiano (SGC) | Información generada por las direcciones de: Geociencias Básicas, Recursos Minerales, Geoamenazas, Gestión de Información de la entidad, Información Petrolera y Laboratorios | https://srvags.sgc.gov.co/jsviewer/GMSA/ |
-| Motor de Integración de Información Geocientífica (MIIG) | Información en temas relacionados con Geociencias Básicas, Recursos Minerales, Amenazas Geológicas, Recursos Hidrocarburíferos, Tecnología Nucleares y Caracterización de Materiales Geológicos | https://miig.sgc.gov.co/Paginas/advanced.aspx |
-| Sistema de Información de Movimientos en Masa–SIMMA | Consultar los movimientos en masa que ocurrieron en Colombia | https://simma.sgc.gov.co/ |
-| ESRI DATOS ABIERTOS | Datos correspondientes a la cartografía del país a través del visor de Esri y descarga de  archivos en formato ( CSV-KML- Shapefile-GeoJSON). | https://datosabiertos.esri.co/datasets/esri-colombia::subregiones-provincias-de-colombia/about |
-| DESINVENTAR | Herramienta conceptual y metodológica para la construcción de bases de datos de pérdidas, daños o efectos ocasionados por emergencias o desastres. | https://www.desinventar.org/ |
-| DIMAR | Pronósticos meteomarinos son una descripción de los diferentes parámetros meteorológicos y oceánicos como oleaje, temperatura y viento. | https://www.dimar.mil.co/pronosticos-del-mar |
-| DANE | Visualizador de datos OPERACIONES ESTADÍSTICAS CERTIFICADAS. Lleva a diferentes geovisores de operaciones estadísticas con información espacial de interés en gestión del riesgo. | https://sitios.dane.gov.co/OperacionesCertificadas/ |
-| ANLA | Sistema de Información Geográfica – Visor Geográfico SIAC – Sistema de Información Ambiental de Colombia. | https://www.anla.gov.co/eureka/geovisores/visores-geograficos/347-sistema-de-informacion-geografica-visor-geografico-siac-sistema-de-informacion-ambiental-de-colombia |
-| Ministerio de Ambiente y Desarrollo Sostenible | Geovisor del Sistema de Información Ambiental Marina de Colombia – SIAM | https://www.minambiente.gov.co/documento-entidad/geovisor-del-sistema-de-informacion-ambiental-marina-de-colombia-siam/ |
-
+| SENTINEL HUB | Información imágenes satelitales Sentinel y Landsat, entre otras | [sentinel-hub.com](https://www.sentinel-hub.com/) |
+| LANDSAT | Información imágenes satelitales Sentinel y Landsat, entre otras | [glovis.usgs.gov](https://glovis.usgs.gov/) |
+| LANDSAT | Información imágenes satelitales Sentinel y Landsat, entre otras | [earthexplorer.usgs.gov](https://earthexplorer.usgs.gov/) |
+| PLANETSCOPE | Información imágenes satelitales | [developers.planet.com](https://developers.planet.com/docs/data/planetscope/) |
+| SENTINEL 1 | Información imágenes satelitales | [sentinels.copernicus.eu](https://sentinels.copernicus.eu/web/sentinel/home) |
+| ASF DATA SEARCH VERTEX NASA | Aplicación de búsqueda de imágenes captadas remotas de la tierra y descarga de datos SAR, así como acceso directo a conjuntos de datos temáticos. | [search.asf.alaska.edu](https://search.asf.alaska.edu/#/?searchType=Geographic%20Search&zoom=7.042&center=-74.163,2.221&resultsLoaded=true) |
+| IGAC DATOS ABIERTOS. Colombia en mapas | Datos correspondientes a la cartografía del país. (Información integrada, información Raster, Información por plancha a través del visor del IGAC y descarga de archivos en formato). | [colombiaenmapas.gov.co](https://www.colombiaenmapas.gov.co/?e=-82.43784778320864,-0.17644239911865092,-71.23179309571162,9.90326984502256,4686&b=igac&u=0&t=23&servicio=206) |
+| IGAC DATOS ABIERTOS. Colombia OT | Ítems directamente relacionados al ordenamiento territorial | [colombiaot.gov.co](https://www.colombiaot.gov.co/pot/buscador.html) |
+| Servicio Geológico Colombiano (SGC) | Información generada por las direcciones de: Geociencias Básicas, Recursos Minerales, Geoamenazas, Gestión de Información de la entidad, Información Petrolera y Laboratorios | [srvags.sgc.gov.co](https://srvags.sgc.gov.co/jsviewer/GMSA/) |
+| Motor de Integración de Información Geocientífica (MIIG) | Información en temas relacionados con Geociencias Básicas, Recursos Minerales, Amenazas Geológicas, Recursos Hidrocarburíferos, Tecnología Nucleares y Caracterización de Materiales Geológicos | [miig.sgc.gov.co](https://miig.sgc.gov.co/Paginas/advanced.aspx) |
+| Sistema de Información de Movimientos en Masa–SIMMA | Consultar los movimientos en masa que ocurrieron en Colombia | [simma.sgc.gov.co](https://simma.sgc.gov.co/) |
+| ESRI DATOS ABIERTOS | Datos correspondientes a la cartografía del país a través del visor de Esri y descarga de archivos en formato (CSV-KML-Shapefile-GeoJSON). | [datosabiertos.esri.co](https://datosabiertos.esri.co/datasets/esri-colombia::subregiones-provincias-de-colombia/about) |
+| DESINVENTAR | Herramienta conceptual y metodológica para la construcción de bases de datos de pérdidas, daños o efectos ocasionados por emergencias o desastres. | [desinventar.org](https://www.desinventar.org/) |
+| DIMAR | Pronósticos meteomarinos son una descripción de los diferentes parámetros meteorológicos y oceánicos como oleaje, temperatura y viento. | [dimar.mil.co](https://www.dimar.mil.co/pronosticos-del-mar) |
+| DANE | Visualizador de datos OPERACIONES ESTADÍSTICAS CERTIFICADAS. Lleva a diferentes geovisores de operaciones estadísticas con información espacial de interés en gestión del riesgo. | [sitios.dane.gov.co](https://sitios.dane.gov.co/OperacionesCertificadas/) |
+| ANLA | Sistema de Información Geográfica – Visor Geográfico SIAC – Sistema de Información Ambiental de Colombia. | [anla.gov.co](https://www.anla.gov.co/eureka/geovisores/visores-geograficos/347-sistema-de-informacion-geografica-visor-geografico-siac-sistema-de-informacion-ambiental-de-colombia) |
+| Ministerio de Ambiente y Desarrollo Sostenible | Geovisor del Sistema de Información Ambiental Marina de Colombia – SIAM | [minambiente.gov.co](https://www.minambiente.gov.co/documento-entidad/geovisor-del-sistema-de-informacion-ambiental-marina-de-colombia-siam/) |
