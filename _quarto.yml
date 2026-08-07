@@ -9,13 +9,27 @@ book:
   title: "Aplicación de los sistemas de información geográfica (SIG) en la Gestión del Riesgo"
   date: "2026-06-03"
   
-  repo-url: https://github.com/scr-ungrd/aplicacion-sig-grd
-  repo-actions: [source, issue]
   site-url: https://scr-ungrd.github.io/aplicacion-sig-grd
   favicon: media/favicon.png
   sidebar:
     style: floating
     collapse-level: 1
+    tools:
+      - icon: diagram-3-fill
+        href: "https://scr-ungrd.github.io/hub/"
+        aria-label: "HUB SCR — portal de proyectos"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: github
+        href: "https://github.com/scr-ungrd/aplicacion-sig-grd"
+        aria-label: "Repositorio en GitHub"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: translate
+        href: "https://translate.google.com/translate?sl=es&tl=en&u=https://scr-ungrd.github.io/aplicacion-sig-grd/"
+        aria-label: "Translate to English"
+        target: _blank
+        rel: noopener noreferrer
   chapters:
     - index.qmd
     - Pagina-legal.qmd
