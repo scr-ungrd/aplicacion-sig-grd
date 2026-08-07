@@ -10,7 +10,7 @@ A través de este libro digital, podrá explorar los fundamentos teóricos y met
 :::
 
 ::: {.d-flex .justify-content-start .mb-3}
-[← Ver colección completa de la serie](https://scr-ungrd.github.io/investigaciones-grd-colombia/){.ungrd-btn}
+[Volver al Catálogo de Publicaciones SCR](https://scr-ungrd.github.io/catalogo-publicaciones/){.ungrd-btn}
 :::
 
 ------------------------------------------------------------------------
